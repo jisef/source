@@ -1,0 +1,14 @@
+from python:3.8
+
+WORKDIR /app
+
+
+COPY . /app
+
+
+RUN pip install keba-kecontact
+
+
+EXPOSE 7090/udp
+
+ENTRYPOINT ["python3", "keba.py"]

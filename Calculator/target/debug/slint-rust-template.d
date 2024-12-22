@@ -1,0 +1,1 @@
+/Users/josef/source/calculator/target/debug/slint-rust-template: /Users/josef/source/calculator/build.rs /Users/josef/source/calculator/src/main.rs /Users/josef/source/calculator/target/debug/build/SLINT_DEFAULT_STYLE.txt /Users/josef/source/calculator/target/debug/build/slint-rust-template-e2fcf43d1be23cc3/out/app-window.rs /Users/josef/source/calculator/ui/app-window.slint

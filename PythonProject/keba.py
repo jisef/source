@@ -2,7 +2,7 @@
 from keba_keenergy_api import keenergy_api
 def main():
     print("ICH HÖRE STIMME")
-    
+
 
 
 

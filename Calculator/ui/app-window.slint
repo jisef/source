@@ -1,17 +1,96 @@
-import { Button, VerticalBox } from "std-widgets.slint";
+import { Button, VerticalBox, HorizontalBox, ProgressIndicator } from "std-widgets.slint";
+
+component InputButton inherits Button {
+    height: 32px;
+    width: 32px;
+}
 
 export component AppWindow inherits Window {
-    in-out property <int> counter: 42;
-    callback request-increase-value();
-    VerticalBox {
-        Text {
-            text: "Counter: \{root.counter}";
-        }
+    width: 270px;
+    height: 270px;
+    out property <float> number1;
+    out property <float> number0;
+    out property <string> operation;
+    in property <float> result;
+//    callback button-clicked(string, int, int);
+    callback button-clicked();
+    callback input-detected();
+    callback get-input();
+    //VerticalBox {
+      //  Text {
+        //    text: "Counter: \{root.counter}";
+        //}
 
-        Button {
-            text: "Increase value";
-            clicked => {
-                root.request-increase-value();
+        //Button {
+          //  text: "Increase value";
+            //clicked => {
+              //  root.request-increase-value();
+            //}
+        //}
+    //}
+
+
+    VerticalBox {
+        alignment: center;
+
+        Text {
+            text: "Rechnung";
+        }
+        Text {
+            text: "Ergebnis";
+        }
+        GridLayout {
+            Row {
+                seven := Button {
+                    text: 7;
+                }
+                eigt := Button {
+                    text: 8;
+                }
+                nine := Button {
+                    text: 9; 
+                }
+                multiplication := Button {
+                    text: "x";
+                }
+            }
+            Row {
+                four := Button {
+                    text: 4;
+                }
+                five := Button {
+                    text: 5;
+                }
+                six := Button {
+                    text: 6; 
+                }
+                division := Button {
+                    text: "/";
+                }
+            }
+
+            Row {
+                one := Button {
+                    text: 1;
+                }
+                two := Button {
+                    text: 2;
+                }
+                three := Button {
+                    text: 3; 
+                }
+                addition := Button {
+                    text: "+";
+                }
+            }
+
+            Row {
+                calculate := Button {
+                    text: "=";
+                    clicked => {
+                        root.button-clicked();
+                    }
+                }
             }
         }
     }

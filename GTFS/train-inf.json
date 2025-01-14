@@ -1,0 +1,339 @@
+{
+  "id": "c8c5a1b1-5178-4fad-b064-1fdb3c0d58cf",
+  "timeTableInfo": {
+    "date": "2025-01-13",
+    "stationName": "Innsbruck Hbf",
+    "platform": "7",
+    "time": "0.09:05 (0.08:17)",
+    "sector": "",
+    "renderedTrainName": "RJX 765"
+  },
+  "train": {
+    "wagons": [
+      {
+        "kind": 256,
+        "features": 0,
+        "ranking": 0,
+        "capacityBusinessClass": 0,
+        "capacityFirstClass": 0,
+        "capacitySecondClass": 0,
+        "capacityCouchette": 0,
+        "capacitySleeper": 0,
+        "capacityWheelChair": 0,
+        "capacityBicycle": 0,
+        "destinationName": "Wien Hbf",
+        "lengthOverBuffers": 19.28,
+        "numPassengerIcons": 0
+      },
+      {
+        "kind": 1,
+        "features": 128,
+        "ranking": 37,
+        "capacityBusinessClass": 16,
+        "capacityFirstClass": 11,
+        "capacitySecondClass": 0,
+        "capacityCouchette": 0,
+        "capacitySleeper": 0,
+        "capacityWheelChair": 0,
+        "capacityBicycle": 0,
+        "quietZoneFrom": "BG",
+        "quietZoneTo": "FWS",
+        "destinationName": "Flughafen Wien",
+        "lengthOverBuffers": 26.9,
+        "numPassengerIcons": 1
+      },
+      {
+        "kind": 0,
+        "features": 0,
+        "ranking": 36,
+        "capacityBusinessClass": 0,
+        "capacityFirstClass": 55,
+        "capacitySecondClass": 0,
+        "capacityCouchette": 0,
+        "capacitySleeper": 0,
+        "capacityWheelChair": 0,
+        "capacityBicycle": 0,
+        "destinationName": "Flughafen Wien",
+        "lengthOverBuffers": 26.5,
+        "numPassengerIcons": 1
+      },
+      {
+        "kind": 0,
+        "features": 74,
+        "ranking": 35,
+        "capacityBusinessClass": 0,
+        "capacityFirstClass": 10,
+        "capacitySecondClass": 0,
+        "capacityCouchette": 0,
+        "capacitySleeper": 0,
+        "capacityWheelChair": 0,
+        "capacityBicycle": 0,
+        "destinationName": "Flughafen Wien",
+        "lengthOverBuffers": 26.5,
+        "numPassengerIcons": 1
+      },
+      {
+        "kind": 0,
+        "features": 0,
+        "ranking": 34,
+        "capacityBusinessClass": 0,
+        "capacityFirstClass": 0,
+        "capacitySecondClass": 80,
+        "capacityCouchette": 0,
+        "capacitySleeper": 0,
+        "capacityWheelChair": 0,
+        "capacityBicycle": 0,
+        "destinationName": "Flughafen Wien",
+        "lengthOverBuffers": 26.5,
+        "numPassengerIcons": 1
+      },
+      {
+        "kind": 0,
+        "features": 128,
+        "ranking": 33,
+        "capacityBusinessClass": 0,
+        "capacityFirstClass": 0,
+        "capacitySecondClass": 80,
+        "capacityCouchette": 0,
+        "capacitySleeper": 0,
+        "capacityWheelChair": 0,
+        "capacityBicycle": 0,
+        "quietZoneFrom": "BG",
+        "quietZoneTo": "FWS",
+        "destinationName": "Flughafen Wien",
+        "lengthOverBuffers": 26.5,
+        "numPassengerIcons": 2
+      },
+      {
+        "kind": 0,
+        "features": 0,
+        "ranking": 32,
+        "capacityBusinessClass": 0,
+        "capacityFirstClass": 0,
+        "capacitySecondClass": 80,
+        "capacityCouchette": 0,
+        "capacitySleeper": 0,
+        "capacityWheelChair": 0,
+        "capacityBicycle": 0,
+        "destinationName": "Flughafen Wien",
+        "lengthOverBuffers": 26.5,
+        "numPassengerIcons": 1
+      },
+      {
+        "kind": 0,
+        "features": 33,
+        "ranking": 31,
+        "capacityBusinessClass": 0,
+        "capacityFirstClass": 0,
+        "capacitySecondClass": 72,
+        "capacityCouchette": 0,
+        "capacitySleeper": 0,
+        "capacityWheelChair": 0,
+        "capacityBicycle": 1,
+        "destinationName": "Flughafen Wien",
+        "lengthOverBuffers": 26.5,
+        "numPassengerIcons": 1
+      },
+      {
+        "kind": 256,
+        "features": 512,
+        "ranking": 0,
+        "capacityBusinessClass": 0,
+        "capacityFirstClass": 0,
+        "capacitySecondClass": 0,
+        "capacityCouchette": 0,
+        "capacitySleeper": 0,
+        "capacityWheelChair": 0,
+        "capacityBicycle": 0,
+        "lockedFrom": "I",
+        "lockedTo": "K   G",
+        "destinationName": "Wien Hbf",
+        "lengthOverBuffers": 19.28,
+        "numPassengerIcons": 0
+      },
+      {
+        "kind": 1,
+        "features": 128,
+        "ranking": 27,
+        "capacityBusinessClass": 16,
+        "capacityFirstClass": 11,
+        "capacitySecondClass": 0,
+        "capacityCouchette": 0,
+        "capacitySleeper": 0,
+        "capacityWheelChair": 0,
+        "capacityBicycle": 0,
+        "quietZoneFrom": "BG",
+        "quietZoneTo": "WBF",
+        "destinationName": "Wien Hbf",
+        "lengthOverBuffers": 26.9,
+        "numPassengerIcons": 1
+      },
+      {
+        "kind": 0,
+        "features": 0,
+        "ranking": 26,
+        "capacityBusinessClass": 0,
+        "capacityFirstClass": 55,
+        "capacitySecondClass": 0,
+        "capacityCouchette": 0,
+        "capacitySleeper": 0,
+        "capacityWheelChair": 0,
+        "capacityBicycle": 0,
+        "destinationName": "Wien Hbf",
+        "lengthOverBuffers": 26.5,
+        "numPassengerIcons": 1
+      },
+      {
+        "kind": 0,
+        "features": 74,
+        "ranking": 25,
+        "capacityBusinessClass": 0,
+        "capacityFirstClass": 10,
+        "capacitySecondClass": 0,
+        "capacityCouchette": 0,
+        "capacitySleeper": 0,
+        "capacityWheelChair": 0,
+        "capacityBicycle": 0,
+        "destinationName": "Wien Hbf",
+        "lengthOverBuffers": 26.5,
+        "numPassengerIcons": 1
+      },
+      {
+        "kind": 0,
+        "features": 0,
+        "ranking": 24,
+        "capacityBusinessClass": 0,
+        "capacityFirstClass": 0,
+        "capacitySecondClass": 80,
+        "capacityCouchette": 0,
+        "capacitySleeper": 0,
+        "capacityWheelChair": 0,
+        "capacityBicycle": 0,
+        "destinationName": "Wien Hbf",
+        "lengthOverBuffers": 26.5,
+        "numPassengerIcons": 1
+      },
+      {
+        "kind": 0,
+        "features": 128,
+        "ranking": 23,
+        "capacityBusinessClass": 0,
+        "capacityFirstClass": 0,
+        "capacitySecondClass": 80,
+        "capacityCouchette": 0,
+        "capacitySleeper": 0,
+        "capacityWheelChair": 0,
+        "capacityBicycle": 0,
+        "quietZoneFrom": "BG",
+        "quietZoneTo": "WBF",
+        "destinationName": "Wien Hbf",
+        "lengthOverBuffers": 26.5,
+        "numPassengerIcons": 1
+      },
+      {
+        "kind": 0,
+        "features": 0,
+        "ranking": 22,
+        "capacityBusinessClass": 0,
+        "capacityFirstClass": 0,
+        "capacitySecondClass": 80,
+        "capacityCouchette": 0,
+        "capacitySleeper": 0,
+        "capacityWheelChair": 0,
+        "capacityBicycle": 0,
+        "destinationName": "Wien Hbf",
+        "lengthOverBuffers": 26.5,
+        "numPassengerIcons": 0
+      },
+      {
+        "kind": 0,
+        "features": 33,
+        "ranking": 21,
+        "capacityBusinessClass": 0,
+        "capacityFirstClass": 0,
+        "capacitySecondClass": 72,
+        "capacityCouchette": 0,
+        "capacitySleeper": 0,
+        "capacityWheelChair": 0,
+        "capacityBicycle": 1,
+        "destinationName": "Wien Hbf",
+        "lengthOverBuffers": 26.5,
+        "numPassengerIcons": 1
+      },
+      {
+        "kind": 256,
+        "features": 0,
+        "ranking": 0,
+        "capacityBusinessClass": 0,
+        "capacityFirstClass": 0,
+        "capacitySecondClass": 0,
+        "capacityCouchette": 0,
+        "capacitySleeper": 0,
+        "capacityWheelChair": 0,
+        "capacityBicycle": 0,
+        "destinationName": "Wien Hbf",
+        "lengthOverBuffers": 19.28,
+        "numPassengerIcons": 0
+      }
+    ],
+    "displayLoadInfo": true
+  },
+  "platform": {
+    "length": 528.81,
+    "stoppingPoint": {
+      "distance": 33.2025,
+      "position": "Top",
+      "direction": "Front"
+    },
+    "sectors": [
+      {
+        "name": "A",
+        "length": 132.81
+      },
+      {
+        "name": "B",
+        "length": 131.59
+      },
+      {
+        "name": "C",
+        "length": 132.82
+      },
+      {
+        "name": "D",
+        "length": 131.59
+      }
+    ],
+    "egresses": [
+      {
+        "platform": "7",
+        "distance": 156.17,
+        "name": "STIEGENAUFGANG_IB",
+        "type": "STIEGENAUFGANG"
+      },
+      {
+        "platform": "7",
+        "distance": 36.5,
+        "name": "TUER_IB",
+        "type": "TUER"
+      },
+      {
+        "platform": "7",
+        "distance": 231.77,
+        "name": "STIEGENAUFGANG_IB",
+        "type": "STIEGENAUFGANG"
+      },
+      {
+        "platform": "7",
+        "distance": 189.54,
+        "name": "ROLLTREPPE_IB",
+        "type": "ROLLTREPPE"
+      },
+      {
+        "platform": "7",
+        "distance": 255.83,
+        "name": "AUFZUG_IB",
+        "type": "AUFZUG"
+      }
+    ]
+  }
+}

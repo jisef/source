@@ -2,13 +2,11 @@ use std::collections::LinkedList;
 use std::env;
 use std::fs;
 
-#[derive(Debug)]
-#[derive(Clone)]
+#[derive(Debug, Clone)]
 struct Command {
     command: String,
     count: u16
 }
-
 
 impl PartialEq for Command {
     fn eq(&self, other: &Command) -> bool {
@@ -75,7 +73,9 @@ impl Analyser {
 
 
 fn main() {
-    let file = read_file(get_filepath_through_shell());
+    let filepath = get_filepath_through_shell();
+    println!("{}", filepath);
+    let file = read_file(filepath);
     let file = file.lines();
     let mut anal = Analyser {
         list: LinkedList::new(),
@@ -91,8 +91,8 @@ fn main() {
     
     sort_linked_list(anal.list.clone());
     println!("Most Used Command: \n {:?}", anal.get_most_used_commands());
-    
-    
+
+    println!("{}", env::consts::OS); // Prints the current OS.
 }
 
 fn read_file(filepath: String) -> String {
@@ -101,14 +101,23 @@ fn read_file(filepath: String) -> String {
     content
 }
 
-fn get_filepath_through_shell() -> String {
+fn get_filepath_through_shell()  -> String {
     let shell = get_shell();
     let mut filepath = String::new();
+    let os = env::consts::OS;
+    let user = env::var("USER").unwrap_or_else(|_| "root".to_string());
 
-    if shell.contains("bash") {
-        String::from("/Users/josef/.bash_history")
+    if os.eq("macos") && shell.eq("/bin/zsh")  { 
+        format!("/Users/{}/.zsh_history", user)
+    } else  if os.eq("macos") && shell.eq("/bin/bash")  { 
+        format!("/Users/{}/.bash_history", user)
+    } else if os.eq("linux") && shell.eq("/bin/bash")  {
+        format!("/home/{}/.bash_history", user)
+    } else if os.eq("linux") && shell.eq("/bin/zsh")  {
+        format!("/home/{}/.zsh_history", user)
     } else {
-        String::from("/Users/josef/.zsh_history")
+        println!("SWITCH TO SOMETHING ELSE IDIOT");
+        String::new()
     }
 }
 
@@ -116,21 +125,24 @@ fn get_filepath_through_shell() -> String {
 fn get_shell() -> String {
     let sigma = env::var("SHELL").ok();
     match sigma {
-        Some(sigma) => { Some(sigma).unwrap()},
-        _ =>  sigma.unwrap().as_str().to_string(),
+        Some(sigma) => { Some(sigma).unwrap().to_string()},
+        _ =>  sigma.unwrap().to_string(),
     }
 }
 
 fn sort_linked_list(list: LinkedList<Command>) -> LinkedList<Command> {
     println!("---------------------------------------------");
+    
     let mut vec: Vec<Command> = list.to_owned().into_iter().collect();
     vec.sort_by(|a, b| b.count.cmp(&a.count));
-    vec = vec[..10].to_vec();
+    let mut max = 10;
+    if vec.len() < 10 { 
+        max = vec.len();
+    }
+    vec = vec[..max].to_vec();
     let skibiditoilet = 0;
     for toiklet in &vec {
         println!("{}: {}", toiklet.command, toiklet.count)
     }
-    //vec = vec.to_vec();
-    //vec.into_iter().collect()
     vec.to_vec().into_iter().collect()
 }

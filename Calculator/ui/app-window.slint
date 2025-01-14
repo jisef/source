@@ -6,30 +6,16 @@ component InputButton inherits Button {
 }
 
 export component AppWindow inherits Window {
+    
     width: 270px;
     height: 270px;
     out property <float> number1;
     out property <float> number0;
     out property <string> operation;
     in property <float> result;
-//    callback button-clicked(string, int, int);
     callback button-clicked();
     callback input-detected();
     callback get-input();
-    //VerticalBox {
-      //  Text {
-        //    text: "Counter: \{root.counter}";
-        //}
-
-        //Button {
-          //  text: "Increase value";
-            //clicked => {
-              //  root.request-increase-value();
-            //}
-        //}
-    //}
-
-
     VerticalBox {
         alignment: center;
 

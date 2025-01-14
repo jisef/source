@@ -1,0 +1,15 @@
+[package]
+name = "output_tracker"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+slint = "1.8.0"
+sqlx = { version = "0.6", features = ["postgres", "runtime-tokio-native-tls"] }
+tokio = { version = "1", features = ["full"] }
+tokio-postgres = "0.7"
+diesel = { version = "2.0.0", features = ["postgres"] }
+dotenvy = "0.15"  # Optional: for .env file support
+
+[build-dependencies]
+slint-build = "1.8.0"

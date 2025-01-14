@@ -1,0 +1,211 @@
+{
+  "trips": [
+    {
+      "date": "2025-01-12T19:50:00",
+      "origin": {
+        "evaCode": "8100014",
+        "name": "Wels Hbf",
+        "date": "2025-01-12",
+        "timeScheduled": "19:50:00"
+      },
+      "destination": {
+        "evaCode": "8100013",
+        "name": "Linz/Donau Hbf",
+        "date": "2025-01-12",
+        "timeScheduled": "20:04:00"
+      },
+      "sections": [
+        {
+          "origin": {
+            "evaCode": "8100014",
+            "name": "Wels Hbf",
+            "date": "2025-01-12",
+            "timeScheduled": "19:50:00"
+          },
+          "destination": {
+            "evaCode": "8100013",
+            "name": "Linz/Donau Hbf",
+            "date": "2025-01-12",
+            "timeScheduled": "20:04:00"
+          },
+          "product": {
+            "name": "WB 929",
+            "category": "WESTbahn",
+            "categoryShort": "WB",
+            "trainNumber": "929",
+            "operator": "WESTbahn Management GmbH",
+            "isOebb": false
+          }
+        }
+      ]
+    },
+    {
+      "date": "2025-01-12T19:53:00",
+      "origin": {
+        "evaCode": "8100014",
+        "name": "Wels Hbf",
+        "date": "2025-01-12",
+        "platformScheduled": "3",
+        "timeScheduled": "19:53:00"
+      },
+      "destination": {
+        "evaCode": "8100013",
+        "name": "Linz/Donau Hbf",
+        "date": "2025-01-12",
+        "platformScheduled": "4C-E",
+        "timeScheduled": "20:10:00"
+      },
+      "sections": [
+        {
+          "origin": {
+            "evaCode": "8100014",
+            "name": "Wels Hbf",
+            "date": "2025-01-12",
+            "platformScheduled": "3",
+            "timeScheduled": "19:53:00"
+          },
+          "destination": {
+            "evaCode": "8100013",
+            "name": "Linz/Donau Hbf",
+            "date": "2025-01-12",
+            "platformScheduled": "4C-E",
+            "timeScheduled": "20:10:00"
+          },
+          "product": {
+            "name": "REX 50",
+            "category": "RegionalExpress",
+            "categoryShort": "REX",
+            "trainNumber": "5925",
+            "operator": "Nahreisezug",
+            "isOebb": true
+          }
+        }
+      ]
+    },
+    {
+      "date": "2025-01-12T20:11:00",
+      "origin": {
+        "evaCode": "8100014",
+        "name": "Wels Hbf",
+        "date": "2025-01-12",
+        "platformScheduled": "3",
+        "timeScheduled": "20:11:00"
+      },
+      "destination": {
+        "evaCode": "8100013",
+        "name": "Linz/Donau Hbf",
+        "date": "2025-01-12",
+        "platformScheduled": "8A-F",
+        "timeScheduled": "20:26:00"
+      },
+      "sections": [
+        {
+          "origin": {
+            "evaCode": "8100014",
+            "name": "Wels Hbf",
+            "date": "2025-01-12",
+            "platformScheduled": "3",
+            "timeScheduled": "20:11:00"
+          },
+          "destination": {
+            "evaCode": "8100013",
+            "name": "Linz/Donau Hbf",
+            "date": "2025-01-12",
+            "platformScheduled": "8A-F",
+            "timeScheduled": "20:26:00"
+          },
+          "product": {
+            "name": "ICE 95",
+            "category": "InterCityExpress",
+            "categoryShort": "ICE",
+            "trainNumber": "95",
+            "operator": "Nahreisezug",
+            "isOebb": true
+          }
+        }
+      ]
+    },
+    {
+      "date": "2025-01-12T20:16:00",
+      "origin": {
+        "evaCode": "8100014",
+        "name": "Wels Hbf",
+        "date": "2025-01-12",
+        "platformScheduled": "1",
+        "timeScheduled": "20:16:00"
+      },
+      "destination": {
+        "evaCode": "8100013",
+        "name": "Linz/Donau Hbf",
+        "date": "2025-01-12",
+        "platformScheduled": "7A-F",
+        "timeScheduled": "20:30:00"
+      },
+      "sections": [
+        {
+          "origin": {
+            "evaCode": "8100014",
+            "name": "Wels Hbf",
+            "date": "2025-01-12",
+            "platformScheduled": "1",
+            "timeScheduled": "20:16:00"
+          },
+          "destination": {
+            "evaCode": "8100013",
+            "name": "Linz/Donau Hbf",
+            "date": "2025-01-12",
+            "platformScheduled": "7A-F",
+            "timeScheduled": "20:30:00"
+          },
+          "product": {
+            "name": "RJ 749",
+            "category": "railjet",
+            "categoryShort": "RJ",
+            "trainNumber": "749",
+            "operator": "Nahreisezug",
+            "isOebb": true
+          }
+        }
+      ]
+    },
+    {
+      "date": "2025-01-12T20:20:00",
+      "origin": {
+        "evaCode": "8100014",
+        "name": "Wels Hbf",
+        "date": "2025-01-12",
+        "timeScheduled": "20:20:00"
+      },
+      "destination": {
+        "evaCode": "8100013",
+        "name": "Linz/Donau Hbf",
+        "date": "2025-01-12",
+        "timeScheduled": "20:34:00"
+      },
+      "sections": [
+        {
+          "origin": {
+            "evaCode": "8100014",
+            "name": "Wels Hbf",
+            "date": "2025-01-12",
+            "timeScheduled": "20:20:00"
+          },
+          "destination": {
+            "evaCode": "8100013",
+            "name": "Linz/Donau Hbf",
+            "date": "2025-01-12",
+            "timeScheduled": "20:34:00"
+          },
+          "product": {
+            "name": "WB 969",
+            "category": "WESTbahn",
+            "categoryShort": "WB",
+            "trainNumber": "969",
+            "operator": "WESTbahn Management GmbH",
+            "isOebb": false
+          }
+        }
+      ]
+    }
+  ]
+}

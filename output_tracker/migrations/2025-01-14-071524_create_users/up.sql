@@ -1,6 +1,7 @@
 -- Your SQL goes here
-CREATE TABLE users (
+CREATE TABLE tracker.public.entry (
     id date PRIMARY KEY,
     amount float NOT NULL,
-    reason TEXT NOT NULL
+    category TEXT NOT NULL,
+    description TEXT
 );

@@ -1,17 +1,28 @@
-use crate::output_type::Essen;
+use diesel::prelude::*;
+use dotenvy::dotenv;
+use std::env;
 
-mod db_manager;
+mod schema;
+mod models;
 
-#[derive(Debug, Clone)]
-enum output_type {
-    Hygiene,
-    Essen,
-    Freizeit
+use self::models::User;
+
+pub fn establish_connection() -> PgConnection {
+    dotenv().ok();
+    let database_url = env::var("DATABASE_URL").expect("DATABASE_URL must be set");
+    PgConnection::establish(&database_url)
+        .expect(&format!("Error connecting to {}", database_url))
 }
 
-
 fn main() {
-    println!("Hello, world!");
-    let symlink_dir = output_type::Essen;
-    print!("{:?}", symlink_dir);
+    use self::schema::users::dsl::*;
+
+    let mut connection = &mut establish_connection();
+
+    
+    
+    println!("Displaying {} users", results.len());
+    for user in results {
+        println!("Name: {}, Email: {}", user.amount, user.id);
+    }
 }

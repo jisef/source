@@ -1,5 +1,5 @@
 
-public class Zeiteintrag implements Comparable{
+public class Zeiteintrag {
     private String phase;
     private String datum;
     private String zeitVon;
@@ -26,29 +26,5 @@ public class Zeiteintrag implements Comparable{
 
     public String getZeitBis() {
         return zeitBis;
-    }
-
-    @Override
-    public int compareTo(Object o) {
-        // Compare by phase
-        int phaseComparison = phase.compareTo(((Zeiteintrag)o).getPhase());
-        if (phaseComparison != 0) {
-            return phaseComparison;
-        }
-
-        // Compare by datum
-        int datumComparison = datum.compareTo(((Zeiteintrag)o).getDatum());
-        if (datumComparison != 0) {
-            return datumComparison;
-        }
-
-        // Compare by zeitVon
-        int zeitVonComparison = zeitVon.compareTo(((Zeiteintrag)o).getZeitVon());
-        if (zeitVonComparison != 0) {
-            return zeitVonComparison;
-        }
-
-        // Compare by zeitBis
-        return zeitBis.compareTo(((Zeiteintrag)o).getPhase());
     }
 }

@@ -9,12 +9,18 @@ public class Person {
 
     public Person(String name) {
         this.name = name;
-        this.zeiteintrag = new TreeSet<Zeiteintrag>();
+        this.zeiteintrag = new TreeSet<Zeiteintrag>(Comparator.comparing(Zeiteintrag::getPhase)
+                .thenComparing(Zeiteintrag::getDatum)
+                .thenComparing(Zeiteintrag::getZeitVon)
+                .thenComparing(Zeiteintrag::getZeitBis));
     }
 
     public Person(String name, Zeiteintrag zeiteintrag) {
         this.name = name;
-        this.zeiteintrag = new TreeSet<Zeiteintrag>();
+        this.zeiteintrag = new TreeSet<Zeiteintrag>(Comparator.comparing(Zeiteintrag::getPhase)
+                .thenComparing(Zeiteintrag::getDatum)
+                .thenComparing(Zeiteintrag::getZeitVon)
+                .thenComparing(Zeiteintrag::getZeitBis));
         this.zeiteintrag.add(zeiteintrag);
     }
 

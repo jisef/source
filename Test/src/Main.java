@@ -36,10 +36,8 @@ public class Main {
 //        System.out.println("############################################");
 //        pm.printProjektPlan("Eduway");
         pm.printProjektAll();
+        System.out.println("########################################################################################");
 
-
-
-
-
+        pm.getTimeTreeOfPerson("GAME");
     }
 }

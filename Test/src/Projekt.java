@@ -18,6 +18,10 @@ public class Projekt implements Comparable<Projekt>{
         return this.zeiteintrag.putIfAbsent(person.getName(), person) != null;
     }
 
+    public TreeMap<String, Person> getZeiteintrag() {
+        return zeiteintrag;
+    }
+
     @Override
     public int compareTo(Projekt o) {
         return this.name.compareTo(((Projekt)o).getName());

@@ -1,0 +1,8862 @@
+[
+  {
+    "eva": "8100516",
+    "name": "Wr. Neustadt Hbf"
+  },
+  {
+    "eva": "8100013",
+    "name": "Linz/Donau Hbf"
+  },
+  {
+    "eva": "8103000",
+    "name": "Wien Hbf"
+  },
+  {
+    "eva": "8100008",
+    "name": "St. Pölten Hbf"
+  },
+  {
+    "eva": "8100014",
+    "name": "Wels Hbf"
+  },
+  {
+    "eva": "8100002",
+    "name": "Salzburg Hbf"
+  },
+  {
+    "eva": "8100108",
+    "name": "Innsbruck Hbf"
+  },
+  {
+    "eva": "8100147",
+    "name": "Villach Hbf"
+  },
+  {
+    "eva": "8100173",
+    "name": "Graz Hbf"
+  },
+  {
+    "eva": "8100099",
+    "name": "Wörgl Hbf"
+  },
+  {
+    "eva": "8100085",
+    "name": "Klagenfurt Hbf"
+  },
+  {
+    "eva": "8100070",
+    "name": "Leoben Hbf"
+  },
+  {
+    "eva": "8000261",
+    "name": "München Hbf"
+  },
+  {
+    "eva": "8000013",
+    "name": "Augsburg Hbf"
+  },
+  {
+    "eva": "8000298",
+    "name": "Passau Hbf"
+  },
+  {
+    "eva": "8000170",
+    "name": "Ulm Hbf"
+  },
+  {
+    "eva": "8000244",
+    "name": "Mannheim Hbf"
+  },
+  {
+    "eva": "8000191",
+    "name": "Karlsruhe Hbf"
+  },
+  {
+    "eva": "8000096",
+    "name": "Stuttgart Hbf"
+  },
+  {
+    "eva": "8000068",
+    "name": "Darmstadt Hbf"
+  },
+  {
+    "eva": "8000105",
+    "name": "Frankfurt (Main) Hbf"
+  },
+  {
+    "eva": "8000156",
+    "name": "Heidelberg Hbf"
+  },
+  {
+    "eva": "8000044",
+    "name": "Bonn Hbf"
+  },
+  {
+    "eva": "8000080",
+    "name": "Dortmund Hbf"
+  },
+  {
+    "eva": "8000206",
+    "name": "Koblenz Hbf"
+  },
+  {
+    "eva": "8000207",
+    "name": "Köln Hbf"
+  },
+  {
+    "eva": "8000240",
+    "name": "Mainz Hbf"
+  },
+  {
+    "eva": "8000086",
+    "name": "Duisburg Hbf"
+  },
+  {
+    "eva": "8000085",
+    "name": "Düsseldorf Hbf"
+  },
+  {
+    "eva": "8000098",
+    "name": "Essen Hbf"
+  },
+  {
+    "eva": "8000001",
+    "name": "Aachen Hbf"
+  },
+  {
+    "eva": "8011160",
+    "name": "Berlin Hbf"
+  },
+  {
+    "eva": "8000049",
+    "name": "Braunschweig Hbf"
+  },
+  {
+    "eva": "8000050",
+    "name": "Bremen Hbf"
+  },
+  {
+    "eva": "8010085",
+    "name": "Dresden Hbf"
+  },
+  {
+    "eva": "8010159",
+    "name": "Halle (Saale) Hbf"
+  },
+  {
+    "eva": "8002549",
+    "name": "Hamburg Hbf"
+  },
+  {
+    "eva": "8000152",
+    "name": "Hannover Hbf"
+  },
+  {
+    "eva": "8000197",
+    "name": "Kempten (Allgäu) Hbf"
+  },
+  {
+    "eva": "8010205",
+    "name": "Leipzig Hbf"
+  },
+  {
+    "eva": "8010224",
+    "name": "Magdeburg Hbf"
+  },
+  {
+    "eva": "8000284",
+    "name": "Nürnberg Hbf"
+  },
+  {
+    "eva": "8012666",
+    "name": "Potsdam Hbf"
+  },
+  {
+    "eva": "8000309",
+    "name": "Regensburg Hbf"
+  },
+  {
+    "eva": "8010304",
+    "name": "Rostock Hbf"
+  },
+  {
+    "eva": "8000260",
+    "name": "Würzburg Hbf"
+  },
+  {
+    "eva": "8100514",
+    "name": "Wien Meidling"
+  },
+  {
+    "eva": "8100449",
+    "name": "Wien Mitte-Landstraße"
+  },
+  {
+    "eva": "8100349",
+    "name": "Wien Praterstern"
+  },
+  {
+    "eva": "8100236",
+    "name": "Wien Floridsdorf"
+  },
+  {
+    "eva": "8101934",
+    "name": "Wien Handelskai (Bahnsteige 1-2) "
+  },
+  {
+    "eva": "8101150",
+    "name": "Wien Liesing"
+  },
+  {
+    "eva": "8101473",
+    "name": "Wien Quartier Belvedere"
+  },
+  {
+    "eva": "8101230",
+    "name": "Mödling"
+  },
+  {
+    "eva": "8100017",
+    "name": "Attnang-Puchheim"
+  },
+  {
+    "eva": "8101163",
+    "name": "Leobersdorf"
+  },
+  {
+    "eva": "8100293",
+    "name": "Korneuburg"
+  },
+  {
+    "eva": "8101204",
+    "name": "Marchtrenk"
+  },
+  {
+    "eva": "8100534",
+    "name": "Stockerau"
+  },
+  {
+    "eva": "8101170",
+    "name": "Wien Leopoldau"
+  },
+  {
+    "eva": "8100009",
+    "name": "St. Valentin"
+  },
+  {
+    "eva": "8100012",
+    "name": "Amstetten NÖ"
+  },
+  {
+    "eva": "8100708",
+    "name": "Bad Vöslau"
+  },
+  {
+    "eva": "8100780",
+    "name": "Felixdorf"
+  },
+  {
+    "eva": "8102059",
+    "name": "Tullnerfeld"
+  },
+  {
+    "eva": "8100006",
+    "name": "Pöchlarn"
+  },
+  {
+    "eva": "8100698",
+    "name": "Brunn-Maria Enzersdorf"
+  },
+  {
+    "eva": "8101013",
+    "name": "Wien Jedlersdorf"
+  },
+  {
+    "eva": "8100032",
+    "name": "Bruck/Mur"
+  },
+  {
+    "eva": "8100507",
+    "name": "Vöcklabruck"
+  },
+  {
+    "eva": "8100081",
+    "name": "Velden/Wörther See"
+  },
+  {
+    "eva": "8100080",
+    "name": "Pörtschach/Wörther See"
+  },
+  {
+    "eva": "8100020",
+    "name": "Steindorf b. Straßwalchen"
+  },
+  {
+    "eva": "8100508",
+    "name": "Vöcklamarkt"
+  },
+  {
+    "eva": "8100157",
+    "name": "Bad Ischl"
+  },
+  {
+    "eva": "8100155",
+    "name": "Ebensee"
+  },
+  {
+    "eva": "8100078",
+    "name": "St. Veit/Glan"
+  },
+  {
+    "eva": "8100109",
+    "name": "Innsbruck Westbahnhof"
+  },
+  {
+    "eva": "8100074",
+    "name": "Unzmarkt"
+  },
+  {
+    "eva": "8100353",
+    "name": "Flughafen Wien"
+  },
+  {
+    "eva": "8100867",
+    "name": "Gumpoldskirchen"
+  },
+  {
+    "eva": "8100152",
+    "name": "Altmünster/Traunsee"
+  },
+  {
+    "eva": "8100151",
+    "name": "Gmunden"
+  },
+  {
+    "eva": "8100102",
+    "name": "Jenbach"
+  },
+  {
+    "eva": "8100274",
+    "name": "Hollabrunn"
+  },
+  {
+    "eva": "8100132",
+    "name": "Stainach-Irdning"
+  },
+  {
+    "eva": "8101619",
+    "name": "Wien Süßenbrunn"
+  },
+  {
+    "eva": "8101352",
+    "name": "Pfaffstätten"
+  },
+  {
+    "eva": "8100072",
+    "name": "Knittelfeld"
+  },
+  {
+    "eva": "8100160",
+    "name": "Bad Goisern"
+  },
+  {
+    "eva": "8100197",
+    "name": "Feldkirch"
+  },
+  {
+    "eva": "8100163",
+    "name": "Obertraun Dachsteinhöhlen"
+  },
+  {
+    "eva": "8100162",
+    "name": "Steeg-Gosau"
+  },
+  {
+    "eva": "8100073",
+    "name": "Judenburg"
+  },
+  {
+    "eva": "8100245",
+    "name": "Gänserndorf"
+  },
+  {
+    "eva": "8100029",
+    "name": "Mürzzuschlag"
+  },
+  {
+    "eva": "8100027",
+    "name": "Payerbach-Reichenau"
+  },
+  {
+    "eva": "8100067",
+    "name": "Bludenz"
+  },
+  {
+    "eva": "8100164",
+    "name": "Bad Aussee"
+  },
+  {
+    "eva": "8100122",
+    "name": "Dornbirn"
+  },
+  {
+    "eva": "8100290",
+    "name": "Kirchbichl in Tirol"
+  },
+  {
+    "eva": "8100001",
+    "name": "Kufstein"
+  },
+  {
+    "eva": "8100090",
+    "name": "Bregenz"
+  },
+  {
+    "eva": "8100518",
+    "name": "Zeltweg"
+  },
+  {
+    "eva": "8100042",
+    "name": "Bischofshofen"
+  },
+  {
+    "eva": "8100026",
+    "name": "Gloggnitz"
+  },
+  {
+    "eva": "8100105",
+    "name": "Hall in Tirol"
+  },
+  {
+    "eva": "8100077",
+    "name": "Launsdorf-Hochosterwitz"
+  },
+  {
+    "eva": "8100721",
+    "name": "Deutsch Wagram"
+  },
+  {
+    "eva": "8101221",
+    "name": "Mitterdorf-Veitsch"
+  },
+  {
+    "eva": "8101277",
+    "name": "Neunkirchen NÖ"
+  },
+  {
+    "eva": "8100063",
+    "name": "Landeck-Zams"
+  },
+  {
+    "eva": "8100034",
+    "name": "Peggau-Deutschfeistritz"
+  },
+  {
+    "eva": "8100061",
+    "name": "Ötztal"
+  },
+  {
+    "eva": "8100044",
+    "name": "Schwarzach-St. Veit"
+  },
+  {
+    "eva": "8101489",
+    "name": "St. Egyden am Steinfeld"
+  },
+  {
+    "eva": "8101661",
+    "name": "Ternitz"
+  },
+  {
+    "eva": "8100447",
+    "name": "Wien Hütteldorf"
+  },
+  {
+    "eva": "8100076",
+    "name": "Friesach in Ktn"
+  },
+  {
+    "eva": "8101522",
+    "name": "Sierndorf b. Stockerau"
+  },
+  {
+    "eva": "8100202",
+    "name": "Absdorf-Hippersdorf"
+  },
+  {
+    "eva": "8100869",
+    "name": "Gerasdorf b. Wien"
+  },
+  {
+    "eva": "8100103",
+    "name": "Schwaz"
+  },
+  {
+    "eva": "8100092",
+    "name": "Spittal-Millstätter See"
+  },
+  {
+    "eva": "8100450",
+    "name": "Wien Penzing"
+  },
+  {
+    "eva": "8101793",
+    "name": "Wolkersdorf im Weinviertel"
+  },
+  {
+    "eva": "8100827",
+    "name": "Göllersdorf"
+  },
+  {
+    "eva": "8100150",
+    "name": "Selzthal"
+  },
+  {
+    "eva": "8100269",
+    "name": "Wien Heiligenstadt"
+  },
+  {
+    "eva": "8100134",
+    "name": "Neumarkt/Wallersee"
+  },
+  {
+    "eva": "8100071",
+    "name": "St. Michael in Oberstmk"
+  },
+  {
+    "eva": "8100203",
+    "name": "Tulln/Donau"
+  },
+  {
+    "eva": "8100062",
+    "name": "Imst-Pitztal"
+  },
+  {
+    "eva": "8100165",
+    "name": "Bad Mitterndorf"
+  },
+  {
+    "eva": "8100031",
+    "name": "Kapfenberg"
+  },
+  {
+    "eva": "8100259",
+    "name": "Schwechat"
+  },
+  {
+    "eva": "8100015",
+    "name": "Lambach"
+  },
+  {
+    "eva": "8100023",
+    "name": "Neumarkt-Kallham"
+  },
+  {
+    "eva": "8100060",
+    "name": "Telfs-Pfaffenhofen"
+  },
+  {
+    "eva": "8101728",
+    "name": "Völs"
+  },
+  {
+    "eva": "8100003",
+    "name": "Wien Westbahnhof"
+  },
+  {
+    "eva": "8100101",
+    "name": "Brixlegg"
+  },
+  {
+    "eva": "8100028",
+    "name": "Semmering"
+  },
+  {
+    "eva": "8100043",
+    "name": "St. Johann im Pongau"
+  },
+  {
+    "eva": "8100048",
+    "name": "Zell am See"
+  },
+  {
+    "eva": "8101025",
+    "name": "Kainisch"
+  },
+  {
+    "eva": "8100100",
+    "name": "Kundl"
+  },
+  {
+    "eva": "8100469",
+    "name": "Retz"
+  },
+  {
+    "eva": "8100166",
+    "name": "Tauplitz"
+  },
+  {
+    "eva": "8101275",
+    "name": "Niklasdorf"
+  },
+  {
+    "eva": "8100096",
+    "name": "Treibach-Althofen"
+  },
+  {
+    "eva": "8100894",
+    "name": "Guntersdorf"
+  },
+  {
+    "eva": "8100936",
+    "name": "Hetzmannsdorf-Wullersdorf"
+  },
+  {
+    "eva": "8100016",
+    "name": "Schwanenstadt"
+  },
+  {
+    "eva": "8100363",
+    "name": "Zellerndorf"
+  },
+  {
+    "eva": "8100845",
+    "name": "Gunskirchen"
+  },
+  {
+    "eva": "8100049",
+    "name": "Saalfelden"
+  },
+  {
+    "eva": "8101690",
+    "name": "Traun OÖ"
+  },
+  {
+    "eva": "8100639",
+    "name": "Aurachkirchen"
+  },
+  {
+    "eva": "8100040",
+    "name": "Hallein"
+  },
+  {
+    "eva": "8101051",
+    "name": "Kledering"
+  },
+  {
+    "eva": "8100119",
+    "name": "Rankweil"
+  },
+  {
+    "eva": "8100153",
+    "name": "Traunkirchen"
+  },
+  {
+    "eva": "8100104",
+    "name": "Fritzens-Wattens"
+  },
+  {
+    "eva": "8100120",
+    "name": "Götzis"
+  },
+  {
+    "eva": "8100121",
+    "name": "Hohenems"
+  },
+  {
+    "eva": "8100295",
+    "name": "Krems/Donau"
+  },
+  {
+    "eva": "8100041",
+    "name": "Golling-Abtenau"
+  },
+  {
+    "eva": "8101245",
+    "name": "Mistelbach/Zaya"
+  },
+  {
+    "eva": "8100589",
+    "name": "Stams"
+  },
+  {
+    "eva": "8100221",
+    "name": "Drösing"
+  },
+  {
+    "eva": "8100011",
+    "name": "Enns"
+  },
+  {
+    "eva": "8100033",
+    "name": "Frohnleiten"
+  },
+  {
+    "eva": "8100369",
+    "name": "Gramatneusiedl"
+  },
+  {
+    "eva": "8100057",
+    "name": "Kirchberg in Tirol"
+  },
+  {
+    "eva": "8100055",
+    "name": "Kitzbühel"
+  },
+  {
+    "eva": "8100079",
+    "name": "Krumpendorf/Wörther See"
+  },
+  {
+    "eva": "8100586",
+    "name": "Silz in Tirol"
+  },
+  {
+    "eva": "8100054",
+    "name": "St. Johann in Tirol"
+  },
+  {
+    "eva": "8100863",
+    "name": "Bad Goisern Jodschwefelbad"
+  },
+  {
+    "eva": "8100195",
+    "name": "Gleisdorf"
+  },
+  {
+    "eva": "8101076",
+    "name": "Kraubath/Mur"
+  },
+  {
+    "eva": "8100167",
+    "name": "Rohr-Bad Hall"
+  },
+  {
+    "eva": "8100426",
+    "name": "Seekirchen/Wallersee"
+  },
+  {
+    "eva": "8101678",
+    "name": "Thalheim-Pöls"
+  },
+  {
+    "eva": "8101950",
+    "name": "Bregenz Hafen"
+  },
+  {
+    "eva": "8100198",
+    "name": "Bruck/Leitha"
+  },
+  {
+    "eva": "8100170",
+    "name": "Kirchdorf/Krems"
+  },
+  {
+    "eva": "8100131",
+    "name": "Liezen"
+  },
+  {
+    "eva": "8100137",
+    "name": "Schladming"
+  },
+  {
+    "eva": "8100451",
+    "name": "Zirl"
+  },
+  {
+    "eva": "8100619",
+    "name": "Angern/March"
+  },
+  {
+    "eva": "8100365",
+    "name": "Braunau/Inn"
+  },
+  {
+    "eva": "8100724",
+    "name": "Dürnkrut"
+  },
+  {
+    "eva": "8100783",
+    "name": "Fentsch-St. Lorenzen"
+  },
+  {
+    "eva": "8100797",
+    "name": "Föderlach"
+  },
+  {
+    "eva": "8100371",
+    "name": "Graz Ostbahnhof-Messe"
+  },
+  {
+    "eva": "8100264",
+    "name": "Hadersdorf/Kamp"
+  },
+  {
+    "eva": "8100130",
+    "name": "Hohenau/March"
+  },
+  {
+    "eva": "8100169",
+    "name": "Kremsmünster"
+  },
+  {
+    "eva": "8100141",
+    "name": "Lienz in Osttirol"
+  },
+  {
+    "eva": "8101255",
+    "name": "Neuhofen/Krems"
+  },
+  {
+    "eva": "8100405",
+    "name": "Ried im Innkreis"
+  },
+  {
+    "eva": "8100069",
+    "name": "Frastanz"
+  },
+  {
+    "eva": "8101094",
+    "name": "Klagenfurt Ostbahnhof"
+  },
+  {
+    "eva": "8100156",
+    "name": "Kleinreifling"
+  },
+  {
+    "eva": "8100068",
+    "name": "Nenzing"
+  },
+  {
+    "eva": "8101243",
+    "name": "St. Marein im Mürztal-St. Lorenzen"
+  },
+  {
+    "eva": "8101556",
+    "name": "Wien Grillgasse"
+  },
+  {
+    "eva": "8100189",
+    "name": "Edlitz-Grimmenstein"
+  },
+  {
+    "eva": "8100775",
+    "name": "Enzersdorf b. Staatz"
+  },
+  {
+    "eva": "8100053",
+    "name": "Fieberbrunn"
+  },
+  {
+    "eva": "8100808",
+    "name": "Frättingsdorf"
+  },
+  {
+    "eva": "8100022",
+    "name": "Grieskirchen-Gallspach"
+  },
+  {
+    "eva": "8101180",
+    "name": "Laa/Thaya"
+  },
+  {
+    "eva": "8101239",
+    "name": "Maria Saal"
+  },
+  {
+    "eva": "8101261",
+    "name": "Neubau-Kreuzstetten"
+  },
+  {
+    "eva": "8100138",
+    "name": "Radstadt"
+  },
+  {
+    "eva": "8101535",
+    "name": "Schleinbach"
+  },
+  {
+    "eva": "8100128",
+    "name": "Trieben"
+  },
+  {
+    "eva": "8100446",
+    "name": "Wien Franz-Josefs-Bahnhof"
+  },
+  {
+    "eva": "8101937",
+    "name": "Wien Spittelau"
+  },
+  {
+    "eva": "8100188",
+    "name": "Aspang Markt"
+  },
+  {
+    "eva": "8100176",
+    "name": "Fehring"
+  },
+  {
+    "eva": "8100235",
+    "name": "Fischamend"
+  },
+  {
+    "eva": "8100272",
+    "name": "Herzogenburg"
+  },
+  {
+    "eva": "8100030",
+    "name": "Kindberg"
+  },
+  {
+    "eva": "8101080",
+    "name": "Krieglach"
+  },
+  {
+    "eva": "8100192",
+    "name": "Bad Erlach"
+  },
+  {
+    "eva": "8100065",
+    "name": "Langen am Arlberg"
+  },
+  {
+    "eva": "8101169",
+    "name": "Loosdorf b. Melk"
+  },
+  {
+    "eva": "8100086",
+    "name": "Paternion-Feistritz"
+  },
+  {
+    "eva": "8100193",
+    "name": "Raaba"
+  },
+  {
+    "eva": "8101448",
+    "name": "Roppen"
+  },
+  {
+    "eva": "8101692",
+    "name": "Tulln/Donau Stadt"
+  },
+  {
+    "eva": "8100148",
+    "name": "Villach Westbahnhof"
+  },
+  {
+    "eva": "8100389",
+    "name": "Wolfurt"
+  },
+  {
+    "eva": "8100021",
+    "name": "Bad Schallerbach-Wallern"
+  },
+  {
+    "eva": "8100248",
+    "name": "Garsten"
+  },
+  {
+    "eva": "8100370",
+    "name": "Gratwein-Gratkorn"
+  },
+  {
+    "eva": "8100146",
+    "name": "Greifenburg-Weißensee"
+  },
+  {
+    "eva": "8100052",
+    "name": "Hochfilzen"
+  },
+  {
+    "eva": "8100144",
+    "name": "Oberdrauburg"
+  },
+  {
+    "eva": "8101629",
+    "name": "Schönwies"
+  },
+  {
+    "eva": "8100493",
+    "name": "Sigmundsherberg"
+  },
+  {
+    "eva": "8100064",
+    "name": "St. Anton am Arlberg"
+  },
+  {
+    "eva": "8100149",
+    "name": "Steinfeld im Drautal"
+  },
+  {
+    "eva": "8100010",
+    "name": "Steyr"
+  },
+  {
+    "eva": "8100056",
+    "name": "Arnoldstein"
+  },
+  {
+    "eva": "8100047",
+    "name": "Bruck-Fusch"
+  },
+  {
+    "eva": "8100747",
+    "name": "Ernsthofen"
+  },
+  {
+    "eva": "8100194",
+    "name": "Laßnitzhöhe"
+  },
+  {
+    "eva": "8100045",
+    "name": "Lend/Salzach"
+  },
+  {
+    "eva": "8100106",
+    "name": "Matrei am Brenner"
+  },
+  {
+    "eva": "8100526",
+    "name": "Pram-Haag"
+  },
+  {
+    "eva": "8100107",
+    "name": "Steinach am Brenner"
+  },
+  {
+    "eva": "8100046",
+    "name": "Taxenbach-Rauris"
+  },
+  {
+    "eva": "8101820",
+    "name": "Wien Zentralfriedhof S-Bahn"
+  },
+  {
+    "eva": "8101195",
+    "name": "Linz/Donau Wegscheid"
+  },
+  {
+    "eva": "8100124",
+    "name": "Lochau-Hörbranz"
+  },
+  {
+    "eva": "8100383",
+    "name": "Wartberg im Mürztal"
+  },
+  {
+    "eva": "8101742",
+    "name": "Wartberg/Krems"
+  },
+  {
+    "eva": "8100185",
+    "name": "Friedberg in Stmk"
+  },
+  {
+    "eva": "8100929",
+    "name": "Hallwang-Elixhausen"
+  },
+  {
+    "eva": "8100172",
+    "name": "Hinterstoder"
+  },
+  {
+    "eva": "8100299",
+    "name": "Langenlois"
+  },
+  {
+    "eva": "8100066",
+    "name": "Ludesch"
+  },
+  {
+    "eva": "8101538",
+    "name": "Scheifling in Stmk"
+  },
+  {
+    "eva": "8100487",
+    "name": "Schönberg/Kamp"
+  },
+  {
+    "eva": "8100019",
+    "name": "Straßwalchen"
+  },
+  {
+    "eva": "8100187",
+    "name": "Tauchen-Schaueregg"
+  },
+  {
+    "eva": "8101650",
+    "name": "Tullnerbach-Pressbaum"
+  },
+  {
+    "eva": "8100517",
+    "name": "Windischgarsten"
+  },
+  {
+    "eva": "8100007",
+    "name": "Ybbs/Donau"
+  },
+  {
+    "eva": "8100133",
+    "name": "Öblarn"
+  },
+  {
+    "eva": "8100642",
+    "name": "Ausschlag-Zöbern"
+  },
+  {
+    "eva": "8100538",
+    "name": "Bad Deutsch-Altenburg"
+  },
+  {
+    "eva": "8100175",
+    "name": "Feldbach/Raab"
+  },
+  {
+    "eva": "8100958",
+    "name": "Hainburg/Donau Kulturfabrik"
+  },
+  {
+    "eva": "8101149",
+    "name": "Lieboch"
+  },
+  {
+    "eva": "8100537",
+    "name": "Maria Ellend/Donau"
+  },
+  {
+    "eva": "8100412",
+    "name": "Micheldorf in OÖ"
+  },
+  {
+    "eva": "8100520",
+    "name": "Petronell-Carnuntum"
+  },
+  {
+    "eva": "8101430",
+    "name": "Regelsbrunn"
+  },
+  {
+    "eva": "8100024",
+    "name": "Schärding"
+  },
+  {
+    "eva": "8100539",
+    "name": "Werfen"
+  },
+  {
+    "eva": "8100360",
+    "name": "Wolfsthal"
+  },
+  {
+    "eva": "8102046",
+    "name": "Asten-Fisching"
+  },
+  {
+    "eva": "8100669",
+    "name": "Blindenmarkt b. Amstetten"
+  },
+  {
+    "eva": "8100263",
+    "name": "Gurten OÖ"
+  },
+  {
+    "eva": "8100136",
+    "name": "Haus im Ennstal"
+  },
+  {
+    "eva": "8100093",
+    "name": "Mallnitz-Obervellach"
+  },
+  {
+    "eva": "8100478",
+    "name": "Mining"
+  },
+  {
+    "eva": "8100442",
+    "name": "Obernberg-Altheim"
+  },
+  {
+    "eva": "8100191",
+    "name": "Pitten"
+  },
+  {
+    "eva": "8101447",
+    "name": "Rothenthurn"
+  },
+  {
+    "eva": "8101643",
+    "name": "Traisen NÖ"
+  },
+  {
+    "eva": "8101806",
+    "name": "Weißenbach-St. Gallen"
+  },
+  {
+    "eva": "8100201",
+    "name": "Eggenburg"
+  },
+  {
+    "eva": "8100813",
+    "name": "Furth-Palt"
+  },
+  {
+    "eva": "8100843",
+    "name": "Graz Köflacher"
+  },
+  {
+    "eva": "8101398",
+    "name": "Graz Puntigam"
+  },
+  {
+    "eva": "8101507",
+    "name": "Graz Straßgang"
+  },
+  {
+    "eva": "8100265",
+    "name": "Haiding"
+  },
+  {
+    "eva": "8100277",
+    "name": "Horn NÖ"
+  },
+  {
+    "eva": "8101244",
+    "name": "Mariahof-St. Lambrecht"
+  },
+  {
+    "eva": "8101265",
+    "name": "Nettingsdorf"
+  },
+  {
+    "eva": "8100075",
+    "name": "Neumarkt in Stmk"
+  },
+  {
+    "eva": "8101335",
+    "name": "Parndorf"
+  },
+  {
+    "eva": "8101338",
+    "name": "Paudorf"
+  },
+  {
+    "eva": "8100306",
+    "name": "Spital am Pyhrn"
+  },
+  {
+    "eva": "8100432",
+    "name": "St. Andrä-Wördern"
+  },
+  {
+    "eva": "8100311",
+    "name": "Statzendorf"
+  },
+  {
+    "eva": "8101822",
+    "name": "Ziersdorf"
+  },
+  {
+    "eva": "8100211",
+    "name": "Andorf"
+  },
+  {
+    "eva": "8100039",
+    "name": "Feldkirchen in Ktn"
+  },
+  {
+    "eva": "8100241",
+    "name": "Friedburg"
+  },
+  {
+    "eva": "8100247",
+    "name": "Gars-Thunau"
+  },
+  {
+    "eva": "8100180",
+    "name": "Hartberg"
+  },
+  {
+    "eva": "8100974",
+    "name": "Hörsching"
+  },
+  {
+    "eva": "8101101",
+    "name": "Klosterneuburg Weidling"
+  },
+  {
+    "eva": "8101084",
+    "name": "Kritzendorf"
+  },
+  {
+    "eva": "8100035",
+    "name": "Leibnitz"
+  },
+  {
+    "eva": "8100396",
+    "name": "Linz/Donau Urfahr"
+  },
+  {
+    "eva": "8100434",
+    "name": "Neusiedl am See"
+  },
+  {
+    "eva": "8101363",
+    "name": "Plank/Kamp"
+  },
+  {
+    "eva": "8101382",
+    "name": "Premstätten-Tobelbad"
+  },
+  {
+    "eva": "8101387",
+    "name": "Prinzersdorf"
+  },
+  {
+    "eva": "8100407",
+    "name": "Riedau"
+  },
+  {
+    "eva": "8100476",
+    "name": "Rottenegg OÖ"
+  },
+  {
+    "eva": "8101546",
+    "name": "Scheiblingkirchen-Warth"
+  },
+  {
+    "eva": "8100082",
+    "name": "Spielfeld-Straß"
+  },
+  {
+    "eva": "8102062",
+    "name": "Straßwalchen West"
+  },
+  {
+    "eva": "8100320",
+    "name": "Taufkirchen/Pram"
+  },
+  {
+    "eva": "8101695",
+    "name": "Ulmerfeld-Hausmening"
+  },
+  {
+    "eva": "8101709",
+    "name": "Unterpurkersdorf"
+  },
+  {
+    "eva": "8100445",
+    "name": "Waidhofen/Ybbs"
+  },
+  {
+    "eva": "8100361",
+    "name": "Wulkaprodersdorf"
+  },
+  {
+    "eva": "8100622",
+    "name": "Arbing"
+  },
+  {
+    "eva": "8100656",
+    "name": "Baumgartenberg"
+  },
+  {
+    "eva": "8100140",
+    "name": "Eben im Pongau"
+  },
+  {
+    "eva": "8100018",
+    "name": "Frankenmarkt"
+  },
+  {
+    "eva": "8100129",
+    "name": "Gmünd NÖ"
+  },
+  {
+    "eva": "8100826",
+    "name": "Grein-Bad Kreuzen"
+  },
+  {
+    "eva": "8100876",
+    "name": "Großraming"
+  },
+  {
+    "eva": "8100200",
+    "name": "Göpfritz an der Wild"
+  },
+  {
+    "eva": "8101036",
+    "name": "Kematen/Krems-Piberbach"
+  },
+  {
+    "eva": "8100171",
+    "name": "Klaus an der Pyhrnbahn"
+  },
+  {
+    "eva": "8101099",
+    "name": "Küpfern"
+  },
+  {
+    "eva": "8101118",
+    "name": "Lahrndorf b. Garsten"
+  },
+  {
+    "eva": "8100463",
+    "name": "Losenstein"
+  },
+  {
+    "eva": "8100413",
+    "name": "Mauthausen OÖ"
+  },
+  {
+    "eva": "8100580",
+    "name": "Perg"
+  },
+  {
+    "eva": "8101431",
+    "name": "Reichraming"
+  },
+  {
+    "eva": "8101469",
+    "name": "Saxen"
+  },
+  {
+    "eva": "8100199",
+    "name": "Schwarzenau im Waldviertel"
+  },
+  {
+    "eva": "8101601",
+    "name": "Schwertberg"
+  },
+  {
+    "eva": "8101374",
+    "name": "St. Pölten Alpenbahnhof-Kaiserwald (Traisentalbahn) "
+  },
+  {
+    "eva": "8101638",
+    "name": "Steyrling"
+  },
+  {
+    "eva": "8100196",
+    "name": "Studenzen-Fladnitz"
+  },
+  {
+    "eva": "8100322",
+    "name": "Ternberg"
+  },
+  {
+    "eva": "8100335",
+    "name": "Vitis"
+  },
+  {
+    "eva": "8101809",
+    "name": "Wettmannstätten"
+  },
+  {
+    "eva": "8101796",
+    "name": "Wöllersdorf/Piesting"
+  },
+  {
+    "eva": "8100653",
+    "name": "Bad Fischau-Brunn"
+  },
+  {
+    "eva": "8100695",
+    "name": "Breitenschützing"
+  },
+  {
+    "eva": "8100719",
+    "name": "Deutschkreutz"
+  },
+  {
+    "eva": "8100182",
+    "name": "Grafendorf b. Hartberg"
+  },
+  {
+    "eva": "8100254",
+    "name": "Götzendorf/Leitha"
+  },
+  {
+    "eva": "8100471",
+    "name": "Mariazell"
+  },
+  {
+    "eva": "8100479",
+    "name": "Mitterbach/Erlaufsee"
+  },
+  {
+    "eva": "8101210",
+    "name": "Mixnitz-Bärenschützklamm"
+  },
+  {
+    "eva": "8101370",
+    "name": "Pernegg/Mur"
+  },
+  {
+    "eva": "8101409",
+    "name": "Puchenau West"
+  },
+  {
+    "eva": "8100183",
+    "name": "Rohrbach-Vorau"
+  },
+  {
+    "eva": "8100411",
+    "name": "Rosenburg/Kamp"
+  },
+  {
+    "eva": "8100117",
+    "name": "Schruns"
+  },
+  {
+    "eva": "8100190",
+    "name": "Seebenstein"
+  },
+  {
+    "eva": "8100497",
+    "name": "St. Anton im Montafon"
+  },
+  {
+    "eva": "8100511",
+    "name": "Weyer/Enns"
+  },
+  {
+    "eva": "8101768",
+    "name": "Wilhelmsburg/Traisen"
+  },
+  {
+    "eva": "8100692",
+    "name": "Breitenstein am Semmering"
+  },
+  {
+    "eva": "8100145",
+    "name": "Dellach im Drautal"
+  },
+  {
+    "eva": "8100143",
+    "name": "Dölsach"
+  },
+  {
+    "eva": "8100231",
+    "name": "Eisenstadt"
+  },
+  {
+    "eva": "8100243",
+    "name": "Fürth-Kaprun"
+  },
+  {
+    "eva": "8100819",
+    "name": "Gaishorn am See"
+  },
+  {
+    "eva": "8100285",
+    "name": "Gleisdorf West"
+  },
+  {
+    "eva": "8100949",
+    "name": "Hilm-Kematen"
+  },
+  {
+    "eva": "8100126",
+    "name": "Kalwang"
+  },
+  {
+    "eva": "8101055",
+    "name": "Kleblach-Lind"
+  },
+  {
+    "eva": "8101160",
+    "name": "Lannach"
+  },
+  {
+    "eva": "8100466",
+    "name": "Marchegg"
+  },
+  {
+    "eva": "8100125",
+    "name": "Mautern in Stmk"
+  },
+  {
+    "eva": "8100419",
+    "name": "Möllbrücke-Sachsenburg"
+  },
+  {
+    "eva": "8100523",
+    "name": "Piesendorf"
+  },
+  {
+    "eva": "8101432",
+    "name": "Rekawinkel"
+  },
+  {
+    "eva": "8101671",
+    "name": "Schüttdorf Tischlerhäusl"
+  },
+  {
+    "eva": "8100127",
+    "name": "Wald am Schoberpass"
+  },
+  {
+    "eva": "8100593",
+    "name": "Werndorf"
+  },
+  {
+    "eva": "8101290",
+    "name": "Wien Nussdorf"
+  },
+  {
+    "eva": "8101628",
+    "name": "Bad Schwanberg"
+  },
+  {
+    "eva": "8100393",
+    "name": "Bleiburg"
+  },
+  {
+    "eva": "8101832",
+    "name": "Bruckberg im Pinzgau Golfplatz"
+  },
+  {
+    "eva": "8100718",
+    "name": "Deutschlandsberg Stadt"
+  },
+  {
+    "eva": "8100779",
+    "name": "Frauental-Bad Gams"
+  },
+  {
+    "eva": "8100368",
+    "name": "Fürnitz"
+  },
+  {
+    "eva": "8100837",
+    "name": "Groß St. Florian"
+  },
+  {
+    "eva": "8100135",
+    "name": "Gröbming"
+  },
+  {
+    "eva": "8100571",
+    "name": "Gutenstein"
+  },
+  {
+    "eva": "8100252",
+    "name": "Gösing an der Mariazeller Bahn"
+  },
+  {
+    "eva": "8100059",
+    "name": "Hopfgarten im Brixental"
+  },
+  {
+    "eva": "8100288",
+    "name": "Kirchberg am Wagram"
+  },
+  {
+    "eva": "8101394",
+    "name": "Markt Piesting"
+  },
+  {
+    "eva": "8100409",
+    "name": "Mattighofen"
+  },
+  {
+    "eva": "8100410",
+    "name": "Mauerkirchen"
+  },
+  {
+    "eva": "8100489",
+    "name": "Munderfing"
+  },
+  {
+    "eva": "8101316",
+    "name": "Oberpiesting"
+  },
+  {
+    "eva": "8100037",
+    "name": "Ossiach-Bodensdorf"
+  },
+  {
+    "eva": "8100513",
+    "name": "Ottensheim"
+  },
+  {
+    "eva": "8101369",
+    "name": "Pernitz-Muggendorf"
+  },
+  {
+    "eva": "8101364",
+    "name": "Pölfing-Brunn"
+  },
+  {
+    "eva": "8101419",
+    "name": "Ramingdorf-Haidershofen"
+  },
+  {
+    "eva": "8101428",
+    "name": "Redl-Zipf"
+  },
+  {
+    "eva": "8100416",
+    "name": "Sattledt"
+  },
+  {
+    "eva": "8100142",
+    "name": "Sillian"
+  },
+  {
+    "eva": "8100564",
+    "name": "St. Martin im Sulmtal-Bergla"
+  },
+  {
+    "eva": "8101521",
+    "name": "Steinhaus b. Wels"
+  },
+  {
+    "eva": "8101670",
+    "name": "Timelkam"
+  },
+  {
+    "eva": "8101700",
+    "name": "Unterhart b. Sattledt"
+  },
+  {
+    "eva": "8100336",
+    "name": "Völkermarkt-Kühnsdorf"
+  },
+  {
+    "eva": "8101745",
+    "name": "Waldegg/Piesting"
+  },
+  {
+    "eva": "8100342",
+    "name": "Wampersdorf"
+  },
+  {
+    "eva": "8101754",
+    "name": "Wels Lokalbahn"
+  },
+  {
+    "eva": "8101750",
+    "name": "Wies-Eibiswald"
+  },
+  {
+    "eva": "8100225",
+    "name": "Ebenfurth"
+  },
+  {
+    "eva": "8100226",
+    "name": "Ebreichsdorf"
+  },
+  {
+    "eva": "8100568",
+    "name": "Fels am Wagram"
+  },
+  {
+    "eva": "8100256",
+    "name": "Grafenstein"
+  },
+  {
+    "eva": "8100858",
+    "name": "Grein Stadt"
+  },
+  {
+    "eva": "8100906",
+    "name": "Großweikersdorf"
+  },
+  {
+    "eva": "8100957",
+    "name": "Hainfeld NÖ"
+  },
+  {
+    "eva": "8100373",
+    "name": "Kittsee"
+  },
+  {
+    "eva": "8101050",
+    "name": "Klamm-Schottwien"
+  },
+  {
+    "eva": "8101154",
+    "name": "Limberg-Maissau"
+  },
+  {
+    "eva": "8101282",
+    "name": "Neuhaus-Niederwaldkirchen"
+  },
+  {
+    "eva": "8101313",
+    "name": "Oberland OÖ"
+  },
+  {
+    "eva": "8100579",
+    "name": "Oed/Piesting"
+  },
+  {
+    "eva": "8101320",
+    "name": "Ortmann"
+  },
+  {
+    "eva": "8101343",
+    "name": "Preding-Wieselsdorf"
+  },
+  {
+    "eva": "8100036",
+    "name": "Sattendorf"
+  },
+  {
+    "eva": "8101501",
+    "name": "St. Georgen/Gusen"
+  },
+  {
+    "eva": "8100038",
+    "name": "Steindorf/Ossiacher See"
+  },
+  {
+    "eva": "8100317",
+    "name": "Tainach-Stein"
+  },
+  {
+    "eva": "8101592",
+    "name": "Villach St. Ruprecht"
+  },
+  {
+    "eva": "8101988",
+    "name": "Waldegg-Dürnbach"
+  },
+  {
+    "eva": "8101003",
+    "name": "Wien Blumental"
+  },
+  {
+    "eva": "8100004",
+    "name": "Wien Hbf (Autoreisezuganlage) "
+  },
+  {
+    "eva": "8100455",
+    "name": "Bad Waltersdorf"
+  },
+  {
+    "eva": "8100178",
+    "name": "Bierbaum/Safen"
+  },
+  {
+    "eva": "8100084",
+    "name": "Faak am See"
+  },
+  {
+    "eva": "8100802",
+    "name": "Frankenfels"
+  },
+  {
+    "eva": "8100177",
+    "name": "Fürstenfeld"
+  },
+  {
+    "eva": "8100850",
+    "name": "Glanegg in Ktn"
+  },
+  {
+    "eva": "8100570",
+    "name": "Großendorf"
+  },
+  {
+    "eva": "8100261",
+    "name": "Grünau im Almtal"
+  },
+  {
+    "eva": "8100950",
+    "name": "Himberg b. Wien"
+  },
+  {
+    "eva": "8100940",
+    "name": "Hofstetten-Grünau"
+  },
+  {
+    "eva": "8100273",
+    "name": "Hötzelsdorf-Geras"
+  },
+  {
+    "eva": "8100399",
+    "name": "Irnfritz"
+  },
+  {
+    "eva": "8101019",
+    "name": "Kalsdorf b. Graz"
+  },
+  {
+    "eva": "8100289",
+    "name": "Kirchberg/Pielach"
+  },
+  {
+    "eva": "8101104",
+    "name": "Lanzenkirchen"
+  },
+  {
+    "eva": "8100301",
+    "name": "Laubenbachmühle"
+  },
+  {
+    "eva": "8100408",
+    "name": "Mattersburg"
+  },
+  {
+    "eva": "8101217",
+    "name": "Michelhausen"
+  },
+  {
+    "eva": "8100376",
+    "name": "Moosbierbaum-Heiligeneich"
+  },
+  {
+    "eva": "8100505",
+    "name": "Ober-Grafendorf"
+  },
+  {
+    "eva": "8100521",
+    "name": "Pettenbach OÖ"
+  },
+  {
+    "eva": "8100531",
+    "name": "Pürbach-Schrems"
+  },
+  {
+    "eva": "8101423",
+    "name": "Rabenstein/Pielach"
+  },
+  {
+    "eva": "8100420",
+    "name": "Scharnstein-Mühldorf"
+  },
+  {
+    "eva": "8100179",
+    "name": "Sebersdorf"
+  },
+  {
+    "eva": "8101596",
+    "name": "Spital am Semmering"
+  },
+  {
+    "eva": "8100502",
+    "name": "St. Martin-Sittich"
+  },
+  {
+    "eva": "8101948",
+    "name": "St. Pölten Alpenbahnhof-Kaiserwald (Mariaz. Bahn) "
+  },
+  {
+    "eva": "8101612",
+    "name": "Steinbachbrücke"
+  },
+  {
+    "eva": "8101614",
+    "name": "Steyregg"
+  },
+  {
+    "eva": "8100429",
+    "name": "Söchau"
+  },
+  {
+    "eva": "8100325",
+    "name": "Traismauer"
+  },
+  {
+    "eva": "8101684",
+    "name": "Traxenbichl"
+  },
+  {
+    "eva": "8101716",
+    "name": "Viechtwang"
+  },
+  {
+    "eva": "8101723",
+    "name": "Voitsdorf"
+  },
+  {
+    "eva": "8100544",
+    "name": "Wernstein/Inn"
+  },
+  {
+    "eva": "8100355",
+    "name": "Wieselburg/Erlauf"
+  },
+  {
+    "eva": "8100204",
+    "name": "Abfaltersbach/Drau"
+  },
+  {
+    "eva": "8100161",
+    "name": "Admont"
+  },
+  {
+    "eva": "8100210",
+    "name": "Allentsteig"
+  },
+  {
+    "eva": "8100623",
+    "name": "Ardning"
+  },
+  {
+    "eva": "8100095",
+    "name": "Bad Gastein"
+  },
+  {
+    "eva": "8100097",
+    "name": "Bad Hofgastein"
+  },
+  {
+    "eva": "8100098",
+    "name": "Dorfgastein"
+  },
+  {
+    "eva": "8100746",
+    "name": "Etsdorf-Straß"
+  },
+  {
+    "eva": "8100159",
+    "name": "Gstatterboden im Nationalpark"
+  },
+  {
+    "eva": "8100158",
+    "name": "Hieflau"
+  },
+  {
+    "eva": "8100993",
+    "name": "Hüttau"
+  },
+  {
+    "eva": "8101153",
+    "name": "Lilienfeld"
+  },
+  {
+    "eva": "8100123",
+    "name": "Lustenau"
+  },
+  {
+    "eva": "8101202",
+    "name": "Mandling/Enns"
+  },
+  {
+    "eva": "8100430",
+    "name": "Neufelden"
+  },
+  {
+    "eva": "8101279",
+    "name": "Neulengbach"
+  },
+  {
+    "eva": "8100500",
+    "name": "Niedernsill"
+  },
+  {
+    "eva": "8100532",
+    "name": "Purbach/Neusiedler See"
+  },
+  {
+    "eva": "8101376",
+    "name": "Pöham"
+  },
+  {
+    "eva": "8101454",
+    "name": "Rohr/Raab"
+  },
+  {
+    "eva": "8100422",
+    "name": "Schützen am Gebirge"
+  },
+  {
+    "eva": "8100503",
+    "name": "St. Nikola-Struden"
+  },
+  {
+    "eva": "8101624",
+    "name": "St. Veit/Glan Westbahnhof"
+  },
+  {
+    "eva": "8101622",
+    "name": "St. Veit/Gölsen"
+  },
+  {
+    "eva": "8100324",
+    "name": "Thal/Drau"
+  },
+  {
+    "eva": "8101717",
+    "name": "Viehofen"
+  },
+  {
+    "eva": "8100208",
+    "name": "Aigen-Schlägl"
+  },
+  {
+    "eva": "8100216",
+    "name": "Baumgarten-Schattendorf"
+  },
+  {
+    "eva": "8100227",
+    "name": "Eferding"
+  },
+  {
+    "eva": "8100862",
+    "name": "Görtschach-Förolach"
+  },
+  {
+    "eva": "8100976",
+    "name": "Haslach/Mühl"
+  },
+  {
+    "eva": "8100270",
+    "name": "Hermagor"
+  },
+  {
+    "eva": "8101039",
+    "name": "Köflach"
+  },
+  {
+    "eva": "8101173",
+    "name": "Lanzendorf-Rannersdorf"
+  },
+  {
+    "eva": "8100398",
+    "name": "Loipersbach-Schattendorf"
+  },
+  {
+    "eva": "8101284",
+    "name": "Nötsch im Gailtal"
+  },
+  {
+    "eva": "8100439",
+    "name": "Obereggendorf"
+  },
+  {
+    "eva": "8101403",
+    "name": "Puchberg am Schneeberg"
+  },
+  {
+    "eva": "8100474",
+    "name": "Rohrbach-Berg"
+  },
+  {
+    "eva": "8100083",
+    "name": "Rosenbach b. Villach"
+  },
+  {
+    "eva": "8101545",
+    "name": "Schönfeld-Lassee"
+  },
+  {
+    "eva": "8101477",
+    "name": "Siebenbrunn-Leopoldsdorf"
+  },
+  {
+    "eva": "8100496",
+    "name": "St. Andrä im Lavanttal"
+  },
+  {
+    "eva": "8100501",
+    "name": "St. Paul im Lavanttal"
+  },
+  {
+    "eva": "8101597",
+    "name": "St. Peter-Seitenstetten"
+  },
+  {
+    "eva": "8100440",
+    "name": "St. Stefan im Lavanttal"
+  },
+  {
+    "eva": "8101598",
+    "name": "St. Stefan-Vorderberg"
+  },
+  {
+    "eva": "8101640",
+    "name": "Traiskirchen Aspangbahn"
+  },
+  {
+    "eva": "8101725",
+    "name": "Voitsberg"
+  },
+  {
+    "eva": "8101946",
+    "name": "Wels Messe"
+  },
+  {
+    "eva": "8100271",
+    "name": "Wien Hernals"
+  },
+  {
+    "eva": "8100512",
+    "name": "Wien Ottakring"
+  },
+  {
+    "eva": "8101781",
+    "name": "Winzendorf b. Wr. Neustadt"
+  },
+  {
+    "eva": "8100359",
+    "name": "Wolfsberg in Ktn"
+  },
+  {
+    "eva": "8100205",
+    "name": "Achau"
+  },
+  {
+    "eva": "8100677",
+    "name": "Bad Radkersburg"
+  },
+  {
+    "eva": "8100650",
+    "name": "Berndorf/Triesting Fabrik"
+  },
+  {
+    "eva": "8100740",
+    "name": "Eberschwang"
+  },
+  {
+    "eva": "8100757",
+    "name": "Enzesfeld-Lindabrunn"
+  },
+  {
+    "eva": "8100246",
+    "name": "Gaisbach-Wartberg"
+  },
+  {
+    "eva": "8100980",
+    "name": "Hausruck"
+  },
+  {
+    "eva": "8100925",
+    "name": "Hennersdorf b. Wien"
+  },
+  {
+    "eva": "8100283",
+    "name": "Kammer-Schörfling"
+  },
+  {
+    "eva": "8101053",
+    "name": "Krottendorf-Ligist"
+  },
+  {
+    "eva": "8101141",
+    "name": "Lenzing OÖ"
+  },
+  {
+    "eva": "8101185",
+    "name": "Lungitz/Gusen"
+  },
+  {
+    "eva": "8100491",
+    "name": "Mureck"
+  },
+  {
+    "eva": "8100423",
+    "name": "Münchendorf"
+  },
+  {
+    "eva": "8101329",
+    "name": "Oberweiden"
+  },
+  {
+    "eva": "8101327",
+    "name": "Ottnang-Wolfsegg"
+  },
+  {
+    "eva": "8101401",
+    "name": "Pottenstein/Triesting"
+  },
+  {
+    "eva": "8100528",
+    "name": "Pregarten"
+  },
+  {
+    "eva": "8101391",
+    "name": "Purgstall/Erlauf"
+  },
+  {
+    "eva": "8101470",
+    "name": "Salzburg Aigen"
+  },
+  {
+    "eva": "8102055",
+    "name": "Salzburg Sam"
+  },
+  {
+    "eva": "8100485",
+    "name": "Scheibbs"
+  },
+  {
+    "eva": "8101990",
+    "name": "St. Pölten Traisenpark"
+  },
+  {
+    "eva": "8101557",
+    "name": "Söding-Mooskirchen"
+  },
+  {
+    "eva": "8101755",
+    "name": "Weissenbach-Neuhaus"
+  },
+  {
+    "eva": "8101774",
+    "name": "Wildon"
+  },
+  {
+    "eva": "8101788",
+    "name": "Wittmannsdorf NÖ"
+  },
+  {
+    "eva": "8100481",
+    "name": "Bad Sauerbrunn"
+  },
+  {
+    "eva": "8100458",
+    "name": "Bramberg am Wildkogel"
+  },
+  {
+    "eva": "8100661",
+    "name": "Böheimkirchen"
+  },
+  {
+    "eva": "8100736",
+    "name": "Eichberg am Semmering"
+  },
+  {
+    "eva": "8100238",
+    "name": "Frauenkirchen"
+  },
+  {
+    "eva": "8100255",
+    "name": "Gols"
+  },
+  {
+    "eva": "8100882",
+    "name": "Grünbach am Schneeberg"
+  },
+  {
+    "eva": "8102051",
+    "name": "Hengsberg"
+  },
+  {
+    "eva": "8100111",
+    "name": "Hochzirl"
+  },
+  {
+    "eva": "8100275",
+    "name": "Hollersbach im Pinzgau"
+  },
+  {
+    "eva": "8100110",
+    "name": "Innsbruck Hötting"
+  },
+  {
+    "eva": "8101048",
+    "name": "Kirchstetten b. Neulengbach"
+  },
+  {
+    "eva": "8101056",
+    "name": "Klangen"
+  },
+  {
+    "eva": "8100296",
+    "name": "Krimml"
+  },
+  {
+    "eva": "8101122",
+    "name": "Laxenburg-Biedermannsdorf"
+  },
+  {
+    "eva": "8101224",
+    "name": "Maria Lanzendorf"
+  },
+  {
+    "eva": "8100480",
+    "name": "Mittersill"
+  },
+  {
+    "eva": "8101222",
+    "name": "Mittlere Au OÖ"
+  },
+  {
+    "eva": "8100484",
+    "name": "Mönchhof-Halbturn"
+  },
+  {
+    "eva": "8100424",
+    "name": "Müllendorf"
+  },
+  {
+    "eva": "8101262",
+    "name": "Nendeln"
+  },
+  {
+    "eva": "8100494",
+    "name": "Neudörfl im Bgld"
+  },
+  {
+    "eva": "8100495",
+    "name": "Neufeld/Leitha"
+  },
+  {
+    "eva": "8100433",
+    "name": "Neukirchen am Großvenediger"
+  },
+  {
+    "eva": "8100453",
+    "name": "Neusiedl am See Bad"
+  },
+  {
+    "eva": "8100448",
+    "name": "Pamhagen"
+  },
+  {
+    "eva": "8101396",
+    "name": "Pottenbrunn"
+  },
+  {
+    "eva": "8101415",
+    "name": "Raasdorf"
+  },
+  {
+    "eva": "8100112",
+    "name": "Reith b. Seefeld"
+  },
+  {
+    "eva": "8101632",
+    "name": "Schwarzenbach/Pielach"
+  },
+  {
+    "eva": "8100113",
+    "name": "Seefeld in Tirol"
+  },
+  {
+    "eva": "8100431",
+    "name": "St. Andrä/Zicksee"
+  },
+  {
+    "eva": "8100308",
+    "name": "Stadl-Paura"
+  },
+  {
+    "eva": "8100314",
+    "name": "Stuhlfelden"
+  },
+  {
+    "eva": "8101647",
+    "name": "Tattendorf"
+  },
+  {
+    "eva": "8100334",
+    "name": "Uttendorf-Stubachtal"
+  },
+  {
+    "eva": "8100340",
+    "name": "Wald im Pinzgau"
+  },
+  {
+    "eva": "8100341",
+    "name": "Wallern im Bgld"
+  },
+  {
+    "eva": "8100343",
+    "name": "Weiden am See"
+  },
+  {
+    "eva": "8101769",
+    "name": "Willendorf am Steinfeld"
+  },
+  {
+    "eva": "8100215",
+    "name": "Antiesenhofen"
+  },
+  {
+    "eva": "8100638",
+    "name": "Aurolzmünster"
+  },
+  {
+    "eva": "8100239",
+    "name": "Freistadt"
+  },
+  {
+    "eva": "8100536",
+    "name": "Kefermarkt"
+  },
+  {
+    "eva": "8100091",
+    "name": "Kolbnitz"
+  },
+  {
+    "eva": "8101373",
+    "name": "Pusarnitz"
+  },
+  {
+    "eva": "8100437",
+    "name": "St. Martin im Innkreis"
+  },
+  {
+    "eva": "8100316",
+    "name": "Summerau"
+  },
+  {
+    "eva": "8100094",
+    "name": "Böckstein"
+  },
+  {
+    "eva": "8100730",
+    "name": "Dorf im Pinzgau-Pass Thurn"
+  },
+  {
+    "eva": "8101456",
+    "name": "Rettenbach im Pinzgau"
+  },
+  {
+    "eva": "8100088",
+    "name": "Scharnitz"
+  },
+  {
+    "eva": "8101010",
+    "name": "Jennersdorf"
+  },
+  {
+    "eva": "8100499",
+    "name": "Nickelsdorf"
+  },
+  {
+    "eva": "8101675",
+    "name": "Thörl-Maglern"
+  },
+  {
+    "eva": "8101829",
+    "name": "Zurndorf"
+  },
+  {
+    "eva": "8000108",
+    "name": "Freilassing (Oberbayern) "
+  },
+  {
+    "eva": "8000320",
+    "name": "Rosenheim in Bayern"
+  },
+  {
+    "eva": "8000262",
+    "name": "München Ost"
+  },
+  {
+    "eva": "8700011",
+    "name": "Paris Est"
+  },
+  {
+    "eva": "8004885",
+    "name": "Prien a Chiemsee"
+  },
+  {
+    "eva": "8000116",
+    "name": "Traunstein"
+  },
+  {
+    "eva": "5501494",
+    "name": "Sopron"
+  },
+  {
+    "eva": "8700023",
+    "name": "Strasbourg"
+  },
+  {
+    "eva": "5400202",
+    "name": "Breclav"
+  },
+  {
+    "eva": "5600582",
+    "name": "Bratislava-Petrzalka"
+  },
+  {
+    "eva": "8303915",
+    "name": "Tarvisio Boscoverde"
+  },
+  {
+    "eva": "8300092",
+    "name": "Brennero/Brenner"
+  },
+  {
+    "eva": "8003693",
+    "name": "Lindau (B. see) Reutin"
+  },
+  {
+    "eva": "8000072",
+    "name": "Simbach/Inn"
+  },
+  {
+    "eva": "8000230",
+    "name": "Lindau (Bodensee) Insel"
+  },
+  {
+    "eva": "8300093",
+    "name": "Venezia Mestre"
+  },
+  {
+    "eva": "8300094",
+    "name": "Venezia Santa Lucia"
+  },
+  {
+    "eva": "8509404",
+    "name": "Buchs SG"
+  },
+  {
+    "eva": "5500080",
+    "name": "Györ"
+  },
+  {
+    "eva": "5500017",
+    "name": "Hegyeshalom"
+  },
+  {
+    "eva": "5500016",
+    "name": "Mosonmagyarovar"
+  },
+  {
+    "eva": "8300114",
+    "name": "San Candido/Innichen"
+  },
+  {
+    "eva": "8300110",
+    "name": "Pordenone"
+  },
+  {
+    "eva": "8300130",
+    "name": "Treviso Centrale"
+  },
+  {
+    "eva": "8300115",
+    "name": "Udine"
+  },
+  {
+    "eva": "8001787",
+    "name": "Bad Endorf"
+  },
+  {
+    "eva": "8300217",
+    "name": "Bologna Centrale"
+  },
+  {
+    "eva": "5400001",
+    "name": "Brno hl. n. "
+  },
+  {
+    "eva": "5500003",
+    "name": "Budapest-Keleti"
+  },
+  {
+    "eva": "5400018",
+    "name": "Ceske Velenice"
+  },
+  {
+    "eva": "8300209",
+    "name": "Ferrara"
+  },
+  {
+    "eva": "8300151",
+    "name": "Firenze S. M. N. "
+  },
+  {
+    "eva": "8300157",
+    "name": "Livorno Centrale"
+  },
+  {
+    "eva": "8300169",
+    "name": "Pisa Centrale"
+  },
+  {
+    "eva": "5400014",
+    "name": "Praha hl. n. "
+  },
+  {
+    "eva": "8300238",
+    "name": "Rovigo"
+  },
+  {
+    "eva": "8506314",
+    "name": "St. Margrethen SG"
+  },
+  {
+    "eva": "5500058",
+    "name": "Debrecen"
+  },
+  {
+    "eva": "8300089",
+    "name": "Fortezza/Franzensfeste"
+  },
+  {
+    "eva": "8098262",
+    "name": "München Hbf Gl. 5-10"
+  },
+  {
+    "eva": "8300098",
+    "name": "Padova"
+  },
+  {
+    "eva": "8509411",
+    "name": "Sargans"
+  },
+  {
+    "eva": "8503000",
+    "name": "Zürich HB"
+  },
+  {
+    "eva": "5600209",
+    "name": "Bratislava Nove Mesto"
+  },
+  {
+    "eva": "7900005",
+    "name": "Celje"
+  },
+  {
+    "eva": "8300086",
+    "name": "Conegliano"
+  },
+  {
+    "eva": "7900017",
+    "name": "Dobova"
+  },
+  {
+    "eva": "8000115",
+    "name": "Fulda"
+  },
+  {
+    "eva": "7900001",
+    "name": "Jesenice (SL) "
+  },
+  {
+    "eva": "7800006",
+    "name": "Knin"
+  },
+  {
+    "eva": "7900006",
+    "name": "Maribor"
+  },
+  {
+    "eva": "7800040",
+    "name": "Ogulin"
+  },
+  {
+    "eva": "7800012",
+    "name": "Perkovic"
+  },
+  {
+    "eva": "5500055",
+    "name": "Püspökladany"
+  },
+  {
+    "eva": "7900018",
+    "name": "Sevnica"
+  },
+  {
+    "eva": "7800016",
+    "name": "Split"
+  },
+  {
+    "eva": "5500029",
+    "name": "Szentgotthárd"
+  },
+  {
+    "eva": "7800020",
+    "name": "Zagreb Glavni kolodvor"
+  },
+  {
+    "eva": "8400319",
+    "name": "s-Hertogenbosch"
+  },
+  {
+    "eva": "7400005",
+    "name": "Alvesta station"
+  },
+  {
+    "eva": "8400058",
+    "name": "Amsterdam Centraal"
+  },
+  {
+    "eva": "8300186",
+    "name": "Ancona"
+  },
+  {
+    "eva": "8300179",
+    "name": "Arezzo"
+  },
+  {
+    "eva": "8400071",
+    "name": "Arnhem Centraal"
+  },
+  {
+    "eva": "8503504",
+    "name": "Baden (CH) "
+  },
+  {
+    "eva": "8000774",
+    "name": "Baden-Baden"
+  },
+  {
+    "eva": "8300293",
+    "name": "Bari Centrale"
+  },
+  {
+    "eva": "8000026",
+    "name": "Basel Bad Bf"
+  },
+  {
+    "eva": "8500010",
+    "name": "Basel SBB"
+  },
+  {
+    "eva": "7200080",
+    "name": "Beograd Centar"
+  },
+  {
+    "eva": "8011102",
+    "name": "Berlin Gesundbrunnen"
+  },
+  {
+    "eva": "8098160",
+    "name": "Berlin Hbf (tief) "
+  },
+  {
+    "eva": "8010255",
+    "name": "Berlin Ostbahnhof"
+  },
+  {
+    "eva": "8011113",
+    "name": "Berlin Südkreuz"
+  },
+  {
+    "eva": "8010405",
+    "name": "Berlin Wannsee"
+  },
+  {
+    "eva": "8010406",
+    "name": "Berlin Zoologischer Garten"
+  },
+  {
+    "eva": "8010403",
+    "name": "Berlin-Charlottenburg"
+  },
+  {
+    "eva": "8010036",
+    "name": "Berlin-Lichtenberg"
+  },
+  {
+    "eva": "5400489",
+    "name": "Blansko"
+  },
+  {
+    "eva": "5400038",
+    "name": "Bohumin"
+  },
+  {
+    "eva": "8300084",
+    "name": "Bolzano/Bozen"
+  },
+  {
+    "eva": "8001083",
+    "name": "Bonn-Beuel"
+  },
+  {
+    "eva": "5600207",
+    "name": "Bratislava hl. st. "
+  },
+  {
+    "eva": "8300048",
+    "name": "Brescia"
+  },
+  {
+    "eva": "8300076",
+    "name": "Bressanone/Brixen"
+  },
+  {
+    "eva": "5438015",
+    "name": "Brno dolni nadrazi"
+  },
+  {
+    "eva": "8500309",
+    "name": "Brugg AG"
+  },
+  {
+    "eva": "8800004",
+    "name": "Bruxelles Midi"
+  },
+  {
+    "eva": "8800002",
+    "name": "Bruxelles-Nord"
+  },
+  {
+    "eva": "8000057",
+    "name": "Buchloe"
+  },
+  {
+    "eva": "8300192",
+    "name": "Cattolica-SG Gabicce"
+  },
+  {
+    "eva": "8300193",
+    "name": "Cesena"
+  },
+  {
+    "eva": "5400002",
+    "name": "Ceska Trebova"
+  },
+  {
+    "eva": "5100708",
+    "name": "Chalupki"
+  },
+  {
+    "eva": "8300148",
+    "name": "Chiusi-Chianciano Terme"
+  },
+  {
+    "eva": "8300106",
+    "name": "Desenzano del Garda/Sirmione"
+  },
+  {
+    "eva": "5600193",
+    "name": "Devinska Nova Ves"
+  },
+  {
+    "eva": "7900009",
+    "name": "Divaca"
+  },
+  {
+    "eva": "5100100",
+    "name": "Dzialdowo"
+  },
+  {
+    "eva": "8070003",
+    "name": "Frankfurt (M) Flughafen Fernbf"
+  },
+  {
+    "eva": "8070004",
+    "name": "Frankfurt (M) Flughafen Regionalbf"
+  },
+  {
+    "eva": "8002041",
+    "name": "Frankfurt (Main) Süd"
+  },
+  {
+    "eva": "8000112",
+    "name": "Friedrichshafen Stadt"
+  },
+  {
+    "eva": "5100010",
+    "name": "Gdynia Glowna"
+  },
+  {
+    "eva": "8300153",
+    "name": "Genova Piazza Principe"
+  },
+  {
+    "eva": "8000128",
+    "name": "Göttingen"
+  },
+  {
+    "eva": "8002548",
+    "name": "Hamburg Dammtor"
+  },
+  {
+    "eva": "8002553",
+    "name": "Hamburg-Altona"
+  },
+  {
+    "eva": "8000147",
+    "name": "Hamburg-Harburg"
+  },
+  {
+    "eva": "5400056",
+    "name": "Hodonin"
+  },
+  {
+    "eva": "5400060",
+    "name": "Horni Dvoriste"
+  },
+  {
+    "eva": "5400063",
+    "name": "Hranice na Morave"
+  },
+  {
+    "eva": "7400006",
+    "name": "Hässleholm Central"
+  },
+  {
+    "eva": "7900029",
+    "name": "Ilirska Bistrica"
+  },
+  {
+    "eva": "8003200",
+    "name": "Kassel-Wilhelmshöhe"
+  },
+  {
+    "eva": "5100020",
+    "name": "Katowice"
+  },
+  {
+    "eva": "8601309",
+    "name": "Koebenhavn H"
+  },
+  {
+    "eva": "5400022",
+    "name": "Kolin (CZ) "
+  },
+  {
+    "eva": "5100028",
+    "name": "Krakow Glowny"
+  },
+  {
+    "eva": "5100240",
+    "name": "Krakow Plaszow"
+  },
+  {
+    "eva": "7900014",
+    "name": "Kranj"
+  },
+  {
+    "eva": "7900030",
+    "name": "Krsko"
+  },
+  {
+    "eva": "8300156",
+    "name": "La Spezia Centrale"
+  },
+  {
+    "eva": "7900002",
+    "name": "Lesce-Bled"
+  },
+  {
+    "eva": "7400008",
+    "name": "Linköping Central"
+  },
+  {
+    "eva": "8800012",
+    "name": "Liège-Guillemins"
+  },
+  {
+    "eva": "7900003",
+    "name": "Ljubljana"
+  },
+  {
+    "eva": "7900145",
+    "name": "Logatec"
+  },
+  {
+    "eva": "8000238",
+    "name": "Lüneburg"
+  },
+  {
+    "eva": "7400004",
+    "name": "Malmö Central"
+  },
+  {
+    "eva": "8000249",
+    "name": "Memmingen"
+  },
+  {
+    "eva": "8300046",
+    "name": "Milano Centrale"
+  },
+  {
+    "eva": "8300047",
+    "name": "Milano Porta Garibaldi"
+  },
+  {
+    "eva": "8004043",
+    "name": "Mittenwald"
+  },
+  {
+    "eva": "8098261",
+    "name": "München Hbf Gl. 27-36"
+  },
+  {
+    "eva": "8700018",
+    "name": "Nancy"
+  },
+  {
+    "eva": "8300239",
+    "name": "Napoli Centrale"
+  },
+  {
+    "eva": "7400007",
+    "name": "Norrköping Central"
+  },
+  {
+    "eva": "7400017",
+    "name": "Nässjö Central"
+  },
+  {
+    "eva": "8601770",
+    "name": "Odense st"
+  },
+  {
+    "eva": "8000290",
+    "name": "Offenburg"
+  },
+  {
+    "eva": "7800002",
+    "name": "Opatija Matulji"
+  },
+  {
+    "eva": "8300257",
+    "name": "Orvieto"
+  },
+  {
+    "eva": "5400026",
+    "name": "Ostrava hl. n. "
+  },
+  {
+    "eva": "5402286",
+    "name": "Ostrava-Svinov"
+  },
+  {
+    "eva": "5400159",
+    "name": "Otrokovice"
+  },
+  {
+    "eva": "8601899",
+    "name": "Padborg st"
+  },
+  {
+    "eva": "8300341",
+    "name": "Palermo Centrale"
+  },
+  {
+    "eva": "5400161",
+    "name": "Pardubice hl. n. "
+  },
+  {
+    "eva": "8300216",
+    "name": "Pesaro"
+  },
+  {
+    "eva": "8300124",
+    "name": "Peschiera del Garda"
+  },
+  {
+    "eva": "7900011",
+    "name": "Pivka"
+  },
+  {
+    "eva": "8000301",
+    "name": "Plattling"
+  },
+  {
+    "eva": "7900012",
+    "name": "Postojna"
+  },
+  {
+    "eva": "7900007",
+    "name": "Pragersko"
+  },
+  {
+    "eva": "5400201",
+    "name": "Praha-Holesovice"
+  },
+  {
+    "eva": "5400016",
+    "name": "Prerov"
+  },
+  {
+    "eva": "5100234",
+    "name": "Przemysl Gl. "
+  },
+  {
+    "eva": "8300225",
+    "name": "Riccione"
+  },
+  {
+    "eva": "7800013",
+    "name": "Rijeka"
+  },
+  {
+    "eva": "8300221",
+    "name": "Rimini"
+  },
+  {
+    "eva": "8300263",
+    "name": "Roma Termini"
+  },
+  {
+    "eva": "8300113",
+    "name": "Rovereto"
+  },
+  {
+    "eva": "5402728",
+    "name": "Rybnik (CZ) "
+  },
+  {
+    "eva": "7800067",
+    "name": "Sapjane"
+  },
+  {
+    "eva": "5400228",
+    "name": "Satov"
+  },
+  {
+    "eva": "7900022",
+    "name": "Sezana"
+  },
+  {
+    "eva": "8000073",
+    "name": "Singen (Hohentwiel) "
+  },
+  {
+    "eva": "7900048",
+    "name": "Skofja Loka"
+  },
+  {
+    "eva": "5100133",
+    "name": "Sosnowiec Glowny"
+  },
+  {
+    "eva": "8506302",
+    "name": "St. Gallen (CH) "
+  },
+  {
+    "eva": "5400089",
+    "name": "Stare Mesto u Uherského Hradiste"
+  },
+  {
+    "eva": "7400002",
+    "name": "Stockholm Central"
+  },
+  {
+    "eva": "8000095",
+    "name": "Straubing"
+  },
+  {
+    "eva": "5400097",
+    "name": "Svitavy"
+  },
+  {
+    "eva": "8300001",
+    "name": "Torino Porta Nuova"
+  },
+  {
+    "eva": "7900037",
+    "name": "Trbovlje"
+  },
+  {
+    "eva": "8300101",
+    "name": "Trento"
+  },
+  {
+    "eva": "8300107",
+    "name": "Trieste Centrale"
+  },
+  {
+    "eva": "5100072",
+    "name": "Trzebinia"
+  },
+  {
+    "eva": "5100260",
+    "name": "Tychy"
+  },
+  {
+    "eva": "8400621",
+    "name": "Utrecht Centraal"
+  },
+  {
+    "eva": "8300120",
+    "name": "Verona Porta Nuova"
+  },
+  {
+    "eva": "8300126",
+    "name": "Vicenza"
+  },
+  {
+    "eva": "8300392",
+    "name": "Villa Opicina"
+  },
+  {
+    "eva": "7800018",
+    "name": "Vinkovci"
+  },
+  {
+    "eva": "8300121",
+    "name": "Vipiteno-Val di Vizze/Sterzing-Pfitsch"
+  },
+  {
+    "eva": "8013236",
+    "name": "Warnemünde"
+  },
+  {
+    "eva": "5100065",
+    "name": "Warszawa Centralna"
+  },
+  {
+    "eva": "5100066",
+    "name": "Warszawa Wschodnia"
+  },
+  {
+    "eva": "8506000",
+    "name": "Winterthur"
+  },
+  {
+    "eva": "5100069",
+    "name": "Wroclaw Glowny"
+  },
+  {
+    "eva": "5100212",
+    "name": "Zawiercie"
+  },
+  {
+    "eva": "5100264",
+    "name": "Zebrzydowice"
+  },
+  {
+    "eva": "7900004",
+    "name": "Zidani Most"
+  },
+  {
+    "eva": "8503016",
+    "name": "Zürich Flughafen"
+  },
+  {
+    "eva": "8101433",
+    "name": "Wien Rennweg"
+  },
+  {
+    "eva": "8101641",
+    "name": "Wien Traisengasse"
+  },
+  {
+    "eva": "8101590",
+    "name": "Wien Hbf (Bahnsteige 1-2) "
+  },
+  {
+    "eva": "8100025",
+    "name": "Baden b. Wien"
+  },
+  {
+    "eva": "8101567",
+    "name": "Sollenau"
+  },
+  {
+    "eva": "8100634",
+    "name": "Wien Atzgersdorf"
+  },
+  {
+    "eva": "8100935",
+    "name": "Wien Hetzendorf"
+  },
+  {
+    "eva": "8101227",
+    "name": "Wien Matzleinsdorfer Platz (ÖBB) "
+  },
+  {
+    "eva": "8101588",
+    "name": "Wien Strebersdorf"
+  },
+  {
+    "eva": "8100796",
+    "name": "Wien Siemensstraße"
+  },
+  {
+    "eva": "8101165",
+    "name": "Leonding (Westbahn) "
+  },
+  {
+    "eva": "8101389",
+    "name": "Pasching b. Linz"
+  },
+  {
+    "eva": "8101191",
+    "name": "Langenzersdorf"
+  },
+  {
+    "eva": "8101278",
+    "name": "Neukirchen b. Lambach"
+  },
+  {
+    "eva": "8101346",
+    "name": "Perchtoldsdorf"
+  },
+  {
+    "eva": "8100691",
+    "name": "Wien Brünner Straße"
+  },
+  {
+    "eva": "8100689",
+    "name": "Bisamberg"
+  },
+  {
+    "eva": "8101124",
+    "name": "Leobendorf-Burg Kreuzenstein"
+  },
+  {
+    "eva": "8101578",
+    "name": "Spillern"
+  },
+  {
+    "eva": "8100766",
+    "name": "Ebensee Landungsplatz"
+  },
+  {
+    "eva": "8101361",
+    "name": "Pinsdorf"
+  },
+  {
+    "eva": "8101736",
+    "name": "Wankham b. Attnang"
+  },
+  {
+    "eva": "8100962",
+    "name": "Höbersdorf"
+  },
+  {
+    "eva": "8100846",
+    "name": "Guntramsdorf Thallern"
+  },
+  {
+    "eva": "8101033",
+    "name": "Kottingbrunn"
+  },
+  {
+    "eva": "8101664",
+    "name": "Theresienfeld"
+  },
+  {
+    "eva": "8100477",
+    "name": "Rum b. Innsbruck"
+  },
+  {
+    "eva": "8100473",
+    "name": "Bregenz Riedenburg"
+  },
+  {
+    "eva": "8101791",
+    "name": "Wr. Neustadt Nord"
+  },
+  {
+    "eva": "8101390",
+    "name": "Pottschach"
+  },
+  {
+    "eva": "8100587",
+    "name": "Schlöglmühl"
+  },
+  {
+    "eva": "8101317",
+    "name": "Obersdorf NÖ"
+  },
+  {
+    "eva": "8101498",
+    "name": "Seyring"
+  },
+  {
+    "eva": "8101534",
+    "name": "Steinkogel"
+  },
+  {
+    "eva": "8100926",
+    "name": "Hallstatt"
+  },
+  {
+    "eva": "8101871",
+    "name": "Mannswörth"
+  },
+  {
+    "eva": "8100374",
+    "name": "Wien Kaiserebersdorf"
+  },
+  {
+    "eva": "8100672",
+    "name": "Bad Mitterndorf-Heilbrunn"
+  },
+  {
+    "eva": "8103490",
+    "name": "Graz Don Bosco"
+  },
+  {
+    "eva": "8100710",
+    "name": "Breitenwaida"
+  },
+  {
+    "eva": "8101315",
+    "name": "Oberolberndorf"
+  },
+  {
+    "eva": "8101548",
+    "name": "Schönborn-Mallebarn"
+  },
+  {
+    "eva": "8101022",
+    "name": "Wien Kahlenbergerdorf (Tarifpunkt) "
+  },
+  {
+    "eva": "8101367",
+    "name": "Platt b. Zellerndorf"
+  },
+  {
+    "eva": "8100582",
+    "name": "Pürgg"
+  },
+  {
+    "eva": "8100990",
+    "name": "Hausleiten b. Stockerau"
+  },
+  {
+    "eva": "8101223",
+    "name": "Lambach Markt"
+  },
+  {
+    "eva": "8101020",
+    "name": "Kapellerfeld"
+  },
+  {
+    "eva": "8103644",
+    "name": "Klagenfurt West"
+  },
+  {
+    "eva": "8101322",
+    "name": "Obersee OÖ"
+  },
+  {
+    "eva": "8101595",
+    "name": "Strasshof/Nordbahn"
+  },
+  {
+    "eva": "8101120",
+    "name": "Lauffen b. Bad Ischl"
+  },
+  {
+    "eva": "8100382",
+    "name": "Villach Warmbad"
+  },
+  {
+    "eva": "8101504",
+    "name": "St. Georgen ob Judenburg"
+  },
+  {
+    "eva": "8101038",
+    "name": "Kematen in Tirol"
+  },
+  {
+    "eva": "8101093",
+    "name": "Klagenfurt Lend"
+  },
+  {
+    "eva": "8100515",
+    "name": "Parndorf Ort"
+  },
+  {
+    "eva": "8100457",
+    "name": "Bernhardsthal"
+  },
+  {
+    "eva": "8100828",
+    "name": "Gedersdorf"
+  },
+  {
+    "eva": "8101032",
+    "name": "Kapfenberg Fachhochschule"
+  },
+  {
+    "eva": "8101079",
+    "name": "Kastenreith"
+  },
+  {
+    "eva": "8101111",
+    "name": "Ladendorf"
+  },
+  {
+    "eva": "8100302",
+    "name": "Lauterach in Vlbg"
+  },
+  {
+    "eva": "8101157",
+    "name": "Lind-Rosegg"
+  },
+  {
+    "eva": "8101917",
+    "name": "Salzburg Süd"
+  },
+  {
+    "eva": "8101496",
+    "name": "Villach Seebach"
+  },
+  {
+    "eva": "8100366",
+    "name": "Brixen im Thale"
+  },
+  {
+    "eva": "8100795",
+    "name": "Flaurling"
+  },
+  {
+    "eva": "8100986",
+    "name": "Hatting in Tirol"
+  },
+  {
+    "eva": "8100939",
+    "name": "Hopfgarten im Brixental Berglift"
+  },
+  {
+    "eva": "8101007",
+    "name": "Inzing in Tirol"
+  },
+  {
+    "eva": "8100005",
+    "name": "Melk"
+  },
+  {
+    "eva": "8102053",
+    "name": "Oberhofen im Inntal"
+  },
+  {
+    "eva": "8100524",
+    "name": "Pill-Vomperbach"
+  },
+  {
+    "eva": "8101395",
+    "name": "Pritschitz"
+  },
+  {
+    "eva": "8101634",
+    "name": "Schwarzach in Vlbg"
+  },
+  {
+    "eva": "8101600",
+    "name": "Staatz"
+  },
+  {
+    "eva": "8100310",
+    "name": "Stans b. Schwaz"
+  },
+  {
+    "eva": "8100323",
+    "name": "Terfens-Weer"
+  },
+  {
+    "eva": "8101676",
+    "name": "Töschling"
+  },
+  {
+    "eva": "8100337",
+    "name": "Volders-Baumkirchen"
+  },
+  {
+    "eva": "8100058",
+    "name": "Westendorf in Tirol"
+  },
+  {
+    "eva": "8103487",
+    "name": "Graz Liebenau Murpark"
+  },
+  {
+    "eva": "8100956",
+    "name": "Haiming in Tirol"
+  },
+  {
+    "eva": "8101090",
+    "name": "Klagenfurt Annabichl"
+  },
+  {
+    "eva": "8101127",
+    "name": "Linz/Donau Ebelsberg"
+  },
+  {
+    "eva": "8101237",
+    "name": "Mötz"
+  },
+  {
+    "eva": "8101416",
+    "name": "Rabensburg"
+  },
+  {
+    "eva": "8100483",
+    "name": "Schaftenau"
+  },
+  {
+    "eva": "8100728",
+    "name": "Dornbirn Schoren"
+  },
+  {
+    "eva": "8100823",
+    "name": "Gaisruck b. Stockerau"
+  },
+  {
+    "eva": "8100849",
+    "name": "Glandorf b. St. Veit"
+  },
+  {
+    "eva": "8101457",
+    "name": "Rietz in Tirol"
+  },
+  {
+    "eva": "8100981",
+    "name": "Haselstauden (Dornbirn) "
+  },
+  {
+    "eva": "8101044",
+    "name": "Kitzbühel Hahnenkamm"
+  },
+  {
+    "eva": "8101100",
+    "name": "Klaus in Vlbg"
+  },
+  {
+    "eva": "8101609",
+    "name": "Steyr Münichholz"
+  },
+  {
+    "eva": "8100759",
+    "name": "Ennsdorf"
+  },
+  {
+    "eva": "8100995",
+    "name": "Herzograd"
+  },
+  {
+    "eva": "8100300",
+    "name": "Langkampfen"
+  },
+  {
+    "eva": "8102007",
+    "name": "Mistelbach/Zaya Stadt"
+  },
+  {
+    "eva": "8101555",
+    "name": "Wien Geiselbergstraße"
+  },
+  {
+    "eva": "8101818",
+    "name": "Wien St. Marx"
+  },
+  {
+    "eva": "8101000",
+    "name": "Imsterberg"
+  },
+  {
+    "eva": "8100546",
+    "name": "Kuchl"
+  },
+  {
+    "eva": "8100051",
+    "name": "Leogang"
+  },
+  {
+    "eva": "8101146",
+    "name": "Leogang-Steinberge"
+  },
+  {
+    "eva": "8101272",
+    "name": "Niederkreuzstetten"
+  },
+  {
+    "eva": "8101342",
+    "name": "Purkersdorf b. Wien Sanatorium"
+  },
+  {
+    "eva": "8100591",
+    "name": "Silberwald"
+  },
+  {
+    "eva": "8100970",
+    "name": "Hörersdorf"
+  },
+  {
+    "eva": "8101065",
+    "name": "Kottingneusiedl"
+  },
+  {
+    "eva": "8101399",
+    "name": "Peterskirchen"
+  },
+  {
+    "eva": "8100186",
+    "name": "Pinggau Markt"
+  },
+  {
+    "eva": "8101404",
+    "name": "Purkersdorf b. Wien Zentrum"
+  },
+  {
+    "eva": "8101523",
+    "name": "Siebenhirten b. Mistelbach"
+  },
+  {
+    "eva": "8100309",
+    "name": "Stadt Rottenmann"
+  },
+  {
+    "eva": "8101500",
+    "name": "Stiefern"
+  },
+  {
+    "eva": "8101826",
+    "name": "Zöbing/Kamp"
+  },
+  {
+    "eva": "8100613",
+    "name": "Allerheiligen-Mürzhofen"
+  },
+  {
+    "eva": "8100630",
+    "name": "Altach"
+  },
+  {
+    "eva": "8100781",
+    "name": "Ferndorf in Ktn"
+  },
+  {
+    "eva": "8100859",
+    "name": "Gobelsburg"
+  },
+  {
+    "eva": "8100864",
+    "name": "Gopperding"
+  },
+  {
+    "eva": "8100959",
+    "name": "Hainburg/Donau Ungartor"
+  },
+  {
+    "eva": "8100921",
+    "name": "Hatlerdorf (Dornbirn) "
+  },
+  {
+    "eva": "8100984",
+    "name": "Hautzendorf NÖ"
+  },
+  {
+    "eva": "8100928",
+    "name": "Helmahof"
+  },
+  {
+    "eva": "8100594",
+    "name": "Köstendorf b. Salzburg Weng"
+  },
+  {
+    "eva": "8101190",
+    "name": "Langenwang/Mürz"
+  },
+  {
+    "eva": "8101289",
+    "name": "Nüziders"
+  },
+  {
+    "eva": "8101877",
+    "name": "Puch b. Villach"
+  },
+  {
+    "eva": "8100584",
+    "name": "Schlüßlberg"
+  },
+  {
+    "eva": "8101697",
+    "name": "Ulrichskirchen"
+  },
+  {
+    "eva": "8101783",
+    "name": "Weißenstein-Kellerberg"
+  },
+  {
+    "eva": "8101785",
+    "name": "Wendling b. Haag"
+  },
+  {
+    "eva": "8100791",
+    "name": "Feldkirch Amberg"
+  },
+  {
+    "eva": "8101012",
+    "name": "Jedenspeigen"
+  },
+  {
+    "eva": "8101358",
+    "name": "Linz/Donau Pichling"
+  },
+  {
+    "eva": "8100488",
+    "name": "Münster-Wiesing"
+  },
+  {
+    "eva": "8101293",
+    "name": "Neumarkt/Ybbs-Karlsbach"
+  },
+  {
+    "eva": "8101311",
+    "name": "Obertraun Koppenbrüllerhöhle"
+  },
+  {
+    "eva": "8101336",
+    "name": "Paasdorf"
+  },
+  {
+    "eva": "8101238",
+    "name": "Paternion Markt"
+  },
+  {
+    "eva": "8100465",
+    "name": "Rattenberg-Kramsach"
+  },
+  {
+    "eva": "8101543",
+    "name": "Schlins-Beschling"
+  },
+  {
+    "eva": "8101524",
+    "name": "Sierndorf/March"
+  },
+  {
+    "eva": "8101536",
+    "name": "Stillfried"
+  },
+  {
+    "eva": "8101644",
+    "name": "Tallesbrunn"
+  },
+  {
+    "eva": "8101674",
+    "name": "Traunkirchen Ort"
+  },
+  {
+    "eva": "8101748",
+    "name": "Weikendorf-Dörfles"
+  },
+  {
+    "eva": "8100139",
+    "name": "Altenmarkt im Pongau"
+  },
+  {
+    "eva": "8100982",
+    "name": "Haslau/Donau"
+  },
+  {
+    "eva": "8101083",
+    "name": "Krummnußbaum an der Westbahn"
+  },
+  {
+    "eva": "8101381",
+    "name": "Pressbaum"
+  },
+  {
+    "eva": "8101558",
+    "name": "Salzburg Kasern"
+  },
+  {
+    "eva": "8101585",
+    "name": "Sulz-Röthis"
+  },
+  {
+    "eva": "8101863",
+    "name": "Altenhof/Kamp"
+  },
+  {
+    "eva": "8100700",
+    "name": "Buchberg/Kamp"
+  },
+  {
+    "eva": "8100905",
+    "name": "Graz Wetzelsdorf"
+  },
+  {
+    "eva": "8102050",
+    "name": "Hart b. Graz"
+  },
+  {
+    "eva": "8100961",
+    "name": "Höflein/Donau"
+  },
+  {
+    "eva": "8101075",
+    "name": "Kappel am Krappfeld"
+  },
+  {
+    "eva": "8100460",
+    "name": "Klosterneuburg Kierling"
+  },
+  {
+    "eva": "8101325",
+    "name": "Obertrattnach-Markt Hofkirchen"
+  },
+  {
+    "eva": "8101393",
+    "name": "Passering"
+  },
+  {
+    "eva": "8100922",
+    "name": "Wien Hadersdorf"
+  },
+  {
+    "eva": "8101760",
+    "name": "Wien Weidlingau"
+  },
+  {
+    "eva": "8102057",
+    "name": "Wien Wolf in der Au"
+  },
+  {
+    "eva": "8100626",
+    "name": "Ansfelden"
+  },
+  {
+    "eva": "8100655",
+    "name": "Bad Fischau"
+  },
+  {
+    "eva": "8100774",
+    "name": "Eugendorf"
+  },
+  {
+    "eva": "8100830",
+    "name": "Geinberg"
+  },
+  {
+    "eva": "8100883",
+    "name": "Graz Webling"
+  },
+  {
+    "eva": "8100266",
+    "name": "Hainburg/Donau Personenbahnhof"
+  },
+  {
+    "eva": "8101011",
+    "name": "Judendorf-Straßengel"
+  },
+  {
+    "eva": "8101193",
+    "name": "Linz/Donau Oed"
+  },
+  {
+    "eva": "8100573",
+    "name": "Micheldorf-Hirt"
+  },
+  {
+    "eva": "8101308",
+    "name": "Oftering"
+  },
+  {
+    "eva": "8102016",
+    "name": "Perg Schulzentrum"
+  },
+  {
+    "eva": "8101450",
+    "name": "Roßleithen"
+  },
+  {
+    "eva": "8101505",
+    "name": "St. Georgen/Längsee"
+  },
+  {
+    "eva": "8100590",
+    "name": "Stübing"
+  },
+  {
+    "eva": "8101686",
+    "name": "Trattenbach/Enns"
+  },
+  {
+    "eva": "8101747",
+    "name": "Walding b. Linz"
+  },
+  {
+    "eva": "8101803",
+    "name": "Wallersee"
+  },
+  {
+    "eva": "8101787",
+    "name": "Wildungsmauer"
+  },
+  {
+    "eva": "8102017",
+    "name": "Wr. Neustadt Anemonensee"
+  },
+  {
+    "eva": "8100609",
+    "name": "Aisthofen"
+  },
+  {
+    "eva": "8100699",
+    "name": "Bludenz Brunnenfeld-Stallehr"
+  },
+  {
+    "eva": "8100667",
+    "name": "Bludenz-Moos"
+  },
+  {
+    "eva": "8100722",
+    "name": "Dechantskirchen"
+  },
+  {
+    "eva": "8100733",
+    "name": "Dürnbach/Enns"
+  },
+  {
+    "eva": "8100749",
+    "name": "Eichgraben-Altlengbach"
+  },
+  {
+    "eva": "8100257",
+    "name": "Greifenstein-Altenberg"
+  },
+  {
+    "eva": "8100890",
+    "name": "Großsierning"
+  },
+  {
+    "eva": "8100914",
+    "name": "Hagenau im Innkreis"
+  },
+  {
+    "eva": "8100282",
+    "name": "Kaltenbrunnen im Montafon"
+  },
+  {
+    "eva": "8101077",
+    "name": "Kreisbach"
+  },
+  {
+    "eva": "8101159",
+    "name": "Langenlebarn"
+  },
+  {
+    "eva": "8101161",
+    "name": "Laßnitzthal"
+  },
+  {
+    "eva": "8100807",
+    "name": "Linz/Donau Franckstraße"
+  },
+  {
+    "eva": "8101175",
+    "name": "Lorüns"
+  },
+  {
+    "eva": "8101203",
+    "name": "Markersdorf/Pielach"
+  },
+  {
+    "eva": "8101247",
+    "name": "Muckendorf-Wipfing"
+  },
+  {
+    "eva": "8101248",
+    "name": "Mühlheim/Inn"
+  },
+  {
+    "eva": "8101288",
+    "name": "Neuratting"
+  },
+  {
+    "eva": "8101283",
+    "name": "Nöstlbach-St. Marien"
+  },
+  {
+    "eva": "8101332",
+    "name": "Oberhofen-Zell am Moos"
+  },
+  {
+    "eva": "8101449",
+    "name": "Rosenau am Sonntagberg"
+  },
+  {
+    "eva": "8101510",
+    "name": "St. Georgen am Steinfelde"
+  },
+  {
+    "eva": "8101560",
+    "name": "St. Martin b. Traun"
+  },
+  {
+    "eva": "8101845",
+    "name": "St. Pölten Porschestraße"
+  },
+  {
+    "eva": "8100118",
+    "name": "Tschagguns"
+  },
+  {
+    "eva": "8101702",
+    "name": "Unterkritzendorf"
+  },
+  {
+    "eva": "8101713",
+    "name": "Untertullnerbach"
+  },
+  {
+    "eva": "8100380",
+    "name": "Vandans"
+  },
+  {
+    "eva": "8100756",
+    "name": "Wien Erzherzog-Karl-Straße"
+  },
+  {
+    "eva": "8100354",
+    "name": "Wienerbruck-Josefsberg"
+  },
+  {
+    "eva": "8101825",
+    "name": "Zeiselmauer-Königstetten"
+  },
+  {
+    "eva": "8100657",
+    "name": "Berg im Drautal"
+  },
+  {
+    "eva": "8100686",
+    "name": "Bruckberg im Pinzgau"
+  },
+  {
+    "eva": "8100713",
+    "name": "Böhlerwerk"
+  },
+  {
+    "eva": "8100727",
+    "name": "Dornach b. Grein"
+  },
+  {
+    "eva": "8100735",
+    "name": "Dürrwien"
+  },
+  {
+    "eva": "8100784",
+    "name": "Feuerwerksanstalt"
+  },
+  {
+    "eva": "8100836",
+    "name": "Greinsfurth"
+  },
+  {
+    "eva": "8100997",
+    "name": "Herzogenburg-Wielandsthal"
+  },
+  {
+    "eva": "8101005",
+    "name": "Irschen in Ktn"
+  },
+  {
+    "eva": "8101061",
+    "name": "Kammern im Liesingtal"
+  },
+  {
+    "eva": "8101081",
+    "name": "Kröllendorf"
+  },
+  {
+    "eva": "8101126",
+    "name": "Lendorf im Drautal"
+  },
+  {
+    "eva": "8102042",
+    "name": "Lienz in Osttirol Peggetz"
+  },
+  {
+    "eva": "8100050",
+    "name": "Maishofen-Saalbach"
+  },
+  {
+    "eva": "8101274",
+    "name": "Nikolsdorf"
+  },
+  {
+    "eva": "8101292",
+    "name": "Nußbach"
+  },
+  {
+    "eva": "8101377",
+    "name": "Pöndorf"
+  },
+  {
+    "eva": "8101241",
+    "name": "Sachsenburg Markt"
+  },
+  {
+    "eva": "8102052",
+    "name": "Salzburg Mülln-Altstadt"
+  },
+  {
+    "eva": "8102045",
+    "name": "Salzburg Taxham Europark"
+  },
+  {
+    "eva": "8101540",
+    "name": "Schlierbach/Krems"
+  },
+  {
+    "eva": "8101840",
+    "name": "Schüttdorf Kitzsteinhornstraße"
+  },
+  {
+    "eva": "8101573",
+    "name": "Sonntagberg NÖ"
+  },
+  {
+    "eva": "8100181",
+    "name": "St. Johann in der Haide"
+  },
+  {
+    "eva": "8101579",
+    "name": "St. Pantaleon NÖ"
+  },
+  {
+    "eva": "8100318",
+    "name": "Takern-St. Margarethen"
+  },
+  {
+    "eva": "8102888",
+    "name": "Wien Aspern Nord"
+  },
+  {
+    "eva": "8101553",
+    "name": "Wien Simmering"
+  },
+  {
+    "eva": "8104229",
+    "name": "Wien Stadlau"
+  },
+  {
+    "eva": "8100597",
+    "name": "Aich-Assach"
+  },
+  {
+    "eva": "8101550",
+    "name": "Dietmannsdorf im Sulmtal"
+  },
+  {
+    "eva": "8100716",
+    "name": "Dorf/Enns"
+  },
+  {
+    "eva": "8100234",
+    "name": "Erlaufklause"
+  },
+  {
+    "eva": "8100903",
+    "name": "Gussendorf"
+  },
+  {
+    "eva": "8100861",
+    "name": "Gödersdorf b. Villach"
+  },
+  {
+    "eva": "8100955",
+    "name": "Hollenegg"
+  },
+  {
+    "eva": "8101024",
+    "name": "Kamegg"
+  },
+  {
+    "eva": "8101045",
+    "name": "Kimpling"
+  },
+  {
+    "eva": "8101091",
+    "name": "Klagenfurt Ebenthal"
+  },
+  {
+    "eva": "8101063",
+    "name": "Kumpfmühl"
+  },
+  {
+    "eva": "8102009",
+    "name": "Lengau"
+  },
+  {
+    "eva": "8101218",
+    "name": "Miesenbach-Waidmannsfeld"
+  },
+  {
+    "eva": "8101219",
+    "name": "Mitterberghütten"
+  },
+  {
+    "eva": "8101273",
+    "name": "Niederöblarn"
+  },
+  {
+    "eva": "8101299",
+    "name": "Oberhart b. Steinhaus"
+  },
+  {
+    "eva": "8101386",
+    "name": "Pruggern"
+  },
+  {
+    "eva": "8101852",
+    "name": "Schauersberg"
+  },
+  {
+    "eva": "8101506",
+    "name": "St. Georgen/Mattig"
+  },
+  {
+    "eva": "8101582",
+    "name": "St. Peter im Sulmtal"
+  },
+  {
+    "eva": "8101870",
+    "name": "Stallegg"
+  },
+  {
+    "eva": "8101494",
+    "name": "Stein/Enns"
+  },
+  {
+    "eva": "8100333",
+    "name": "Uttendorf-Helpfau"
+  },
+  {
+    "eva": "8101775",
+    "name": "Wies in Stmk Markt"
+  },
+  {
+    "eva": "8101810",
+    "name": "Wulkaprodersdorf"
+  },
+  {
+    "eva": "8100425",
+    "name": "Wörschach Schwefelbad"
+  },
+  {
+    "eva": "8101819",
+    "name": "Zell/Pram"
+  },
+  {
+    "eva": "8101861",
+    "name": "Zellermoos"
+  },
+  {
+    "eva": "8101955",
+    "name": "Achleitnersiedlung"
+  },
+  {
+    "eva": "8100213",
+    "name": "Annenheim"
+  },
+  {
+    "eva": "8100734",
+    "name": "Dürnberg b. Ottensheim"
+  },
+  {
+    "eva": "8100773",
+    "name": "Eisenstadt Schule"
+  },
+  {
+    "eva": "8100244",
+    "name": "Furth-Göttweig"
+  },
+  {
+    "eva": "8100154",
+    "name": "Gaflenz"
+  },
+  {
+    "eva": "8100332",
+    "name": "Gattendorf"
+  },
+  {
+    "eva": "8100878",
+    "name": "Gerling OÖ"
+  },
+  {
+    "eva": "8100892",
+    "name": "Gries im Pinzgau"
+  },
+  {
+    "eva": "8101918",
+    "name": "Kaindorf/Sulm"
+  },
+  {
+    "eva": "8101593",
+    "name": "Kitzbühel Schwarzsee"
+  },
+  {
+    "eva": "8101110",
+    "name": "Lacken im Mühlkreis"
+  },
+  {
+    "eva": "8100388",
+    "name": "Neudorf b. Parndorf"
+  },
+  {
+    "eva": "8101267",
+    "name": "Neuhaus/Gail"
+  },
+  {
+    "eva": "8101260",
+    "name": "Neukirchen-Gampern"
+  },
+  {
+    "eva": "8101323",
+    "name": "Oisnitz-St. Josef"
+  },
+  {
+    "eva": "8100543",
+    "name": "Pama"
+  },
+  {
+    "eva": "8101975",
+    "name": "Pernitz Raimundviertel"
+  },
+  {
+    "eva": "8101858",
+    "name": "Pernitz Wipfelhofstraße"
+  },
+  {
+    "eva": "8101402",
+    "name": "Puchenau"
+  },
+  {
+    "eva": "8101375",
+    "name": "Pöckau"
+  },
+  {
+    "eva": "8101439",
+    "name": "Rohrbach/Gölsen"
+  },
+  {
+    "eva": "8101453",
+    "name": "Rohrendorf b. Krems"
+  },
+  {
+    "eva": "8100506",
+    "name": "St. Urban/Ossiacher See"
+  },
+  {
+    "eva": "8101669",
+    "name": "Tiffen"
+  },
+  {
+    "eva": "8101635",
+    "name": "Waidhofen/Ybbs Stadt"
+  },
+  {
+    "eva": "8101797",
+    "name": "Wopfing"
+  },
+  {
+    "eva": "8100212",
+    "name": "Annaberg NÖ-Reith"
+  },
+  {
+    "eva": "8100637",
+    "name": "Atzenbrugg"
+  },
+  {
+    "eva": "8100663",
+    "name": "Bad Blumau"
+  },
+  {
+    "eva": "8101833",
+    "name": "Diensthubersiedlung"
+  },
+  {
+    "eva": "8100764",
+    "name": "Erlauf"
+  },
+  {
+    "eva": "8100788",
+    "name": "Finkenstein"
+  },
+  {
+    "eva": "8100814",
+    "name": "Furth b. Mattighofen"
+  },
+  {
+    "eva": "8100879",
+    "name": "Gerling im Pinzgau"
+  },
+  {
+    "eva": "8100258",
+    "name": "Gries am Brenner"
+  },
+  {
+    "eva": "8100268",
+    "name": "Hatzendorf"
+  },
+  {
+    "eva": "8100996",
+    "name": "Herzogenburg Stadt"
+  },
+  {
+    "eva": "8100953",
+    "name": "Hirschbach b. Gmünd"
+  },
+  {
+    "eva": "8101071",
+    "name": "Kothmühle"
+  },
+  {
+    "eva": "8100305",
+    "name": "Liebenfels"
+  },
+  {
+    "eva": "8101164",
+    "name": "Lödersdorf"
+  },
+  {
+    "eva": "8101205",
+    "name": "Mautbrücken"
+  },
+  {
+    "eva": "8101351",
+    "name": "Pfaffenschwendt"
+  },
+  {
+    "eva": "8101848",
+    "name": "Piesendorf Bad"
+  },
+  {
+    "eva": "8100525",
+    "name": "Pottendorf-Landegg"
+  },
+  {
+    "eva": "8102054",
+    "name": "Puch b. Hallein Urstein"
+  },
+  {
+    "eva": "8101405",
+    "name": "Pulgarn"
+  },
+  {
+    "eva": "8100559",
+    "name": "Salzburg Gnigl"
+  },
+  {
+    "eva": "8101529",
+    "name": "St. Jodok am Brenner"
+  },
+  {
+    "eva": "8101679",
+    "name": "Steinschal-Tradigist"
+  },
+  {
+    "eva": "8101652",
+    "name": "Tauchendorf-Haidensee"
+  },
+  {
+    "eva": "8100918",
+    "name": "Wien Hirschstetten"
+  },
+  {
+    "eva": "8101853",
+    "name": "Wien Speising"
+  },
+  {
+    "eva": "8101778",
+    "name": "Wiesmühle b. Sattledt"
+  },
+  {
+    "eva": "8101857",
+    "name": "Wilfling"
+  },
+  {
+    "eva": "8101694",
+    "name": "Übersbach b. Fürstenfeld"
+  },
+  {
+    "eva": "8100615",
+    "name": "Alling-Tobisegg"
+  },
+  {
+    "eva": "8100397",
+    "name": "Breitenbrunn/Neusiedler See"
+  },
+  {
+    "eva": "8100705",
+    "name": "Brunn/Pitten"
+  },
+  {
+    "eva": "8100219",
+    "name": "Donnerskirchen"
+  },
+  {
+    "eva": "8100763",
+    "name": "Ehrenhausen an der Weinstraße"
+  },
+  {
+    "eva": "8103174",
+    "name": "Feldkirchen-Seiersberg"
+  },
+  {
+    "eva": "8100601",
+    "name": "Flughafen Graz-Feldkirchen"
+  },
+  {
+    "eva": "8100831",
+    "name": "Gemeinlebarn"
+  },
+  {
+    "eva": "8100834",
+    "name": "Getzersdorf ob der Traisen"
+  },
+  {
+    "eva": "8100851",
+    "name": "Gleißenfeld"
+  },
+  {
+    "eva": "8100857",
+    "name": "Gniebing"
+  },
+  {
+    "eva": "8101014",
+    "name": "Johnsbach im Nationalpark"
+  },
+  {
+    "eva": "8100280",
+    "name": "Jois"
+  },
+  {
+    "eva": "8101106",
+    "name": "Kleinzell im Mühlkreis"
+  },
+  {
+    "eva": "8101605",
+    "name": "Lilienfeld Krankenhaus"
+  },
+  {
+    "eva": "8101197",
+    "name": "Maria Anzbach"
+  },
+  {
+    "eva": "8101974",
+    "name": "Markt Piesting Harzwerk"
+  },
+  {
+    "eva": "8100576",
+    "name": "Marktl/Traisen"
+  },
+  {
+    "eva": "8100417",
+    "name": "Mittewald/Drau"
+  },
+  {
+    "eva": "8100418",
+    "name": "Mittlern"
+  },
+  {
+    "eva": "8101280",
+    "name": "Neulengbach Stadt"
+  },
+  {
+    "eva": "8101287",
+    "name": "Niedernfritz-St. Martin"
+  },
+  {
+    "eva": "8101792",
+    "name": "Oberndorf in Tirol"
+  },
+  {
+    "eva": "8101347",
+    "name": "Petersbaumgarten"
+  },
+  {
+    "eva": "8101414",
+    "name": "Petzenkirchen"
+  },
+  {
+    "eva": "8101356",
+    "name": "Pichl b. Schladming"
+  },
+  {
+    "eva": "8101421",
+    "name": "Rainfeld-Kleinzell"
+  },
+  {
+    "eva": "8102048",
+    "name": "Salzburg Aiglhof"
+  },
+  {
+    "eva": "8101611",
+    "name": "Sautern-Schiltern"
+  },
+  {
+    "eva": "8101586",
+    "name": "Schrambach"
+  },
+  {
+    "eva": "8101617",
+    "name": "Schützen am Gebirge"
+  },
+  {
+    "eva": "8101587",
+    "name": "Sitzenberg-Reidling"
+  },
+  {
+    "eva": "8101502",
+    "name": "St. Georgen/Gusen Ort"
+  },
+  {
+    "eva": "8101471",
+    "name": "St. Michael ob Bleiburg"
+  },
+  {
+    "eva": "8101646",
+    "name": "Tassenbach"
+  },
+  {
+    "eva": "8101645",
+    "name": "Traisen NÖ Markt"
+  },
+  {
+    "eva": "8101651",
+    "name": "Trasdorf"
+  },
+  {
+    "eva": "8101764",
+    "name": "Wagram-Grafenegg"
+  },
+  {
+    "eva": "8101804",
+    "name": "Wiesenfeld-Schwarzenbach"
+  },
+  {
+    "eva": "8100357",
+    "name": "Winden am See"
+  },
+  {
+    "eva": "8102058",
+    "name": "Wöllersdorf/Piesting Marchgraben"
+  },
+  {
+    "eva": "8101571",
+    "name": "Wörgl Süd-Bruckhäusl"
+  },
+  {
+    "eva": "8100602",
+    "name": "Achenlohe"
+  },
+  {
+    "eva": "8100600",
+    "name": "Aschbach NÖ"
+  },
+  {
+    "eva": "8100668",
+    "name": "Bleiburg Stadt"
+  },
+  {
+    "eva": "8100706",
+    "name": "Brunn/Schneebergbahn"
+  },
+  {
+    "eva": "8100647",
+    "name": "Bärnbach b. Köflach"
+  },
+  {
+    "eva": "8100731",
+    "name": "Dreistetten"
+  },
+  {
+    "eva": "8100770",
+    "name": "Eschenau/Salzach"
+  },
+  {
+    "eva": "8100999",
+    "name": "Iglmühle"
+  },
+  {
+    "eva": "8101085",
+    "name": "Krenstetten-Biberbach"
+  },
+  {
+    "eva": "8100472",
+    "name": "Marz-Rohrbach"
+  },
+  {
+    "eva": "8101228",
+    "name": "Mauer-Öhling"
+  },
+  {
+    "eva": "8101319",
+    "name": "Oberradlberg"
+  },
+  {
+    "eva": "8100530",
+    "name": "Puchenstuben"
+  },
+  {
+    "eva": "8101467",
+    "name": "Sarasdorf"
+  },
+  {
+    "eva": "8101516",
+    "name": "Schlägl"
+  },
+  {
+    "eva": "8101530",
+    "name": "St. Johann-Weistrach"
+  },
+  {
+    "eva": "8101514",
+    "name": "Stadt Haag"
+  },
+  {
+    "eva": "8101468",
+    "name": "Säusenstein"
+  },
+  {
+    "eva": "8101658",
+    "name": "Teichstätt"
+  },
+  {
+    "eva": "8101653",
+    "name": "Trautmannsdorf/Leitha"
+  },
+  {
+    "eva": "8100331",
+    "name": "Untereggendorf"
+  },
+  {
+    "eva": "8100395",
+    "name": "Wien Breitensee"
+  },
+  {
+    "eva": "8100249",
+    "name": "Wien Gersthof"
+  },
+  {
+    "eva": "8100297",
+    "name": "Wien Krottenbachstraße"
+  },
+  {
+    "eva": "8100441",
+    "name": "Wien Oberdöbling"
+  },
+  {
+    "eva": "8101771",
+    "name": "Wilfleinsdorf"
+  },
+  {
+    "eva": "8101776",
+    "name": "Windau im Brixental"
+  },
+  {
+    "eva": "8100358",
+    "name": "Winterbach NÖ"
+  },
+  {
+    "eva": "8101383",
+    "name": "Wolfsberg in Ktn Reding"
+  },
+  {
+    "eva": "8101789",
+    "name": "Wr. Neustadt Civitas Nova"
+  },
+  {
+    "eva": "8100681",
+    "name": "Bergern am Hausruck"
+  },
+  {
+    "eva": "8100652",
+    "name": "Berndorf/Triesting Stadt"
+  },
+  {
+    "eva": "8100682",
+    "name": "Breiteneich b. Horn"
+  },
+  {
+    "eva": "8100772",
+    "name": "Elsbethen"
+  },
+  {
+    "eva": "8100745",
+    "name": "Emmersdorf im Gailtal"
+  },
+  {
+    "eva": "8100886",
+    "name": "Gosdorf"
+  },
+  {
+    "eva": "8100916",
+    "name": "Halbenrain"
+  },
+  {
+    "eva": "8101935",
+    "name": "Hart-Wörth"
+  },
+  {
+    "eva": "8100983",
+    "name": "Hirtenberg"
+  },
+  {
+    "eva": "8100276",
+    "name": "Holzleithen am Hausruck"
+  },
+  {
+    "eva": "8101097",
+    "name": "Küb"
+  },
+  {
+    "eva": "8101137",
+    "name": "Lebring"
+  },
+  {
+    "eva": "8101119",
+    "name": "Lehen-Altensam"
+  },
+  {
+    "eva": "8101135",
+    "name": "Lenzing OÖ Ort"
+  },
+  {
+    "eva": "8101148",
+    "name": "Lichendorf b. Mureck"
+  },
+  {
+    "eva": "8101841",
+    "name": "Mühling-Plaika"
+  },
+  {
+    "eva": "8101225",
+    "name": "Mühling/Erlauf"
+  },
+  {
+    "eva": "8102006",
+    "name": "Oberalm"
+  },
+  {
+    "eva": "8101295",
+    "name": "Oberbrunn im Innkreis"
+  },
+  {
+    "eva": "8101353",
+    "name": "Pfarrwerfen"
+  },
+  {
+    "eva": "8100529",
+    "name": "Pressegger See"
+  },
+  {
+    "eva": "8101406",
+    "name": "Puch b. Hallein"
+  },
+  {
+    "eva": "8101408",
+    "name": "Purkla"
+  },
+  {
+    "eva": "8100678",
+    "name": "Ried im Innkreis Bad"
+  },
+  {
+    "eva": "8101463",
+    "name": "Saffen"
+  },
+  {
+    "eva": "8101481",
+    "name": "Salzburg Parsch"
+  },
+  {
+    "eva": "8101480",
+    "name": "Schauboden"
+  },
+  {
+    "eva": "8101623",
+    "name": "St. Veit/Triesting"
+  },
+  {
+    "eva": "8101520",
+    "name": "Steinhaus am Semmering"
+  },
+  {
+    "eva": "8101851",
+    "name": "Sölling b. Purgstall"
+  },
+  {
+    "eva": "8101660",
+    "name": "Tenneck"
+  },
+  {
+    "eva": "8101706",
+    "name": "Unterradlberg"
+  },
+  {
+    "eva": "8101720",
+    "name": "Vellach-Khünburg"
+  },
+  {
+    "eva": "8100344",
+    "name": "Weigelsdorf NÖ"
+  },
+  {
+    "eva": "8101752",
+    "name": "Weitersfeld/Mur"
+  },
+  {
+    "eva": "8101794",
+    "name": "Wolfshütte"
+  },
+  {
+    "eva": "8100635",
+    "name": "Altenstadt (Feldkirch) "
+  },
+  {
+    "eva": "8101718",
+    "name": "Bad Vigaun"
+  },
+  {
+    "eva": "8100651",
+    "name": "Boding"
+  },
+  {
+    "eva": "8100693",
+    "name": "Breitensee b. Marchegg"
+  },
+  {
+    "eva": "8100220",
+    "name": "Draßburg"
+  },
+  {
+    "eva": "8101898",
+    "name": "Forst FL, Hilti"
+  },
+  {
+    "eva": "8100852",
+    "name": "Glinzendorf"
+  },
+  {
+    "eva": "8100877",
+    "name": "Granitztal"
+  },
+  {
+    "eva": "8100907",
+    "name": "Grieswirt"
+  },
+  {
+    "eva": "8100847",
+    "name": "Grünbach am Schneeberg Kohlenwerk"
+  },
+  {
+    "eva": "8101837",
+    "name": "Grünbach am Schneeberg Schule/Kolonie Bf"
+  },
+  {
+    "eva": "8100372",
+    "name": "Guntramsdorf Kaiserau"
+  },
+  {
+    "eva": "8102049",
+    "name": "Hallein Burgfried"
+  },
+  {
+    "eva": "8100548",
+    "name": "Innsbruck Allerheiligenhöfe"
+  },
+  {
+    "eva": "8102010",
+    "name": "Jesdorf-Bergfried"
+  },
+  {
+    "eva": "8101041",
+    "name": "Kammerhof b. Grünau"
+  },
+  {
+    "eva": "8101029",
+    "name": "Katsdorf"
+  },
+  {
+    "eva": "8100284",
+    "name": "Katzelsdorf/Leitha"
+  },
+  {
+    "eva": "8100551",
+    "name": "Kranebitten"
+  },
+  {
+    "eva": "8102047",
+    "name": "Kuchl Garnei"
+  },
+  {
+    "eva": "8100554",
+    "name": "Leithen b. Seefeld"
+  },
+  {
+    "eva": "8101166",
+    "name": "Loich"
+  },
+  {
+    "eva": "8101198",
+    "name": "Mainburg b. Grünau"
+  },
+  {
+    "eva": "8102015",
+    "name": "Mattersburg Nord"
+  },
+  {
+    "eva": "8101229",
+    "name": "Möllersdorf Aspangbahn"
+  },
+  {
+    "eva": "8101324",
+    "name": "Oberthalheim-Timelkam"
+  },
+  {
+    "eva": "8101328",
+    "name": "Oberwaltersdorf"
+  },
+  {
+    "eva": "8101306",
+    "name": "Oepping"
+  },
+  {
+    "eva": "8101312",
+    "name": "Ollersbach"
+  },
+  {
+    "eva": "8101337",
+    "name": "Patsch"
+  },
+  {
+    "eva": "8101349",
+    "name": "Pfennigbach b. Puchberg"
+  },
+  {
+    "eva": "8101973",
+    "name": "Rothengrub"
+  },
+  {
+    "eva": "8100482",
+    "name": "Schaan-Vaduz"
+  },
+  {
+    "eva": "8101475",
+    "name": "Schwerbach/Pielach"
+  },
+  {
+    "eva": "8101478",
+    "name": "Siebenmühlen-Rosenau"
+  },
+  {
+    "eva": "8101533",
+    "name": "Steinklamm"
+  },
+  {
+    "eva": "8101656",
+    "name": "Teesdorf"
+  },
+  {
+    "eva": "8101682",
+    "name": "Trumau"
+  },
+  {
+    "eva": "8101712",
+    "name": "Unterberg-Stefansbrücke"
+  },
+  {
+    "eva": "8101696",
+    "name": "Unterhöflein"
+  },
+  {
+    "eva": "8101711",
+    "name": "Urschendorf am Steinfeld"
+  },
+  {
+    "eva": "8101738",
+    "name": "Walchen im Pinzgau"
+  },
+  {
+    "eva": "8100585",
+    "name": "Wartberg ob der Aist Schloss Haus"
+  },
+  {
+    "eva": "8101908",
+    "name": "Weinburg/Pielach"
+  },
+  {
+    "eva": "8100920",
+    "name": "Wien Haidestraße"
+  },
+  {
+    "eva": "8101539",
+    "name": "Wien Praterkai"
+  },
+  {
+    "eva": "8100356",
+    "name": "Wiesen-Sigleß"
+  },
+  {
+    "eva": "8101795",
+    "name": "Wolfsbergkogel"
+  },
+  {
+    "eva": "8100611",
+    "name": "Aich im Jauntal"
+  },
+  {
+    "eva": "8100732",
+    "name": "Dietrichshofen"
+  },
+  {
+    "eva": "8100817",
+    "name": "Gaisfeld"
+  },
+  {
+    "eva": "8100842",
+    "name": "Gisingen (Feldkirch) "
+  },
+  {
+    "eva": "8102019",
+    "name": "Graz Stadion Liebenau"
+  },
+  {
+    "eva": "8100267",
+    "name": "Hard-Fußach"
+  },
+  {
+    "eva": "8100948",
+    "name": "Hart im Innkreis"
+  },
+  {
+    "eva": "8100937",
+    "name": "Hofstatt/Anzbach"
+  },
+  {
+    "eva": "8101087",
+    "name": "Krems in Stmk"
+  },
+  {
+    "eva": "8101070",
+    "name": "Köppling"
+  },
+  {
+    "eva": "8101178",
+    "name": "Lasberg-St. Oswald"
+  },
+  {
+    "eva": "8100087",
+    "name": "Mühldorf-Möllbrücke"
+  },
+  {
+    "eva": "8101158",
+    "name": "Schadendorf b. Lieboch"
+  },
+  {
+    "eva": "8100315",
+    "name": "Suben"
+  },
+  {
+    "eva": "8101704",
+    "name": "Unteroberndorf"
+  },
+  {
+    "eva": "8101701",
+    "name": "Untersiebenbrunn"
+  },
+  {
+    "eva": "8101947",
+    "name": "Wien Handelskai (Bahnsteige 11-12) "
+  },
+  {
+    "eva": "8101784",
+    "name": "Arnbach b. Sillian Weitlanbrunn"
+  },
+  {
+    "eva": "8101909",
+    "name": "Burk"
+  },
+  {
+    "eva": "8100549",
+    "name": "Gießenbach in Tirol"
+  },
+  {
+    "eva": "8100910",
+    "name": "Habachtal-Weyerhof"
+  },
+  {
+    "eva": "8100924",
+    "name": "Heilbad Burgwies"
+  },
+  {
+    "eva": "8167958",
+    "name": "Hollersbach im Pinzgau Panoramabahn"
+  },
+  {
+    "eva": "8101145",
+    "name": "Lengdorf im Pinzgau"
+  },
+  {
+    "eva": "8100421",
+    "name": "Mühlbach im Pinzgau"
+  },
+  {
+    "eva": "8102012",
+    "name": "Neukirchen am Großvenediger Vorstadl"
+  },
+  {
+    "eva": "8101397",
+    "name": "Pirtendorf"
+  },
+  {
+    "eva": "8101440",
+    "name": "Rosental im Pinzgau"
+  },
+  {
+    "eva": "8102063",
+    "name": "Salzburg Liefering"
+  },
+  {
+    "eva": "8101575",
+    "name": "St. Paul im Lavanttal Bad"
+  },
+  {
+    "eva": "8102011",
+    "name": "Steinach im Pinzgau"
+  },
+  {
+    "eva": "8101620",
+    "name": "Sulzbachtäler"
+  },
+  {
+    "eva": "8101685",
+    "name": "Tisis (Feldkirch) "
+  },
+  {
+    "eva": "8102056",
+    "name": "Unterretzbach"
+  },
+  {
+    "eva": "8101113",
+    "name": "Wald im Pinzgau Lahnsiedlung"
+  },
+  {
+    "eva": "8100595",
+    "name": "Wenns im Pinzgau"
+  },
+  {
+    "eva": "8100945",
+    "name": "Hohenbrugg/Raab"
+  },
+  {
+    "eva": "8101231",
+    "name": "Mogersdorf"
+  },
+  {
+    "eva": "8000041",
+    "name": "Bochum Hbf"
+  },
+  {
+    "eva": "8000259",
+    "name": "Mülheim (Ruhr) Hbf"
+  },
+  {
+    "eva": "8000176",
+    "name": "Homburg (Saar) Hbf"
+  },
+  {
+    "eva": "8000189",
+    "name": "Kaiserslautern Hbf"
+  },
+  {
+    "eva": "8000275",
+    "name": "Neustadt (Weinstr) Hbf"
+  },
+  {
+    "eva": "8000323",
+    "name": "Saarbrücken Hbf"
+  },
+  {
+    "eva": "8010101",
+    "name": "Erfurt Hbf"
+  },
+  {
+    "eva": "8000150",
+    "name": "Hanau Hbf"
+  },
+  {
+    "eva": "8000002",
+    "name": "Aalen Hbf"
+  },
+  {
+    "eva": "8000010",
+    "name": "Aschaffenburg Hbf"
+  },
+  {
+    "eva": "8000028",
+    "name": "Bayreuth Hbf"
+  },
+  {
+    "eva": "8000885",
+    "name": "Berchtesgaden Hbf"
+  },
+  {
+    "eva": "8000036",
+    "name": "Bielefeld Hbf"
+  },
+  {
+    "eva": "8010184",
+    "name": "Chemnitz Hbf"
+  },
+  {
+    "eva": "8010077",
+    "name": "Dessau Hbf"
+  },
+  {
+    "eva": "8000114",
+    "name": "Fürth (Bay) Hbf"
+  },
+  {
+    "eva": "8000118",
+    "name": "Gelsenkirchen Hbf"
+  },
+  {
+    "eva": "8000142",
+    "name": "Hagen Hbf"
+  },
+  {
+    "eva": "8000149",
+    "name": "Hamm (Westf) Hbf"
+  },
+  {
+    "eva": "8000157",
+    "name": "Heilbronn Hbf"
+  },
+  {
+    "eva": "8000169",
+    "name": "Hildesheim Hbf"
+  },
+  {
+    "eva": "8002924",
+    "name": "Hof (Saale) Hbf"
+  },
+  {
+    "eva": "8000183",
+    "name": "Ingolstadt Hbf"
+  },
+  {
+    "eva": "8000199",
+    "name": "Kiel Hbf"
+  },
+  {
+    "eva": "8000216",
+    "name": "Landau (Pfalz) Hbf"
+  },
+  {
+    "eva": "8000217",
+    "name": "Landshut (Bay) Hbf"
+  },
+  {
+    "eva": "8000236",
+    "name": "Ludwigshafen (Rh) Hbf"
+  },
+  {
+    "eva": "8000237",
+    "name": "Lübeck Hbf"
+  },
+  {
+    "eva": "8000263",
+    "name": "Münster (Westf) Hbf"
+  },
+  {
+    "eva": "8010240",
+    "name": "Naumburg (Saale) Hbf"
+  },
+  {
+    "eva": "8000274",
+    "name": "Neuss Hbf"
+  },
+  {
+    "eva": "8010250",
+    "name": "Neustrelitz Hbf"
+  },
+  {
+    "eva": "8000286",
+    "name": "Oberhausen (Rheinland) Hbf"
+  },
+  {
+    "eva": "8000294",
+    "name": "Osnabrück Hbf"
+  },
+  {
+    "eva": "8000297",
+    "name": "Paderborn Hbf"
+  },
+  {
+    "eva": "8000299",
+    "name": "Pforzheim Hbf"
+  },
+  {
+    "eva": "8000307",
+    "name": "Recklinghausen Hbf"
+  },
+  {
+    "eva": "8005247",
+    "name": "Saarlouis Hbf"
+  },
+  {
+    "eva": "8000046",
+    "name": "Siegen Hbf"
+  },
+  {
+    "eva": "8000087",
+    "name": "Solingen Hbf"
+  },
+  {
+    "eva": "8010338",
+    "name": "Stralsund Hbf"
+  },
+  {
+    "eva": "8000134",
+    "name": "Trier Hbf"
+  },
+  {
+    "eva": "8000192",
+    "name": "Wanne-Eickel Hbf"
+  },
+  {
+    "eva": "8000250",
+    "name": "Wiesbaden Hbf"
+  },
+  {
+    "eva": "8000266",
+    "name": "Wuppertal Hbf"
+  },
+  {
+    "eva": "8010397",
+    "name": "Zwickau (Sachs) Hbf"
+  },
+  {
+    "eva": "8002461",
+    "name": "Gütersloh Hbf"
+  },
+  {
+    "eva": "8105987",
+    "name": "Innsbruck Messe"
+  },
+  {
+    "eva": "8102105",
+    "name": "Hall in Tirol-Thaur"
+  },
+  {
+    "eva": "8102068",
+    "name": "Schalchen-Mattighofen"
+  },
+  {
+    "eva": "8105979",
+    "name": "Villach Landskron"
+  },
+  {
+    "eva": "8102149",
+    "name": "Ledenitzen"
+  },
+  {
+    "eva": "8100224",
+    "name": "Dürnstein-Oberloiben"
+  },
+  {
+    "eva": "8101989",
+    "name": "Krems/Donau Campus-Kunstmeile"
+  },
+  {
+    "eva": "8100307",
+    "name": "Spitz/Donau"
+  },
+  {
+    "eva": "8101549",
+    "name": "Stein-Mautern"
+  },
+  {
+    "eva": "8101808",
+    "name": "Weitra"
+  },
+  {
+    "eva": "8100345",
+    "name": "Weißenkirchen/Wachau"
+  },
+  {
+    "eva": "8100658",
+    "name": "Baumgartner"
+  },
+  {
+    "eva": "8100222",
+    "name": "Drosendorf NÖ"
+  },
+  {
+    "eva": "8100232",
+    "name": "Emmersdorf/Donau"
+  },
+  {
+    "eva": "8100839",
+    "name": "Großgerungs"
+  },
+  {
+    "eva": "8101941",
+    "name": "Hessendorf b. Geras Anglerparadies"
+  },
+  {
+    "eva": "8100968",
+    "name": "Hochschneeberg Bergbahnhof"
+  },
+  {
+    "eva": "8101144",
+    "name": "Langau b. Geras"
+  },
+  {
+    "eva": "8101176",
+    "name": "Langschlag b. Großgerungs"
+  },
+  {
+    "eva": "8101271",
+    "name": "Niederfladnitz"
+  },
+  {
+    "eva": "8101508",
+    "name": "Steinbach-Bad Großpertholz"
+  },
+  {
+    "eva": "8101763",
+    "name": "Weitersfeld im Waldviertel"
+  },
+  {
+    "eva": "8101823",
+    "name": "Zissersdorf b. Geras"
+  },
+  {
+    "eva": "8100115",
+    "name": "Reutte in Tirol"
+  },
+  {
+    "eva": "8102260",
+    "name": "Vils Stadt"
+  },
+  {
+    "eva": "8100114",
+    "name": "Bichlbach-Berwang"
+  },
+  {
+    "eva": "8100089",
+    "name": "Ehrwald Zugspitzbahn"
+  },
+  {
+    "eva": "8105481",
+    "name": "Lauterach in Vlbg Unterfeld"
+  },
+  {
+    "eva": "8100552",
+    "name": "Lermoos"
+  },
+  {
+    "eva": "8006053",
+    "name": "Vaihingen (Enz) "
+  },
+  {
+    "eva": "5500008",
+    "name": "Budapest Kelenföld"
+  },
+  {
+    "eva": "5500009",
+    "name": "Tatabanya"
+  },
+  {
+    "eva": "8303941",
+    "name": "Brunico Nord/Bruneck Nord"
+  },
+  {
+    "eva": "8300077",
+    "name": "Brunico/Bruneck"
+  },
+  {
+    "eva": "5500007",
+    "name": "Budapest-Déli"
+  },
+  {
+    "eva": "8300401",
+    "name": "Casteldarne/Ehrenburg"
+  },
+  {
+    "eva": "2200010",
+    "name": "Chop"
+  },
+  {
+    "eva": "8300104",
+    "name": "Dobbiaco/Toblach"
+  },
+  {
+    "eva": "2200005",
+    "name": "Kiev Pass"
+  },
+  {
+    "eva": "5500126",
+    "name": "Kisujszallas"
+  },
+  {
+    "eva": "5500063",
+    "name": "Kisvarda"
+  },
+  {
+    "eva": "2200025",
+    "name": "Lviv"
+  },
+  {
+    "eva": "8300421",
+    "name": "Monguelfo-Casies/Welsberg-Gsies"
+  },
+  {
+    "eva": "2200033",
+    "name": "Mukacheve"
+  },
+  {
+    "eva": "5500061",
+    "name": "Nyiregyhaza"
+  },
+  {
+    "eva": "8372315",
+    "name": "Perca-Plan de Corones/Percha-Kronplatz"
+  },
+  {
+    "eva": "8300428",
+    "name": "Rio di Pusteria/Mühlbach"
+  },
+  {
+    "eva": "8396239",
+    "name": "San Lorenzo di Sebato/St. Lorenzen im Pustertal"
+  },
+  {
+    "eva": "2200072",
+    "name": "Stryj"
+  },
+  {
+    "eva": "5500053",
+    "name": "Szolnok"
+  },
+  {
+    "eva": "5501381",
+    "name": "Törökszentmiklos"
+  },
+  {
+    "eva": "8300520",
+    "name": "Vandoies/Vintl"
+  },
+  {
+    "eva": "8300449",
+    "name": "Villabassa-Braies/Niederdorf-Prags"
+  },
+  {
+    "eva": "5500064",
+    "name": "Zahony"
+  },
+  {
+    "eva": "7900042",
+    "name": "Dobova (Gr) "
+  },
+  {
+    "eva": "5500460",
+    "name": "Ebes"
+  },
+  {
+    "eva": "5500498",
+    "name": "Fegyvernek-Örmenyes"
+  },
+  {
+    "eva": "8004158",
+    "name": "München-Pasing"
+  },
+  {
+    "eva": "8004807",
+    "name": "Pfronten-Steinach"
+  },
+  {
+    "eva": "8600004",
+    "name": "Aalborg st"
+  },
+  {
+    "eva": "8502113",
+    "name": "Aarau"
+  },
+  {
+    "eva": "8600087",
+    "name": "Aarhus"
+  },
+  {
+    "eva": "5500151",
+    "name": "Abda"
+  },
+  {
+    "eva": "8300297",
+    "name": "Acireale"
+  },
+  {
+    "eva": "8505201",
+    "name": "Airolo"
+  },
+  {
+    "eva": "5500060",
+    "name": "Ajka"
+  },
+  {
+    "eva": "8300350",
+    "name": "Ala"
+  },
+  {
+    "eva": "8300133",
+    "name": "Alassio"
+  },
+  {
+    "eva": "5300096",
+    "name": "Alba Iulia"
+  },
+  {
+    "eva": "8300132",
+    "name": "Albenga"
+  },
+  {
+    "eva": "8400050",
+    "name": "Alkmaar"
+  },
+  {
+    "eva": "8000004",
+    "name": "Altenbeken"
+  },
+  {
+    "eva": "8000561",
+    "name": "Altstädten (Allgäu) "
+  },
+  {
+    "eva": "8700045",
+    "name": "Amberieu"
+  },
+  {
+    "eva": "7800089",
+    "name": "Andrijevci"
+  },
+  {
+    "eva": "8010004",
+    "name": "Angermünde"
+  },
+  {
+    "eva": "8000009",
+    "name": "Ansbach"
+  },
+  {
+    "eva": "8700146",
+    "name": "Antibes"
+  },
+  {
+    "eva": "8800007",
+    "name": "Antwerpen Centraal"
+  },
+  {
+    "eva": "8000596",
+    "name": "Appenweier"
+  },
+  {
+    "eva": "5300002",
+    "name": "Arad"
+  },
+  {
+    "eva": "8509157",
+    "name": "Arosa"
+  },
+  {
+    "eva": "8505004",
+    "name": "Arth-Goldau"
+  },
+  {
+    "eva": "8300570",
+    "name": "Ascea"
+  },
+  {
+    "eva": "7300001",
+    "name": "Athens"
+  },
+  {
+    "eva": "8300301",
+    "name": "Augusta"
+  },
+  {
+    "eva": "8000014",
+    "name": "Aulendorf"
+  },
+  {
+    "eva": "8300242",
+    "name": "Aversa"
+  },
+  {
+    "eva": "8700172",
+    "name": "Avignon Centre"
+  },
+  {
+    "eva": "8000634",
+    "name": "Aßling (Oberbay) "
+  },
+  {
+    "eva": "8000690",
+    "name": "Bad Aibling"
+  },
+  {
+    "eva": "8002378",
+    "name": "Bad Grönenbach"
+  },
+  {
+    "eva": "8000019",
+    "name": "Bad Harzburg"
+  },
+  {
+    "eva": "8000716",
+    "name": "Bad Kohlgrub"
+  },
+  {
+    "eva": "8000737",
+    "name": "Bad Reichenhall"
+  },
+  {
+    "eva": "8000738",
+    "name": "Bad Reichenhall-Kirchberg"
+  },
+  {
+    "eva": "8010022",
+    "name": "Bad Schandau"
+  },
+  {
+    "eva": "8005255",
+    "name": "Bad Säckingen"
+  },
+  {
+    "eva": "8000763",
+    "name": "Bad Waldsee"
+  },
+  {
+    "eva": "8000768",
+    "name": "Bad Wörishofen"
+  },
+  {
+    "eva": "8000025",
+    "name": "Bamberg"
+  },
+  {
+    "eva": "7800010",
+    "name": "Banova Jaruga"
+  },
+  {
+    "eva": "5600179",
+    "name": "Banska Bystrica"
+  },
+  {
+    "eva": "8700262",
+    "name": "Bar-le-Duc"
+  },
+  {
+    "eva": "8300302",
+    "name": "Barcellona-Castroreale"
+  },
+  {
+    "eva": "8300273",
+    "name": "Barletta"
+  },
+  {
+    "eva": "8300397",
+    "name": "Battipaglia"
+  },
+  {
+    "eva": "8010026",
+    "name": "Bautzen"
+  },
+  {
+    "eva": "8000831",
+    "name": "Bayerisch Gmain"
+  },
+  {
+    "eva": "8000029",
+    "name": "Bebra"
+  },
+  {
+    "eva": "5500109",
+    "name": "Bekescsaba"
+  },
+  {
+    "eva": "8700024",
+    "name": "Belfort Ville"
+  },
+  {
+    "eva": "7800117",
+    "name": "Beli Manastir"
+  },
+  {
+    "eva": "8700068",
+    "name": "Bellegarde (Ain) "
+  },
+  {
+    "eva": "8505213",
+    "name": "Bellinzona"
+  },
+  {
+    "eva": "5400034",
+    "name": "Benesov u Prahy"
+  },
+  {
+    "eva": "8000888",
+    "name": "Bergen (Oberbay) "
+  },
+  {
+    "eva": "8010404",
+    "name": "Berlin-Spandau"
+  },
+  {
+    "eva": "8507000",
+    "name": "Bern"
+  },
+  {
+    "eva": "8000911",
+    "name": "Bernau a Chiemsee"
+  },
+  {
+    "eva": "8000943",
+    "name": "Biberach (Riß) "
+  },
+  {
+    "eva": "5500117",
+    "name": "Bicske"
+  },
+  {
+    "eva": "8504300",
+    "name": "Biel/Bienne"
+  },
+  {
+    "eva": "8000997",
+    "name": "Bischofswiesen"
+  },
+  {
+    "eva": "8010050",
+    "name": "Bitterfeld"
+  },
+  {
+    "eva": "7800062",
+    "name": "Bizovac"
+  },
+  {
+    "eva": "7889003",
+    "name": "Bjelovar"
+  },
+  {
+    "eva": "8001004",
+    "name": "Blaichach (Allgäu) "
+  },
+  {
+    "eva": "5300017",
+    "name": "Blaj"
+  },
+  {
+    "eva": "8001046",
+    "name": "Bodelsberg"
+  },
+  {
+    "eva": "8301251",
+    "name": "Bolzano Sud/Bozen Süd"
+  },
+  {
+    "eva": "8700047",
+    "name": "Bordeaux-St-Jean"
+  },
+  {
+    "eva": "8300136",
+    "name": "Bordighera"
+  },
+  {
+    "eva": "5400547",
+    "name": "Borovany"
+  },
+  {
+    "eva": "8001129",
+    "name": "Brannenburg"
+  },
+  {
+    "eva": "5300005",
+    "name": "Brasov"
+  },
+  {
+    "eva": "8501609",
+    "name": "Brig"
+  },
+  {
+    "eva": "8300281",
+    "name": "Brindisi"
+  },
+  {
+    "eva": "8301245",
+    "name": "Bronzolo/Branzoll"
+  },
+  {
+    "eva": "8001207",
+    "name": "Bruckmühl"
+  },
+  {
+    "eva": "8800029",
+    "name": "Brugge"
+  },
+  {
+    "eva": "8505007",
+    "name": "Brunnen (CH) "
+  },
+  {
+    "eva": "8800003",
+    "name": "Bruxelles-Central"
+  },
+  {
+    "eva": "5300007",
+    "name": "Bucuresti Nord Gara A"
+  },
+  {
+    "eva": "5500133",
+    "name": "Budapest-Ferencváros"
+  },
+  {
+    "eva": "5500728",
+    "name": "Budapest-Nyugati"
+  },
+  {
+    "eva": "7800021",
+    "name": "Buzet"
+  },
+  {
+    "eva": "7800075",
+    "name": "Buzet (Gr) "
+  },
+  {
+    "eva": "5500118",
+    "name": "Bük"
+  },
+  {
+    "eva": "7800053",
+    "name": "Cacinci"
+  },
+  {
+    "eva": "7800054",
+    "name": "Cakovec"
+  },
+  {
+    "eva": "7800082",
+    "name": "Cakovec (Gr) "
+  },
+  {
+    "eva": "8700386",
+    "name": "Calais Ville"
+  },
+  {
+    "eva": "8701132",
+    "name": "Calais-Fréthun"
+  },
+  {
+    "eva": "8300534",
+    "name": "Campo di Trens/Freienfeld"
+  },
+  {
+    "eva": "8700144",
+    "name": "Cannes"
+  },
+  {
+    "eva": "5300020",
+    "name": "Caracal"
+  },
+  {
+    "eva": "8300074",
+    "name": "Carnia"
+  },
+  {
+    "eva": "8300080",
+    "name": "Casarsa"
+  },
+  {
+    "eva": "8300315",
+    "name": "Catanzaro"
+  },
+  {
+    "eva": "5500052",
+    "name": "Cegled"
+  },
+  {
+    "eva": "5500026",
+    "name": "Celldömölk"
+  },
+  {
+    "eva": "8000064",
+    "name": "Celle"
+  },
+  {
+    "eva": "8700147",
+    "name": "Cerbère"
+  },
+  {
+    "eva": "8300095",
+    "name": "Cervignano-Aquileia-Grado"
+  },
+  {
+    "eva": "5400017",
+    "name": "Ceske Budejovice"
+  },
+  {
+    "eva": "8700091",
+    "name": "Chalon sur Saône"
+  },
+  {
+    "eva": "8700002",
+    "name": "Chalons en Champagne"
+  },
+  {
+    "eva": "8800024",
+    "name": "Charleroi Sud"
+  },
+  {
+    "eva": "8700261",
+    "name": "Chateau-Thierry"
+  },
+  {
+    "eva": "8700051",
+    "name": "Chaumont"
+  },
+  {
+    "eva": "5400004",
+    "name": "Cheb"
+  },
+  {
+    "eva": "8505307",
+    "name": "Chiasso"
+  },
+  {
+    "eva": "8300078",
+    "name": "Chiusa/Klausen"
+  },
+  {
+    "eva": "5400005",
+    "name": "Chomutov"
+  },
+  {
+    "eva": "8509000",
+    "name": "Chur"
+  },
+  {
+    "eva": "8300196",
+    "name": "Civitanova Marche-Montegranaro"
+  },
+  {
+    "eva": "5300027",
+    "name": "Cluj Napoca"
+  },
+  {
+    "eva": "8001338",
+    "name": "Coburg"
+  },
+  {
+    "eva": "8300091",
+    "name": "Colle Isarco/Gossensass"
+  },
+  {
+    "eva": "8700178",
+    "name": "Colmar"
+  },
+  {
+    "eva": "8300056",
+    "name": "Como S. Giovanni"
+  },
+  {
+    "eva": "5300008",
+    "name": "Constanta"
+  },
+  {
+    "eva": "5300030",
+    "name": "Craiova"
+  },
+  {
+    "eva": "5500030",
+    "name": "Csorna"
+  },
+  {
+    "eva": "8700008",
+    "name": "Culmont-Chalindrey"
+  },
+  {
+    "eva": "8700039",
+    "name": "Culoz"
+  },
+  {
+    "eva": "5300001",
+    "name": "Curtici"
+  },
+  {
+    "eva": "5100250",
+    "name": "Dabrowa Gornicza"
+  },
+  {
+    "eva": "8509073",
+    "name": "Davos Platz"
+  },
+  {
+    "eva": "5400003",
+    "name": "Decin hl. n. "
+  },
+  {
+    "eva": "7800023",
+    "name": "Delnice"
+  },
+  {
+    "eva": "8400282",
+    "name": "Den Haag Centraal"
+  },
+  {
+    "eva": "8400311",
+    "name": "Den Helder"
+  },
+  {
+    "eva": "8800050",
+    "name": "Denderleeuw"
+  },
+  {
+    "eva": "5300073",
+    "name": "Deva"
+  },
+  {
+    "eva": "8300149",
+    "name": "Diano Marina"
+  },
+  {
+    "eva": "8001454",
+    "name": "Dietmannsried"
+  },
+  {
+    "eva": "8700021",
+    "name": "Dijon Ville"
+  },
+  {
+    "eva": "7200003",
+    "name": "Dimitrovgrad (SRB) "
+  },
+  {
+    "eva": "8509179",
+    "name": "Disentis/Mustér"
+  },
+  {
+    "eva": "7800064",
+    "name": "Djurdjevac"
+  },
+  {
+    "eva": "7800105",
+    "name": "Djurmanec"
+  },
+  {
+    "eva": "5400196",
+    "name": "Domazlice"
+  },
+  {
+    "eva": "5500085",
+    "name": "Dombovar"
+  },
+  {
+    "eva": "8300578",
+    "name": "Domegliara-S. Ambrogio"
+  },
+  {
+    "eva": "8300057",
+    "name": "Domodossola"
+  },
+  {
+    "eva": "8000077",
+    "name": "Donaueschingen"
+  },
+  {
+    "eva": "8000078",
+    "name": "Donauwörth"
+  },
+  {
+    "eva": "8001499",
+    "name": "Dorfen"
+  },
+  {
+    "eva": "5200001",
+    "name": "Dragoman"
+  },
+  {
+    "eva": "7900054",
+    "name": "Dravograd"
+  },
+  {
+    "eva": "8010089",
+    "name": "Dresden-Neustadt"
+  },
+  {
+    "eva": "7800056",
+    "name": "Drnis"
+  },
+  {
+    "eva": "7800024",
+    "name": "Dugo Selo"
+  },
+  {
+    "eva": "5600939",
+    "name": "Dunajska Streda"
+  },
+  {
+    "eva": "8001614",
+    "name": "Durach"
+  },
+  {
+    "eva": "8000084",
+    "name": "Düren"
+  },
+  {
+    "eva": "8400200",
+    "name": "Ede-Wageningen"
+  },
+  {
+    "eva": "8301491",
+    "name": "Egna-Termeno/Neumarkt-Tramin"
+  },
+  {
+    "eva": "8400206",
+    "name": "Eindhoven Centraal"
+  },
+  {
+    "eva": "8010100",
+    "name": "Elsterwerda-Biehla"
+  },
+  {
+    "eva": "8001773",
+    "name": "Emmerich"
+  },
+  {
+    "eva": "8400212",
+    "name": "Enschede"
+  },
+  {
+    "eva": "8700053",
+    "name": "Epernay"
+  },
+  {
+    "eva": "8001844",
+    "name": "Erlangen"
+  },
+  {
+    "eva": "8505114",
+    "name": "Erstfeld"
+  },
+  {
+    "eva": "8001865",
+    "name": "Erzingen (Baden) "
+  },
+  {
+    "eva": "8001880",
+    "name": "Eschenlohe"
+  },
+  {
+    "eva": "8800009",
+    "name": "Essen (B) "
+  },
+  {
+    "eva": "8300199",
+    "name": "Faenza"
+  },
+  {
+    "eva": "5300036",
+    "name": "Fagaras"
+  },
+  {
+    "eva": "8300477",
+    "name": "Falconara Marittima"
+  },
+  {
+    "eva": "8300198",
+    "name": "Fano (I) "
+  },
+  {
+    "eva": "5500032",
+    "name": "Fertöszentmiklos"
+  },
+  {
+    "eva": "5600052",
+    "name": "Filakovo"
+  },
+  {
+    "eva": "8300144",
+    "name": "Finale Ligure Marina"
+  },
+  {
+    "eva": "8300180",
+    "name": "Firenze Campo di Marte"
+  },
+  {
+    "eva": "8300497",
+    "name": "Firenze Rifredi"
+  },
+  {
+    "eva": "8001995",
+    "name": "Fischen"
+  },
+  {
+    "eva": "8000103",
+    "name": "Flensburg"
+  },
+  {
+    "eva": "8002012",
+    "name": "Flintsbach am Inn"
+  },
+  {
+    "eva": "8010109",
+    "name": "Flughafen BER - Terminal 5 (Schönefeld) "
+  },
+  {
+    "eva": "8505112",
+    "name": "Flüelen"
+  },
+  {
+    "eva": "8300287",
+    "name": "Foggia"
+  },
+  {
+    "eva": "5500045",
+    "name": "Fonyod"
+  },
+  {
+    "eva": "8700271",
+    "name": "Forbach (F) "
+  },
+  {
+    "eva": "8300213",
+    "name": "Forli"
+  },
+  {
+    "eva": "8300254",
+    "name": "Formia-Gaeta"
+  },
+  {
+    "eva": "5400197",
+    "name": "Frantiskovy Lazne"
+  },
+  {
+    "eva": "8600623",
+    "name": "Fredericia st"
+  },
+  {
+    "eva": "8600629",
+    "name": "Frederikshavn st"
+  },
+  {
+    "eva": "8504100",
+    "name": "Fribourg/Freiburg"
+  },
+  {
+    "eva": "8002159",
+    "name": "Furth im Wald"
+  },
+  {
+    "eva": "7800045",
+    "name": "Fuzine"
+  },
+  {
+    "eva": "8002156",
+    "name": "Füssen"
+  },
+  {
+    "eva": "5600053",
+    "name": "Galanta"
+  },
+  {
+    "eva": "8002184",
+    "name": "Garching (Alz) "
+  },
+  {
+    "eva": "7800088",
+    "name": "Garcin"
+  },
+  {
+    "eva": "8300536",
+    "name": "Gargazzone/Gargazon"
+  },
+  {
+    "eva": "8002187",
+    "name": "Garmisch-Partenkirchen"
+  },
+  {
+    "eva": "8002188",
+    "name": "Garmisch-Partenkirchen Hausberg"
+  },
+  {
+    "eva": "8002218",
+    "name": "Geislingen (Steige) "
+  },
+  {
+    "eva": "8000119",
+    "name": "Geltendorf"
+  },
+  {
+    "eva": "8300090",
+    "name": "Gemona del Friuli"
+  },
+  {
+    "eva": "8000120",
+    "name": "Gemünden (Main) "
+  },
+  {
+    "eva": "8800031",
+    "name": "Gent St Pieters"
+  },
+  {
+    "eva": "8501008",
+    "name": "Genève (Cornavin) "
+  },
+  {
+    "eva": "8501026",
+    "name": "Genève-Aéroport"
+  },
+  {
+    "eva": "8300311",
+    "name": "Giarre-Riposto"
+  },
+  {
+    "eva": "8000124",
+    "name": "Gießen"
+  },
+  {
+    "eva": "8300344",
+    "name": "Gioia Tauro"
+  },
+  {
+    "eva": "8300202",
+    "name": "Giulianova"
+  },
+  {
+    "eva": "8300096",
+    "name": "Gorizia Centrale"
+  },
+  {
+    "eva": "7800025",
+    "name": "Gospic"
+  },
+  {
+    "eva": "8400258",
+    "name": "Gouda"
+  },
+  {
+    "eva": "7800026",
+    "name": "Gracac"
+  },
+  {
+    "eva": "8002347",
+    "name": "Grafing"
+  },
+  {
+    "eva": "8010139",
+    "name": "Greifswald"
+  },
+  {
+    "eva": "8017041",
+    "name": "Griesen (Oberbay) "
+  },
+  {
+    "eva": "8400263",
+    "name": "Groningen"
+  },
+  {
+    "eva": "8002424",
+    "name": "Großkarolinenfeld"
+  },
+  {
+    "eva": "5500095",
+    "name": "Gyekenyes"
+  },
+  {
+    "eva": "5500585",
+    "name": "Györ-Gyarvaros"
+  },
+  {
+    "eva": "5500588",
+    "name": "Györszentivan"
+  },
+  {
+    "eva": "8000127",
+    "name": "Göppingen"
+  },
+  {
+    "eva": "8010131",
+    "name": "Görlitz"
+  },
+  {
+    "eva": "8505119",
+    "name": "Göschenen"
+  },
+  {
+    "eva": "7400003",
+    "name": "Göteborg Central"
+  },
+  {
+    "eva": "8010154",
+    "name": "Güterglück"
+  },
+  {
+    "eva": "8003541",
+    "name": "Hamburg-Langenfelde"
+  },
+  {
+    "eva": "8002570",
+    "name": "Hammerau"
+  },
+  {
+    "eva": "5500011",
+    "name": "Hatvan"
+  },
+  {
+    "eva": "5400054",
+    "name": "Havlickuv Brod"
+  },
+  {
+    "eva": "8700076",
+    "name": "Hazebrouck"
+  },
+  {
+    "eva": "8600952",
+    "name": "Helsingoer st"
+  },
+  {
+    "eva": "8000387",
+    "name": "Hergatz"
+  },
+  {
+    "eva": "8506290",
+    "name": "Herisau"
+  },
+  {
+    "eva": "8601031",
+    "name": "Hoeje Taastrup st"
+  },
+  {
+    "eva": "7900055",
+    "name": "Holmec"
+  },
+  {
+    "eva": "8400332",
+    "name": "Hoofddorp"
+  },
+  {
+    "eva": "7800109",
+    "name": "Hromec"
+  },
+  {
+    "eva": "5600064",
+    "name": "Hronska Dubrava"
+  },
+  {
+    "eva": "7900039",
+    "name": "Hrpelje-Kozina"
+  },
+  {
+    "eva": "5401218",
+    "name": "Hrusovany nad Jevisovkou-Sanov"
+  },
+  {
+    "eva": "8003024",
+    "name": "Huglfing"
+  },
+  {
+    "eva": "8003065",
+    "name": "Immenstadt"
+  },
+  {
+    "eva": "8300154",
+    "name": "Imperia Oneglia"
+  },
+  {
+    "eva": "8507492",
+    "name": "Interlaken Ost"
+  },
+  {
+    "eva": "8300231",
+    "name": "Isola della Scala"
+  },
+  {
+    "eva": "7800032",
+    "name": "Ivanic Grad"
+  },
+  {
+    "eva": "7800091",
+    "name": "Ivankovo"
+  },
+  {
+    "eva": "8011956",
+    "name": "Jena Paradies"
+  },
+  {
+    "eva": "8011058",
+    "name": "Jena Saalbf"
+  },
+  {
+    "eva": "5600069",
+    "name": "Jesenske"
+  },
+  {
+    "eva": "5400070",
+    "name": "Jihlava"
+  },
+  {
+    "eva": "5401387",
+    "name": "Jilovice"
+  },
+  {
+    "eva": "7800027",
+    "name": "Kanfanar"
+  },
+  {
+    "eva": "7500062",
+    "name": "Kapikule"
+  },
+  {
+    "eva": "5400299",
+    "name": "Kaplice"
+  },
+  {
+    "eva": "5500031",
+    "name": "Kapuvar"
+  },
+  {
+    "eva": "7800048",
+    "name": "Karlovac"
+  },
+  {
+    "eva": "5400006",
+    "name": "Karlovy Vary horní n. "
+  },
+  {
+    "eva": "7800005",
+    "name": "Kastel Stari"
+  },
+  {
+    "eva": "8000194",
+    "name": "Kaufbeuren"
+  },
+  {
+    "eva": "8000195",
+    "name": "Kaufering"
+  },
+  {
+    "eva": "5500098",
+    "name": "Kecskemet"
+  },
+  {
+    "eva": "8003218",
+    "name": "Kehl"
+  },
+  {
+    "eva": "5500092",
+    "name": "Kelebia"
+  },
+  {
+    "eva": "5500078",
+    "name": "Keszthely"
+  },
+  {
+    "eva": "8003249",
+    "name": "Kiefersfelden"
+  },
+  {
+    "eva": "5500653",
+    "name": "Kimle-Karolyhaza"
+  },
+  {
+    "eva": "5500099",
+    "name": "Kiskunfelegyhaza"
+  },
+  {
+    "eva": "5500090",
+    "name": "Kiskunhalas"
+  },
+  {
+    "eva": "5500088",
+    "name": "Kiskörös"
+  },
+  {
+    "eva": "8000203",
+    "name": "Kißlegg"
+  },
+  {
+    "eva": "8003302",
+    "name": "Klais"
+  },
+  {
+    "eva": "8601318",
+    "name": "Kolding st"
+  },
+  {
+    "eva": "5600023",
+    "name": "Komarno"
+  },
+  {
+    "eva": "5500012",
+    "name": "Komarom"
+  },
+  {
+    "eva": "7900013",
+    "name": "Koper"
+  },
+  {
+    "eva": "7800007",
+    "name": "Koprivnica"
+  },
+  {
+    "eva": "7800074",
+    "name": "Koprivnica (Gr) "
+  },
+  {
+    "eva": "5600007",
+    "name": "Kosice"
+  },
+  {
+    "eva": "7800063",
+    "name": "Koska"
+  },
+  {
+    "eva": "5600077",
+    "name": "Kozarovce"
+  },
+  {
+    "eva": "5600078",
+    "name": "Kralovany"
+  },
+  {
+    "eva": "8506131",
+    "name": "Kreuzlingen"
+  },
+  {
+    "eva": "5601618",
+    "name": "Krivan"
+  },
+  {
+    "eva": "5400079",
+    "name": "Krizanov"
+  },
+  {
+    "eva": "7800028",
+    "name": "Krizevci"
+  },
+  {
+    "eva": "5500086",
+    "name": "Kunszentmiklos-Tass"
+  },
+  {
+    "eva": "5400080",
+    "name": "Kutna Hora hl. n. "
+  },
+  {
+    "eva": "5600081",
+    "name": "Kuty"
+  },
+  {
+    "eva": "5600135",
+    "name": "Kysak"
+  },
+  {
+    "eva": "5500005",
+    "name": "Köbanya-Kispest"
+  },
+  {
+    "eva": "8089322",
+    "name": "Köln Hbf (Breslauer Platz) "
+  },
+  {
+    "eva": "5500127",
+    "name": "Körmend"
+  },
+  {
+    "eva": "5500734",
+    "name": "Köszeg"
+  },
+  {
+    "eva": "8301615",
+    "name": "Laives/Leifers"
+  },
+  {
+    "eva": "8300328",
+    "name": "Lamezia Terme Centrale"
+  },
+  {
+    "eva": "8003503",
+    "name": "Lampertheim"
+  },
+  {
+    "eva": "8300122",
+    "name": "Lana-Postal/Lana-Burgstall"
+  },
+  {
+    "eva": "8509002",
+    "name": "Landquart"
+  },
+  {
+    "eva": "8003515",
+    "name": "Landstuhl"
+  },
+  {
+    "eva": "8003551",
+    "name": "Langenwang (Schwab) "
+  },
+  {
+    "eva": "7300006",
+    "name": "Larissa"
+  },
+  {
+    "eva": "8331186",
+    "name": "Lasa/Laas"
+  },
+  {
+    "eva": "8300258",
+    "name": "Latina"
+  },
+  {
+    "eva": "8300100",
+    "name": "Latisana-Lignano-Bibione"
+  },
+  {
+    "eva": "8000221",
+    "name": "Lauda"
+  },
+  {
+    "eva": "8003584",
+    "name": "Laufen (Oberbay) "
+  },
+  {
+    "eva": "8501120",
+    "name": "Lausanne"
+  },
+  {
+    "eva": "8301617",
+    "name": "Lavis"
+  },
+  {
+    "eva": "8300272",
+    "name": "Lecce"
+  },
+  {
+    "eva": "8300313",
+    "name": "Lentini"
+  },
+  {
+    "eva": "8502119",
+    "name": "Lenzburg"
+  },
+  {
+    "eva": "5600082",
+    "name": "Leopoldov"
+  },
+  {
+    "eva": "8000336",
+    "name": "Leutkirch"
+  },
+  {
+    "eva": "8800011",
+    "name": "Leuven"
+  },
+  {
+    "eva": "5500771",
+    "name": "Level"
+  },
+  {
+    "eva": "5600024",
+    "name": "Levice"
+  },
+  {
+    "eva": "8000228",
+    "name": "Lichtenfels"
+  },
+  {
+    "eva": "8500023",
+    "name": "Liestal"
+  },
+  {
+    "eva": "8704949",
+    "name": "Lille Europe"
+  },
+  {
+    "eva": "8003705",
+    "name": "Linsburg"
+  },
+  {
+    "eva": "5600214",
+    "name": "Liptovsky Mikulas"
+  },
+  {
+    "eva": "7900047",
+    "name": "Ljubljana Vizmarje"
+  },
+  {
+    "eva": "8300160",
+    "name": "Loano"
+  },
+  {
+    "eva": "8505400",
+    "name": "Locarno"
+  },
+  {
+    "eva": "7000010",
+    "name": "London Victoria"
+  },
+  {
+    "eva": "7001444",
+    "name": "London Waterloo"
+  },
+  {
+    "eva": "8700105",
+    "name": "Lourdes"
+  },
+  {
+    "eva": "5600177",
+    "name": "Lucenec"
+  },
+  {
+    "eva": "8010216",
+    "name": "Ludwigslust"
+  },
+  {
+    "eva": "8505300",
+    "name": "Lugano"
+  },
+  {
+    "eva": "8700264",
+    "name": "Lunéville"
+  },
+  {
+    "eva": "7800038",
+    "name": "Lupoglav"
+  },
+  {
+    "eva": "8200100",
+    "name": "Luxembourg"
+  },
+  {
+    "eva": "8505000",
+    "name": "Luzern"
+  },
+  {
+    "eva": "8700152",
+    "name": "Lyon Part Dieu"
+  },
+  {
+    "eva": "5500765",
+    "name": "Lébény-Mosonszentmiklos"
+  },
+  {
+    "eva": "8010212",
+    "name": "Löbau (Sachs) "
+  },
+  {
+    "eva": "5500110",
+    "name": "Lököshaza"
+  },
+  {
+    "eva": "8301723",
+    "name": "Magrè-Cortaccia"
+  },
+  {
+    "eva": "8300501",
+    "name": "Maia Bassa/Untermais"
+  },
+  {
+    "eva": "8003815",
+    "name": "Mainz Nord"
+  },
+  {
+    "eva": "5300060",
+    "name": "Mangalia"
+  },
+  {
+    "eva": "5600137",
+    "name": "Margecany"
+  },
+  {
+    "eva": "8003859",
+    "name": "Maria Rain b. Pfronten"
+  },
+  {
+    "eva": "5400009",
+    "name": "Marianske Lazne"
+  },
+  {
+    "eva": "8003879",
+    "name": "Markt Schwaben"
+  },
+  {
+    "eva": "8003883",
+    "name": "Marktl (Inn) "
+  },
+  {
+    "eva": "8003885",
+    "name": "Marktoberdorf"
+  },
+  {
+    "eva": "8000247",
+    "name": "Marktredwitz"
+  },
+  {
+    "eva": "8700074",
+    "name": "Marseille-St-Charles"
+  },
+  {
+    "eva": "8501500",
+    "name": "Martigny"
+  },
+  {
+    "eva": "8003930",
+    "name": "Meckenbeuren"
+  },
+  {
+    "eva": "5300063",
+    "name": "Medias"
+  },
+  {
+    "eva": "8508308",
+    "name": "Meiringen"
+  },
+  {
+    "eva": "8700150",
+    "name": "Menton"
+  },
+  {
+    "eva": "8300097",
+    "name": "Merano/Meran"
+  },
+  {
+    "eva": "8003982",
+    "name": "Mering"
+  },
+  {
+    "eva": "8003992",
+    "name": "Merzig (Saar) "
+  },
+  {
+    "eva": "8300332",
+    "name": "Messina Centrale"
+  },
+  {
+    "eva": "8700019",
+    "name": "Metz Ville"
+  },
+  {
+    "eva": "8300102",
+    "name": "Mezzocorona"
+  },
+  {
+    "eva": "5500106",
+    "name": "Mezötur"
+  },
+  {
+    "eva": "5601971",
+    "name": "Michalany"
+  },
+  {
+    "eva": "8601593",
+    "name": "Middelfart st"
+  },
+  {
+    "eva": "5401978",
+    "name": "Mikulov na Morave"
+  },
+  {
+    "eva": "8300321",
+    "name": "Milazzo"
+  },
+  {
+    "eva": "8000338",
+    "name": "Mindelheim"
+  },
+  {
+    "eva": "8000252",
+    "name": "Minden (Westf) "
+  },
+  {
+    "eva": "5500018",
+    "name": "Miskolc-Tiszai"
+  },
+  {
+    "eva": "7400021",
+    "name": "Mjölby Station"
+  },
+  {
+    "eva": "5600143",
+    "name": "Moldava nad Bodvou"
+  },
+  {
+    "eva": "8700174",
+    "name": "Monaco-Monte-Carlo"
+  },
+  {
+    "eva": "8300103",
+    "name": "Monfalcone"
+  },
+  {
+    "eva": "8501300",
+    "name": "Montreux"
+  },
+  {
+    "eva": "8300063",
+    "name": "Monza"
+  },
+  {
+    "eva": "7800043",
+    "name": "Moravice"
+  },
+  {
+    "eva": "5400145",
+    "name": "Moravske Budejovice"
+  },
+  {
+    "eva": "5402059",
+    "name": "Moravsky Pisek zast. "
+  },
+  {
+    "eva": "8700031",
+    "name": "Mulhouse Ville"
+  },
+  {
+    "eva": "8004185",
+    "name": "Murnau"
+  },
+  {
+    "eva": "5100041",
+    "name": "Muszyna"
+  },
+  {
+    "eva": "8000339",
+    "name": "Mühlacker"
+  },
+  {
+    "eva": "8000258",
+    "name": "Mühldorf (Oberbay) "
+  },
+  {
+    "eva": "8004155",
+    "name": "München-Moosach"
+  },
+  {
+    "eva": "8601645",
+    "name": "Naestved st"
+  },
+  {
+    "eva": "5500884",
+    "name": "Nagycenk"
+  },
+  {
+    "eva": "5500049",
+    "name": "Nagykanizsa"
+  },
+  {
+    "eva": "8800018",
+    "name": "Namur"
+  },
+  {
+    "eva": "8300253",
+    "name": "Napoli Campi Flegrei"
+  },
+  {
+    "eva": "8300241",
+    "name": "Napoli Piazza Garibaldi"
+  },
+  {
+    "eva": "8700073",
+    "name": "Narbonne"
+  },
+  {
+    "eva": "7800039",
+    "name": "Nasice"
+  },
+  {
+    "eva": "8010239",
+    "name": "Nauen"
+  },
+  {
+    "eva": "8004240",
+    "name": "Nesselwang"
+  },
+  {
+    "eva": "8004246",
+    "name": "Neu-Isenburg"
+  },
+  {
+    "eva": "8006730",
+    "name": "Neu-Ulm"
+  },
+  {
+    "eva": "8504221",
+    "name": "Neuchâtel"
+  },
+  {
+    "eva": "8000688",
+    "name": "Neufahrn (Niederbay) "
+  },
+  {
+    "eva": "8000720",
+    "name": "Neumarkt-St Veit"
+  },
+  {
+    "eva": "8000271",
+    "name": "Neumünster"
+  },
+  {
+    "eva": "8004315",
+    "name": "Neuötting"
+  },
+  {
+    "eva": "8700171",
+    "name": "Nice Ville"
+  },
+  {
+    "eva": "8400470",
+    "name": "Nijmegen"
+  },
+  {
+    "eva": "5602139",
+    "name": "Nitra"
+  },
+  {
+    "eva": "8300233",
+    "name": "Nogara"
+  },
+  {
+    "eva": "5602156",
+    "name": "Nova Bana"
+  },
+  {
+    "eva": "7800008",
+    "name": "Nova Gradiska"
+  },
+  {
+    "eva": "7800046",
+    "name": "Nova Kapela"
+  },
+  {
+    "eva": "8300007",
+    "name": "Novara"
+  },
+  {
+    "eva": "5402182",
+    "name": "Nove Hrady"
+  },
+  {
+    "eva": "5600148",
+    "name": "Nove Mesto nad Vahom"
+  },
+  {
+    "eva": "5600025",
+    "name": "Nove Zamky"
+  },
+  {
+    "eva": "7200210",
+    "name": "Novi Beograd"
+  },
+  {
+    "eva": "7200008",
+    "name": "Novi Sad"
+  },
+  {
+    "eva": "7800009",
+    "name": "Novska"
+  },
+  {
+    "eva": "8601745",
+    "name": "Nykoebing F st"
+  },
+  {
+    "eva": "8004503",
+    "name": "Oberammergau"
+  },
+  {
+    "eva": "8004506",
+    "name": "Oberau b. Garmisch-Partenkirchen"
+  },
+  {
+    "eva": "8004507",
+    "name": "Oberaudorf"
+  },
+  {
+    "eva": "8004584",
+    "name": "Oberstaufen"
+  },
+  {
+    "eva": "8004585",
+    "name": "Oberstdorf"
+  },
+  {
+    "eva": "2200063",
+    "name": "Odessa Holovna"
+  },
+  {
+    "eva": "8004662",
+    "name": "Ohlstadt"
+  },
+  {
+    "eva": "5400154",
+    "name": "Okrisky"
+  },
+  {
+    "eva": "7800036",
+    "name": "Okucani"
+  },
+  {
+    "eva": "5400155",
+    "name": "Olbramovice"
+  },
+  {
+    "eva": "8000291",
+    "name": "Oldenburg (Oldb) "
+  },
+  {
+    "eva": "5400010",
+    "name": "Olomouc hl. n. "
+  },
+  {
+    "eva": "8500218",
+    "name": "Olten"
+  },
+  {
+    "eva": "8800030",
+    "name": "Oostende"
+  },
+  {
+    "eva": "8300123",
+    "name": "Ora/Auer"
+  },
+  {
+    "eva": "8013487",
+    "name": "Oranienburg"
+  },
+  {
+    "eva": "7800087",
+    "name": "Oriovac"
+  },
+  {
+    "eva": "8300224",
+    "name": "Orte"
+  },
+  {
+    "eva": "7800011",
+    "name": "Osijek"
+  },
+  {
+    "eva": "7600001",
+    "name": "Oslo S"
+  },
+  {
+    "eva": "7800049",
+    "name": "Ostarije"
+  },
+  {
+    "eva": "8004703",
+    "name": "Ostermünchen"
+  },
+  {
+    "eva": "8300222",
+    "name": "Ostiglia"
+  },
+  {
+    "eva": "8004742",
+    "name": "Oy-Mittelberg"
+  },
+  {
+    "eva": "8300967",
+    "name": "Palmanova"
+  },
+  {
+    "eva": "8300335",
+    "name": "Paola"
+  },
+  {
+    "eva": "8700014",
+    "name": "Paris Nord"
+  },
+  {
+    "eva": "8010268",
+    "name": "Pasewalk"
+  },
+  {
+    "eva": "8300049",
+    "name": "Pavia"
+  },
+  {
+    "eva": "7800044",
+    "name": "Pazin"
+  },
+  {
+    "eva": "5500103",
+    "name": "Pecs"
+  },
+  {
+    "eva": "8300218",
+    "name": "Pescara Centrale"
+  },
+  {
+    "eva": "5400011",
+    "name": "Petrovice u Karvine"
+  },
+  {
+    "eva": "8004786",
+    "name": "Pfarrkirchen"
+  },
+  {
+    "eva": "8004806",
+    "name": "Pfronten-Ried"
+  },
+  {
+    "eva": "8004809",
+    "name": "Pfronten-Weißbach"
+  },
+  {
+    "eva": "8503209",
+    "name": "Pfäffikon SZ"
+  },
+  {
+    "eva": "8004815",
+    "name": "Piding"
+  },
+  {
+    "eva": "5600162",
+    "name": "Piestany"
+  },
+  {
+    "eva": "8010275",
+    "name": "Plauen (Vogtl) ob Bf"
+  },
+  {
+    "eva": "5600166",
+    "name": "Plesivec"
+  },
+  {
+    "eva": "8000302",
+    "name": "Plochingen"
+  },
+  {
+    "eva": "5300006",
+    "name": "Ploiesti Vest"
+  },
+  {
+    "eva": "5200002",
+    "name": "Plovdiv"
+  },
+  {
+    "eva": "5400012",
+    "name": "Plzen hl. n. "
+  },
+  {
+    "eva": "8004845",
+    "name": "Pocking"
+  },
+  {
+    "eva": "7900049",
+    "name": "Podnart"
+  },
+  {
+    "eva": "8300270",
+    "name": "Pompei"
+  },
+  {
+    "eva": "8300128",
+    "name": "Ponte Adige/Sigmundskron"
+  },
+  {
+    "eva": "8300125",
+    "name": "Ponte Gardena-Laion/Waidbruck-Lajen"
+  },
+  {
+    "eva": "8300108",
+    "name": "Pontebba"
+  },
+  {
+    "eva": "5600013",
+    "name": "Poprad-Tatry"
+  },
+  {
+    "eva": "7100079",
+    "name": "Port Bou"
+  },
+  {
+    "eva": "8300111",
+    "name": "Portogruaro-Caorle"
+  },
+  {
+    "eva": "5600170",
+    "name": "Povazska Bystrica"
+  },
+  {
+    "eva": "7800001",
+    "name": "Pozega (HR) "
+  },
+  {
+    "eva": "5400206",
+    "name": "Praha Masarykovo n. "
+  },
+  {
+    "eva": "5400204",
+    "name": "Praha-Smichov"
+  },
+  {
+    "eva": "5400275",
+    "name": "Praha-Vrsovice"
+  },
+  {
+    "eva": "8300170",
+    "name": "Prato Centrale"
+  },
+  {
+    "eva": "5300069",
+    "name": "Predeal"
+  },
+  {
+    "eva": "5602535",
+    "name": "Presov"
+  },
+  {
+    "eva": "7900023",
+    "name": "Prevalje"
+  },
+  {
+    "eva": "5602537",
+    "name": "Pribenik"
+  },
+  {
+    "eva": "8302432",
+    "name": "Priolo-Melilli"
+  },
+  {
+    "eva": "8010288",
+    "name": "Probstzella"
+  },
+  {
+    "eva": "5600030",
+    "name": "Puchov"
+  },
+  {
+    "eva": "7800003",
+    "name": "Pula"
+  },
+  {
+    "eva": "8004903",
+    "name": "Puttgarden"
+  },
+  {
+    "eva": "8000880",
+    "name": "Radolfzell"
+  },
+  {
+    "eva": "5500002",
+    "name": "Rajka"
+  },
+  {
+    "eva": "7900041",
+    "name": "Rakitovec"
+  },
+  {
+    "eva": "5501120",
+    "name": "Rakospalota-Ujpest"
+  },
+  {
+    "eva": "8300178",
+    "name": "Rapallo"
+  },
+  {
+    "eva": "8004955",
+    "name": "Raubling"
+  },
+  {
+    "eva": "8300219",
+    "name": "Ravenna"
+  },
+  {
+    "eva": "8004965",
+    "name": "Ravensburg"
+  },
+  {
+    "eva": "8300337",
+    "name": "Reggio di Calabria Centrale"
+  },
+  {
+    "eva": "8012739",
+    "name": "Reichenbach (Vogtl) ob Bf"
+  },
+  {
+    "eva": "8005064",
+    "name": "Rheinfelden (Baden) "
+  },
+  {
+    "eva": "8010297",
+    "name": "Riesa"
+  },
+  {
+    "eva": "8601979",
+    "name": "Ringsted st"
+  },
+  {
+    "eva": "8601989",
+    "name": "Roedby Faerge"
+  },
+  {
+    "eva": "7800080",
+    "name": "Rogatec (Gr) "
+  },
+  {
+    "eva": "8300262",
+    "name": "Roma Tiburtina"
+  },
+  {
+    "eva": "8506121",
+    "name": "Romanshorn"
+  },
+  {
+    "eva": "8506311",
+    "name": "Rorschach"
+  },
+  {
+    "eva": "5300080",
+    "name": "Rosiori Nord"
+  },
+  {
+    "eva": "8602026",
+    "name": "Roskilde st"
+  },
+  {
+    "eva": "8400530",
+    "name": "Rotterdam Centraal"
+  },
+  {
+    "eva": "5600184",
+    "name": "Roznava"
+  },
+  {
+    "eva": "7200010",
+    "name": "Ruma"
+  },
+  {
+    "eva": "7900052",
+    "name": "Ruse (SL) "
+  },
+  {
+    "eva": "5600185",
+    "name": "Ruzomberok"
+  },
+  {
+    "eva": "8300431",
+    "name": "S. Agata di Militello"
+  },
+  {
+    "eva": "8300116",
+    "name": "S. Donà di Piave-Jesolo"
+  },
+  {
+    "eva": "8300117",
+    "name": "S. Giorgio di Nogaro"
+  },
+  {
+    "eva": "8302177",
+    "name": "S. Pietro in Casale"
+  },
+  {
+    "eva": "8300283",
+    "name": "S. Severo"
+  },
+  {
+    "eva": "8010309",
+    "name": "Saalfeld (Saale) "
+  },
+  {
+    "eva": "8005245",
+    "name": "Saarburg (Bz Trier) "
+  },
+  {
+    "eva": "8300118",
+    "name": "Sacile"
+  },
+  {
+    "eva": "5603730",
+    "name": "Sala (SK) "
+  },
+  {
+    "eva": "8300269",
+    "name": "Salerno"
+  },
+  {
+    "eva": "8302197",
+    "name": "Salorno/Salurn"
+  },
+  {
+    "eva": "8300432",
+    "name": "San Benedetto del Tronto"
+  },
+  {
+    "eva": "8300182",
+    "name": "San Remo"
+  },
+  {
+    "eva": "7800076",
+    "name": "Sapjane (Gr) "
+  },
+  {
+    "eva": "8300333",
+    "name": "Sapri"
+  },
+  {
+    "eva": "5500027",
+    "name": "Sarvar"
+  },
+  {
+    "eva": "8012843",
+    "name": "Sassnitz"
+  },
+  {
+    "eva": "8300185",
+    "name": "Savona"
+  },
+  {
+    "eva": "7800084",
+    "name": "Savski Marof"
+  },
+  {
+    "eva": "8800001",
+    "name": "Schaerbeek"
+  },
+  {
+    "eva": "8503424",
+    "name": "Schaffhausen"
+  },
+  {
+    "eva": "8400561",
+    "name": "Schiphol (Airport) "
+  },
+  {
+    "eva": "8000027",
+    "name": "Schwandorf"
+  },
+  {
+    "eva": "8505006",
+    "name": "Schwyz"
+  },
+  {
+    "eva": "5300098",
+    "name": "Sebes Alba"
+  },
+  {
+    "eva": "8300227",
+    "name": "Senigallia"
+  },
+  {
+    "eva": "8300174",
+    "name": "Sestri Levante"
+  },
+  {
+    "eva": "7800086",
+    "name": "Sesvete"
+  },
+  {
+    "eva": "8300539",
+    "name": "Settequerce/Siebeneich"
+  },
+  {
+    "eva": "5300004",
+    "name": "Sibiu"
+  },
+  {
+    "eva": "7200140",
+    "name": "Sid (SRB) "
+  },
+  {
+    "eva": "5100053",
+    "name": "Siedlce"
+  },
+  {
+    "eva": "5300083",
+    "name": "Sighisoara"
+  },
+  {
+    "eva": "5300084",
+    "name": "Sinaia"
+  },
+  {
+    "eva": "5500037",
+    "name": "Siofok"
+  },
+  {
+    "eva": "8501506",
+    "name": "Sion"
+  },
+  {
+    "eva": "8300338",
+    "name": "Siracusa"
+  },
+  {
+    "eva": "7800083",
+    "name": "Slatina (HR) "
+  },
+  {
+    "eva": "7800015",
+    "name": "Slavonski Brod"
+  },
+  {
+    "eva": "5602865",
+    "name": "Slovenske Nove Mesto"
+  },
+  {
+    "eva": "7900051",
+    "name": "Slovenski Javornik"
+  },
+  {
+    "eva": "5400219",
+    "name": "Sobeslav"
+  },
+  {
+    "eva": "5200004",
+    "name": "Sofia"
+  },
+  {
+    "eva": "8500207",
+    "name": "Solothurn"
+  },
+  {
+    "eva": "8507483",
+    "name": "Spiez"
+  },
+  {
+    "eva": "5600087",
+    "name": "Spisska Nova Ves"
+  },
+  {
+    "eva": "7200011",
+    "name": "Sremska Mitrovica"
+  },
+  {
+    "eva": "8005653",
+    "name": "St Mang"
+  },
+  {
+    "eva": "8700143",
+    "name": "St-Raphael-Valescure"
+  },
+  {
+    "eva": "8509253",
+    "name": "St. Moritz"
+  },
+  {
+    "eva": "7200174",
+    "name": "Stara Pazova"
+  },
+  {
+    "eva": "7800090",
+    "name": "Stari Mikanovci"
+  },
+  {
+    "eva": "5600092",
+    "name": "Strba"
+  },
+  {
+    "eva": "7800047",
+    "name": "Strizivojna-Vrpolje"
+  },
+  {
+    "eva": "5603745",
+    "name": "Sturovo"
+  },
+  {
+    "eva": "8005778",
+    "name": "Stuttgart-Zuffenhausen"
+  },
+  {
+    "eva": "7200012",
+    "name": "Subotica"
+  },
+  {
+    "eva": "5402989",
+    "name": "Suchdol nad Luznici"
+  },
+  {
+    "eva": "8005802",
+    "name": "Sulzberg im Allgäu"
+  },
+  {
+    "eva": "5600096",
+    "name": "Surany"
+  },
+  {
+    "eva": "7800107",
+    "name": "Susak Pecine"
+  },
+  {
+    "eva": "7800029",
+    "name": "Sveti Petar u Sumi"
+  },
+  {
+    "eva": "5200003",
+    "name": "Svilengrad"
+  },
+  {
+    "eva": "5100059",
+    "name": "Swinoujscie"
+  },
+  {
+    "eva": "5500101",
+    "name": "Szeged"
+  },
+  {
+    "eva": "5500035",
+    "name": "Szekesfehervar"
+  },
+  {
+    "eva": "5500006",
+    "name": "Szob"
+  },
+  {
+    "eva": "5603743",
+    "name": "Szob (Gr) "
+  },
+  {
+    "eva": "5500028",
+    "name": "Szombathely"
+  },
+  {
+    "eva": "5400031",
+    "name": "Tabor"
+  },
+  {
+    "eva": "8300339",
+    "name": "Taormina-Giardini"
+  },
+  {
+    "eva": "5500076",
+    "name": "Tapolca"
+  },
+  {
+    "eva": "8300292",
+    "name": "Taranto"
+  },
+  {
+    "eva": "5500010",
+    "name": "Tata"
+  },
+  {
+    "eva": "8005833",
+    "name": "Teisendorf"
+  },
+  {
+    "eva": "5300049",
+    "name": "Teius"
+  },
+  {
+    "eva": "5100084",
+    "name": "Terespol"
+  },
+  {
+    "eva": "8300129",
+    "name": "Terlano/Terlan"
+  },
+  {
+    "eva": "8300521",
+    "name": "Terme Euganee-Abano-Montegrotto"
+  },
+  {
+    "eva": "8300330",
+    "name": "Termini Imerese"
+  },
+  {
+    "eva": "8300285",
+    "name": "Termoli"
+  },
+  {
+    "eva": "2200028",
+    "name": "Ternopil"
+  },
+  {
+    "eva": "8300177",
+    "name": "Terontola-Cortona"
+  },
+  {
+    "eva": "8503202",
+    "name": "Thalwil"
+  },
+  {
+    "eva": "8005856",
+    "name": "Thayngen"
+  },
+  {
+    "eva": "7300008",
+    "name": "Thessaloniki"
+  },
+  {
+    "eva": "8700059",
+    "name": "Thionville"
+  },
+  {
+    "eva": "8507100",
+    "name": "Thun"
+  },
+  {
+    "eva": "5300050",
+    "name": "Timisoara Nord"
+  },
+  {
+    "eva": "8602553",
+    "name": "Tinglev st"
+  },
+  {
+    "eva": "5403130",
+    "name": "Tisnov"
+  },
+  {
+    "eva": "5603023",
+    "name": "Tornala"
+  },
+  {
+    "eva": "8300266",
+    "name": "Torre Annunziata Centrale"
+  },
+  {
+    "eva": "8300029",
+    "name": "Tortona"
+  },
+  {
+    "eva": "8700108",
+    "name": "Toulon"
+  },
+  {
+    "eva": "5400104",
+    "name": "Trebon"
+  },
+  {
+    "eva": "5600032",
+    "name": "Trencianska Tepla"
+  },
+  {
+    "eva": "5600105",
+    "name": "Trencin"
+  },
+  {
+    "eva": "8000122",
+    "name": "Treuchtlingen"
+  },
+  {
+    "eva": "8300069",
+    "name": "Treviglio"
+  },
+  {
+    "eva": "8303213",
+    "name": "Trieste Airport"
+  },
+  {
+    "eva": "5600195",
+    "name": "Trnava"
+  },
+  {
+    "eva": "8700273",
+    "name": "Troyes"
+  },
+  {
+    "eva": "8005927",
+    "name": "Tutzing"
+  },
+  {
+    "eva": "8005923",
+    "name": "Tüßling"
+  },
+  {
+    "eva": "8000168",
+    "name": "Uelzen"
+  },
+  {
+    "eva": "8005948",
+    "name": "Uffing a Staffelsee"
+  },
+  {
+    "eva": "8302294",
+    "name": "Ugovizza"
+  },
+  {
+    "eva": "5603244",
+    "name": "Ulany nad Zitavou"
+  },
+  {
+    "eva": "8017042",
+    "name": "Untergrainau"
+  },
+  {
+    "eva": "5400019",
+    "name": "Usti nad Labem hl. n. "
+  },
+  {
+    "eva": "5403254",
+    "name": "Usti nad Labem zapad"
+  },
+  {
+    "eva": "5501413",
+    "name": "Vac"
+  },
+  {
+    "eva": "8300443",
+    "name": "Valdaora-Anterselva/Olang-Antholz"
+  },
+  {
+    "eva": "8700056",
+    "name": "Valence Ville"
+  },
+  {
+    "eva": "8501103",
+    "name": "Vallorbe"
+  },
+  {
+    "eva": "5403277",
+    "name": "Valtice mesto"
+  },
+  {
+    "eva": "7800051",
+    "name": "Varazdin"
+  },
+  {
+    "eva": "5500056",
+    "name": "Varpalota"
+  },
+  {
+    "eva": "5403297",
+    "name": "Velesin"
+  },
+  {
+    "eva": "8400644",
+    "name": "Venlo"
+  },
+  {
+    "eva": "8300146",
+    "name": "Ventimiglia"
+  },
+  {
+    "eva": "8300008",
+    "name": "Vercelli"
+  },
+  {
+    "eva": "8006076",
+    "name": "Verden (Aller) "
+  },
+  {
+    "eva": "8800016",
+    "name": "Verviers Central"
+  },
+  {
+    "eva": "5400113",
+    "name": "Veseli nad Luznici"
+  },
+  {
+    "eva": "5500059",
+    "name": "Veszprem"
+  },
+  {
+    "eva": "8501200",
+    "name": "Vevey"
+  },
+  {
+    "eva": "8300346",
+    "name": "Vibo Valentia Pizzo"
+  },
+  {
+    "eva": "8300448",
+    "name": "Villa Literno"
+  },
+  {
+    "eva": "8300342",
+    "name": "Villa S. Giovanni"
+  },
+  {
+    "eva": "8000366",
+    "name": "Villingen (Schwarzw) "
+  },
+  {
+    "eva": "8300490",
+    "name": "Vilpiano-Nalles/Vilpian-Nals"
+  },
+  {
+    "eva": "5300085",
+    "name": "Vintu de Jos"
+  },
+  {
+    "eva": "7800030",
+    "name": "Virovitica"
+  },
+  {
+    "eva": "8501605",
+    "name": "Visp"
+  },
+  {
+    "eva": "7800085",
+    "name": "Vodnjan"
+  },
+  {
+    "eva": "8300492",
+    "name": "Voghera"
+  },
+  {
+    "eva": "5403451",
+    "name": "Vranovice"
+  },
+  {
+    "eva": "7200119",
+    "name": "Vrbas"
+  },
+  {
+    "eva": "7800060",
+    "name": "Vrbovec"
+  },
+  {
+    "eva": "7800031",
+    "name": "Vrhovi-Plitvi Jezera"
+  },
+  {
+    "eva": "5600114",
+    "name": "Vrutky"
+  },
+  {
+    "eva": "7900053",
+    "name": "Vuhred"
+  },
+  {
+    "eva": "8006167",
+    "name": "Waldshut"
+  },
+  {
+    "eva": "8006200",
+    "name": "Wangen (Allgäu) "
+  },
+  {
+    "eva": "8000204",
+    "name": "Weiden (Oberpf) "
+  },
+  {
+    "eva": "8000220",
+    "name": "Weilheim (Oberbay) "
+  },
+  {
+    "eva": "8010372",
+    "name": "Werdau"
+  },
+  {
+    "eva": "8006339",
+    "name": "Werdohl"
+  },
+  {
+    "eva": "8006353",
+    "name": "Wertach-Haslach"
+  },
+  {
+    "eva": "8000242",
+    "name": "Wesel"
+  },
+  {
+    "eva": "8006369",
+    "name": "Westerland (Sylt) "
+  },
+  {
+    "eva": "8006404",
+    "name": "Wiesbaden Ost"
+  },
+  {
+    "eva": "8506206",
+    "name": "Wil SG"
+  },
+  {
+    "eva": "8010382",
+    "name": "Wittenberge"
+  },
+  {
+    "eva": "8006545",
+    "name": "Wolfegg"
+  },
+  {
+    "eva": "8503206",
+    "name": "Wädenswil"
+  },
+  {
+    "eva": "8504200",
+    "name": "Yverdon-les-Bains"
+  },
+  {
+    "eva": "7800052",
+    "name": "Zabok"
+  },
+  {
+    "eva": "7800065",
+    "name": "Zagreb Zapadni kolodvor"
+  },
+  {
+    "eva": "5500087",
+    "name": "Zalaegerszeg"
+  },
+  {
+    "eva": "5500081",
+    "name": "Zalaszentivan"
+  },
+  {
+    "eva": "7800061",
+    "name": "Zapresic"
+  },
+  {
+    "eva": "5403616",
+    "name": "Zdar nad Sazavou"
+  },
+  {
+    "eva": "8501689",
+    "name": "Zermatt"
+  },
+  {
+    "eva": "2200035",
+    "name": "Zhmerynka"
+  },
+  {
+    "eva": "5600120",
+    "name": "Ziar nad Hronom"
+  },
+  {
+    "eva": "8503225",
+    "name": "Ziegelbrücke"
+  },
+  {
+    "eva": "5600020",
+    "name": "Zilina"
+  },
+  {
+    "eva": "7900046",
+    "name": "Zirovnica"
+  },
+  {
+    "eva": "5400121",
+    "name": "Znojmo"
+  },
+  {
+    "eva": "8006670",
+    "name": "Zollhaus-Petersthal"
+  },
+  {
+    "eva": "8502204",
+    "name": "Zug (CH) "
+  },
+  {
+    "eva": "5600192",
+    "name": "Zvolen osobna stanica"
+  },
+  {
+    "eva": "8400747",
+    "name": "Zwolle"
+  },
+  {
+    "eva": "5501019",
+    "name": "Ötteveny"
+  },
+  {
+    "eva": "8005937",
+    "name": "Überlingen Therme"
+  },
+  {
+    "eva": "8005940",
+    "name": "Übersee"
+  },
+  {
+    "eva": "8106002",
+    "name": "Leoben Lerchenfeld"
+  },
+  {
+    "eva": "8105982",
+    "name": "Heinfels"
+  },
+  {
+    "eva": "8106003",
+    "name": "St. Pölten Bildungscampus"
+  },
+  {
+    "eva": "8100643",
+    "name": "Altweitra"
+  },
+  {
+    "eva": "8100726",
+    "name": "Dietmanns b. Gmünd"
+  },
+  {
+    "eva": "8101703",
+    "name": "Unterloiben"
+  },
+  {
+    "eva": "8101782",
+    "name": "Wösendorf-Joching"
+  },
+  {
+    "eva": "8100627",
+    "name": "Abschlag"
+  },
+  {
+    "eva": "8100206",
+    "name": "Aggsbach-Markt"
+  },
+  {
+    "eva": "8100680",
+    "name": "Bruderndorf b. Langschlag"
+  },
+  {
+    "eva": "8100833",
+    "name": "Geras-Kottaun"
+  },
+  {
+    "eva": "8100888",
+    "name": "Grimsing"
+  },
+  {
+    "eva": "8100963",
+    "name": "Hofern b. Retz"
+  },
+  {
+    "eva": "8101368",
+    "name": "Pleißing-Waschbach"
+  },
+  {
+    "eva": "8101626",
+    "name": "Schwallenbach"
+  },
+  {
+    "eva": "8101562",
+    "name": "St. Martin b. Weitra"
+  },
+  {
+    "eva": "8101740",
+    "name": "Waidhofen/Ybbs Lokalbahn"
+  },
+  {
+    "eva": "8101860",
+    "name": "Waidhofen/Ybbs Schillerpark"
+  },
+  {
+    "eva": "8101724",
+    "name": "Waidhofen/Ybbs Vogelsang"
+  },
+  {
+    "eva": "8101780",
+    "name": "Willendorf/Wachau"
+  },
+  {
+    "eva": "8100555",
+    "name": "Musau"
+  },
+  {
+    "eva": "8100556",
+    "name": "Pflach"
+  },
+  {
+    "eva": "8100558",
+    "name": "Ulrichsbrücke-Füssen"
+  },
+  {
+    "eva": "8101972",
+    "name": "Bichlbach Almkopfbahn"
+  },
+  {
+    "eva": "8100550",
+    "name": "Heiterwang-Plansee"
+  },
+  {
+    "eva": "8100553",
+    "name": "Lähn b. Bichlbach"
+  },
+  {
+    "eva": "8101912",
+    "name": "Reutte in Tirol Schulzentrum"
+  },
+  {
+    "eva": "8300499",
+    "name": "Versciaco-Elmo/Vierschach-Helm"
+  },
+  {
+    "eva": "8000459",
+    "name": "Ainring"
+  },
+  {
+    "eva": "8000562",
+    "name": "Alttann"
+  },
+  {
+    "eva": "8377302",
+    "name": "Burgusio/Burgeis"
+  },
+  {
+    "eva": "8351352",
+    "name": "Castelbello/Kastelbell"
+  },
+  {
+    "eva": "8349369",
+    "name": "Ciardes/Tschars"
+  },
+  {
+    "eva": "8384407",
+    "name": "Coldrano/Goldrain"
+  },
+  {
+    "eva": "8359419",
+    "name": "Curon/Graun"
+  },
+  {
+    "eva": "5501633",
+    "name": "Fertöszeplak-Fertöd"
+  },
+  {
+    "eva": "8002085",
+    "name": "Freilassing (Oberbayern) Hofham"
+  },
+  {
+    "eva": "8003230",
+    "name": "Kempten (Allgäu) Ost"
+  },
+  {
+    "eva": "8396872",
+    "name": "Laces/Latsch"
+  },
+  {
+    "eva": "8384968",
+    "name": "Lagundo/Algund"
+  },
+  {
+    "eva": "8388348",
+    "name": "Malles Venosta, Stazione"
+  },
+  {
+    "eva": "8362035",
+    "name": "Malles/Mals"
+  },
+  {
+    "eva": "8337972",
+    "name": "Marlengo/Marling"
+  },
+  {
+    "eva": "8003901",
+    "name": "Martinszell (Allgäu) "
+  },
+  {
+    "eva": "8300087",
+    "name": "Naturno/Naturns"
+  },
+  {
+    "eva": "8373924",
+    "name": "Oris/Eyrs"
+  },
+  {
+    "eva": "8394223",
+    "name": "Passo Resia/Reschenpass"
+  },
+  {
+    "eva": "8339595",
+    "name": "Plaus"
+  },
+  {
+    "eva": "8384747",
+    "name": "Rablà/Rabland"
+  },
+  {
+    "eva": "8392941",
+    "name": "Resia/Reschen"
+  },
+  {
+    "eva": "8351494",
+    "name": "S. Valentino alla Muta/St. Valentin auf der Heide"
+  },
+  {
+    "eva": "8300483",
+    "name": "Silandro/Schlanders"
+  },
+  {
+    "eva": "8342780",
+    "name": "Sluderno/Schluderns"
+  },
+  {
+    "eva": "8005609",
+    "name": "Sonthofen"
+  },
+  {
+    "eva": "8333885",
+    "name": "Spondigna/Spondinig"
+  },
+  {
+    "eva": "8377683",
+    "name": "Stava/Staben"
+  },
+  {
+    "eva": "8393776",
+    "name": "Tel/Töll"
+  }
+]

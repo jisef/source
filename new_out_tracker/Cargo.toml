@@ -1,0 +1,11 @@
+[package]
+name = "new_out_tracker"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+diesel = { version = "2.1", features = ["postgres"] }
+dotenvy = "0.15"  # For managing environment variables
+tokio = { version = "1", features = ["full"] }
+chrono = "0.4.39"
+log = "0.4.25"

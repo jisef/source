@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1f6d3602-a3a6-464a-b2f8-8852fa846d84" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../GTFS/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GTFS/.idea/GTFS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GTFS/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GTFS/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GTFS/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GTFS/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GTFS/gtfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GTFS/oebb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GTFS/out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GTFS/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GTFS/stations.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GTFS/train-inf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GTFS/trips.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TerminalUtil/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gtfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../output_tracker/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../output_tracker/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../output_tracker/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../output_tracker/.idea/output_tracker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../output_tracker/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../output_tracker/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../output_tracker/build.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../output_tracker/src/db_manager.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../output_tracker/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../output_tracker/ui/app-window.slint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/app-window.slint" beforeDir="false" afterPath="$PROJECT_DIR$/ui/app-window.slint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TerminalUtil/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../TerminalUtil/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TerminalUtil/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../TerminalUtil/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TerminalUtil/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../TerminalUtil/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="RsBuildProfile:dev" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jisef&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:jisef/source.git&quot;,
+    &quot;accountId&quot;: &quot;f08b8519-7ec6-4a65-87d6-db8b720625e3&quot;
+  }
+}</component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="h2ulx8g4" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2qaWxIFtCbruJRP2YwMB47QTd00" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Cargo.Run.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/josef/source/calculator&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;language.rust.cargo.check&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RsExternalLinterProjectSettings">
+    <option name="runOnTheFly" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="run --package Calculator --bin Calculator" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f6d3602-a3a6-464a-b2f8-8852fa846d84" name="Changes" comment="" />
+      <created>1734901411965</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734901411965</updated>
+      <workItem from="1734901413412" duration="2302000" />
+      <workItem from="1734903746602" duration="437000" />
+      <workItem from="1734904200979" duration="2207000" />
+      <workItem from="1735327777366" duration="29000" />
+      <workItem from="1736837457934" duration="166000" />
+      <workItem from="1736837723931" duration="139000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

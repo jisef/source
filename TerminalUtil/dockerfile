@@ -1,0 +1,15 @@
+FROM rust:latest
+
+# Install required tools
+RUN apt-get update && apt-get install -y \
+    curl build-essential \
+    && rm -rf /var/lib/apt/lists/*
+
+# Set up project workspace
+WORKDIR /workspace
+
+# Install Rust tools
+RUN cargo install cargo-watch
+
+# Expose application port (adjust as needed)
+EXPOSE 8000

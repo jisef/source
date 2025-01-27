@@ -1,0 +1,1845 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <base target="_parent"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="language" content="en"/>
+  <meta name="description" content="Delays, cancellations and punctuality statistics as well as live tracking, wagon order and delay forecast for RJX 761."/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta property="og:title" content="Delay data and punctuality for train RJX 761 (Salzburg Hbf - Flughafen Wien)"/>
+  <meta property="og:description" content="Delays, cancellations and punctuality statistics as well as live tracking, wagon order and delay forecast for RJX 761."/>
+  <meta property="og:url" content="https://www.zugfinder.net/en/train-RJX_761"/>
+  <meta property="og:image" content="https://www.zugfinder.net/images/Railjet_g.jpg"/>
+  <meta name="viewport" content="minimum-scale=1.0, width=device-width, initial-scale=1.0"/>
+  <meta name="msapplication-config" content="https://www.zugfinder.net/icon/browserconfig.xml"/>
+  <meta name="theme-color" content="#e51400">
+  <meta name="application-name" content="Zugfinder"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="canonical" href="https://www.zugfinder.net/en/train-RJX_761"/>
+  <link rel="alternate" hreflang="cs" href="https://www.zugfinder.net/cs/vlak-RJX_761"/>
+  <link rel="alternate" hreflang="da" href="https://www.zugfinder.net/da/tog-RJX_761"/>
+  <link rel="alternate" hreflang="de" href="https://www.zugfinder.net/de/zug-RJX_761"/>
+  <link rel="alternate" hreflang="en" href="https://www.zugfinder.net/en/train-RJX_761"/>
+  <link rel="alternate" hreflang="fr" href="https://www.zugfinder.net/fr/train-RJX_761"/>
+  <link rel="alternate" hreflang="it" href="https://www.zugfinder.net/it/treno-RJX_761"/>
+  <link rel="alternate" hreflang="nl" href="https://www.zugfinder.net/nl/trein-RJX_761"/>
+  <link rel="alternate" hreflang="pl" href="https://www.zugfinder.net/pl/pociag-RJX_761"/>
+  <link rel="alternate" hreflang="sk" href="https://www.zugfinder.net/sk/vlak-RJX_761"/>
+  <link rel="alternate" hreflang="sl" href="https://www.zugfinder.net/sl/vlak-RJX_761"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="https://www.zugfinder.net/icon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://www.zugfinder.net/icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://www.zugfinder.net/icon/favicon-16x16.png">
+  <link rel="manifest" href="https://www.zugfinder.net/icon/site.webmanifest">
+  <link rel="mask-icon" href="https://www.zugfinder.net/icon/safari-pinned-tab.svg" color="#e51400">
+  <link rel="shortcut icon" href="https://www.zugfinder.net/icon/favicon.ico" type="image/ico"/>
+  <title>Delay data and punctuality for train RJX 761 (Salzburg Hbf - Flughafen Wien) - Zugfinder</title>
+  <link href="https://www.zugfinder.net/templates/zugfinder_m.css?v=46" rel="stylesheet" type="text/css"/>
+  <link href="https://www.zugfinder.net/templates/zugfinder_m.css?v=46" rel="stylesheet" type="text/css" media="only screen and (max-width: 560px)"/>
+  <link href="https://www.zugfinder.net/templates/zugfinder_m.css?v=46" rel="stylesheet" type="text/css" media="only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5)"/>
+  <link href="https://www.zugfinder.net/templates/zugfinder.css?v=45" rel="stylesheet" type="text/css" media="only screen and (min-width:560px) and (orientation:landscape)"/>
+  <!--[if IE]><link rel="stylesheet" type="text/css" href="https://www.zugfinder/templates/zugfinder.css?v=45"  media="screen" /><![endif]-->
+  <!--script src="https://www.zugfinder.net/js/en.js"></script-->
+  <script src="https://www.zugfinder.net/js/en.js"></script>
+  <!--script src="https://www.zugfinder.net/js/zuginfo_json.js"></script-->
+  <!--script src="https://www.zugfinder.net/js/zugfinder.lib.js"></script-->
+  <script src="https://www.zugfinder.net/js/zuginfo_json.js"></script>
+  <script src="https://www.zugfinder.net/js/zugfinder.lib.js"></script>
+  <script src="https://www.zugfinder.net/js/ajax_json_v2.js"></script>
+  <script>
+    function journeyselector(formname) {
+      var checkboxes = document.querySelectorAll("#" + formname + " * input");
+      var checkboxesChecked = [];
+      for (var i = 0; i < checkboxes.length; i++) {
+        if (checkboxes[i].checked) {
+          checkboxesChecked.push(checkboxes[i]);
+        }
+      }
+      if (checkboxesChecked.length == 2) {
+        for (var i = 0; i < checkboxes.length; i++) {
+          if (!checkboxes[i].checked) {
+            checkboxes[i].disabled = true;
+          }
+        }
+      } else if (checkboxesChecked.length < 2) {
+        for (var i = 0; i < checkboxes.length; i++) {
+          checkboxes[i].disabled = false;
+        }
+      }
+    }
+
+    function zoomSVGKarte(type) {
+      kartediv = document.getElementById("karte");
+      kartel = document.getElementById("svgobj");
+      kartel.setAttribute("data", "/karte-komplett.svg");
+      zoom = parseInt(kartediv.dataset.zoom);
+      if (type == "in" && zoom < 4) {
+        zoom = zoom + 1;
+      }
+      if (type == "out" && zoom > 0) {
+        zoom = zoom - 1;
+      }
+      kartediv.dataset.zoom = zoom;
+      if (zoom == 0) {
+        objr = "3";
+        objf = "0.5em";
+        zoomfactor = 1;
+      } else if (zoom == 1) {
+        objr = "2.25";
+        objf = "0.4em";
+        zoomfactor = 1.333;
+      } else if (zoom == 2) {
+        objr = "2";
+        objf = "0.333em";
+        zoomfactor = 1.5;
+      } else if (zoom == 3) {
+        objr = "1.5";
+        objf = "0.25em";
+        zoomfactor = 2;
+      } else if (zoom == 4) {
+        objr = "1";
+        objf = "0.166em";
+        zoomfactor = 3;
+      }
+
+      document.getElementById("svgobjr").setAttribute("value", objr);
+      document.getElementById("svgobjf").setAttribute("value", objf);
+      kartediv.setAttribute("class", "z" + zoom);
+      var dragger = localStorage.getItem('dragger')
+      var dragarr = dragger.split("|");
+      var x = parseInt(dragarr[0]);
+      var y = parseInt(dragarr[1]);
+      document.getElementById('karte').style.left = (x * (-1) * zoomfactor) + "px";
+      document.getElementById('karte').style.top = (y * (-1) * zoomfactor) + "px";
+
+    }
+
+    function toggleFilter(divname) {
+      if (window.document.getElementById(divname).style.display == 'none') {
+        window.document.getElementById(divname).style.display = 'block';
+      } else {
+        window.document.getElementById(divname).style.display = 'none';
+      }
+    }
+
+    function toggleTab(id) {
+      currenttab = document.getElementById('tabs').getElementsByClassName('active')[0];
+      currenttab.className = '';
+      currentid = currenttab.id.split('_')[currenttab.id.split('_').length - 1];
+      currentdiv = document.getElementById(id.split('_')[0] + "_" + currentid);
+
+      newdiv = document.getElementById(id);
+      newid = id.split('_')[id.split('_').length - 1];
+      newtab = document.getElementById("tab_" + newid);
+      if (currentid < newid) {
+        currentdiv.style.whiteSpace = 'inherit';
+        currentdiv.style.left = '-100%';
+        currentdiv.style.width = '0%';
+      } else {
+        currentdiv.style.whiteSpace = 'inherit';
+        currentdiv.style.left = '100%';
+        currentdiv.style.width = '0%';
+      }
+      newdiv.style.left = '0%';
+      newdiv.style.width = '100%';
+      newdiv.style.whiteSpace = 'normal';
+      newtab.className = 'active';
+    }
+  </script>
+</head>
+<body>
+<div id="wrap">
+  <div id="content">
+    <a id="Logo" href="/en/start">
+      <img src="https://www.zugfinder.net/images/logo3.png" alt="Zugfinder" title="Zugfinder"/>Zugfinder
+    </a>
+    <a id="jumper" href="javascript:void(0)" onclick="togglemenu()" tabindex="1">&equiv;</a>
+    <a id="suchlupe" class="onmo" href="javascript:void(0)" onclick="document.getElementById('logosuche').focus();document.getElementById('logoform').style.zIndex = '500';document.getElementById('logosuche').style.width = '60vw'" tabindex="1">⚲</a>
+    <form id="langselectform1" class="onmo" style="position:fixed;top:0.5em;left:0.5em;z-index:500" style="margin:2em">
+      <select id="langselect1" name="" style="background:rgba(255,255,255,0.75);border:0;font-size:1.2em" onclick="document.getElementById(this.id).innerHTML = document.getElementById('langselect').innerHTML" onchange="javascript:location.href = this.value;">
+        <option value="/cs/vlak-RJX_761">CS</option>
+        <option value="/da/tog-RJX_761">DA</option>
+        <option value="/de/zug-RJX_761">DE</option>
+        <option value="/en/train-RJX_761" selected="selected">EN</option>
+        <option value="/fr/train-RJX_761">FR</option>
+        <option value="/it/treno-RJX_761">IT</option>
+        <option value="/nl/trein-RJX_761">NL</option>
+        <option value="/pl/pociag-RJX_761">PL</option>
+        <option value="/sk/vlak-RJX_761">SK</option>
+        <option value="/sl/vlak-RJX_761">SL</option>
+      </select>
+    </form>
+    <form id="langselectform" class="nomo" style="position:absolute;top:1em;right:1em;z-index:500">
+      <select id="langselect" name="" style="background:rgba(255,255,255,0.75);border:0;font-size:0.8em" onchange="javascript:location.href = this.value;">
+        <option value="/cs/vlak-RJX_761">český</option>
+        <option value="/da/tog-RJX_761">dansk</option>
+        <option value="/de/zug-RJX_761">deutsch</option>
+        <option value="/en/train-RJX_761" selected="selected">english</option>
+        <option value="/fr/train-RJX_761">français</option>
+        <option value="/it/treno-RJX_761">italiano</option>
+        <option value="/nl/trein-RJX_761">nederlands</option>
+        <option value="/pl/pociag-RJX_761">polski</option>
+        <option value="/sk/vlak-RJX_761">slovenčina</option>
+        <option value="/sl/vlak-RJX_761">slovenščina</option>
+      </select>
+    </form>
+    <form action="/search.php" id="logoform" method="post">
+      <input type="hidden" name="lang" value="en"/>
+      <input type="text" id="logosuche" name="logosuche" placeholder="Search for train number, station, German KBS number" autocomplete="off" onkeyup="bahnhofsnamen(this.id)"/>
+      <div id="logosuche_ajax" class="ajax"></div>
+    </form>
+    <div id="Navigation" style="background:rgba(43,43,43,.9)">
+      <a href="/en/livemap-europa-1296-773">DE: North</a>
+      <a href="/en/livemap-europa-1050-1089">DE: West</a>
+      <a href="/en/livemap-europa-1727-950">DE: East</a>
+      <a href="/en/livemap-europa-1296-1142">DE: Central</a>
+      <a href="/en/livemap-europa-1326-1616">DE: South</a>
+      <a href="/en/livemap-europa-2074-1709">AT: East</a>
+      <a href="/en/livemap-europa-1491-1938">AT: West</a>
+      <a href="/en/livemap-europa-1177-2085">Switzerland</a>
+      <a href="/en/livemap-europa-673-1009">Netherlands</a>
+      <a href="/en/livemap-europa-584-1175">Belgium</a>
+      <a href="/en/livemap-europa-1497-432">Denmark</a>
+      <a href="/en/livemap-europa-455-1416">FR: North</a>
+      <a href="/en/livemap-europa-615-2623">FR: South</a>
+      <a href="/en/livemap-europa-1405-2626">IT: North</a>
+      <a href="/en/livemap-europa-1737-3638">IT: South</a>
+      <a href="/en/livemap-europa-2345-950">PL: North</a>
+      <a href="/en/livemap-europa-2383-1277">PL: South</a>
+      <a href="/en/livemap-europa-1987-1413">Czechia</a>
+      <a href="/en/livemap-europa-1877-2265">Slovenia</a>
+      <form action="/search.php" method="post" style="position:relative" title="Search for historical delay data for individual trains" class="active">
+        <input type="hidden" name="lang" value="en"/>
+        <input type="text" name="zugnr" value="RJX 761" onclick="this.value='';"/>
+        <input class="submit" type="image" src="https://zugfinder.azureedge.net/images/lupe.png" alt="Search for delay data" title="Search for delay data"/>
+      </form>
+      <form action="/search.php" method="post" style="position:relative" title="Show German train schedule route (with regional traffic)">
+        <input type="hidden" name="lang" value="en"/>
+        <input type="text" name="kbs" value="Enter German KBS no." onclick="this.value='';"/>
+        <input class="submit" type="image" src="https://zugfinder.azureedge.net/images/lupe.png" alt="Show German train schedule route (with regional traffic)" title="Show German train schedule route (with regional traffic)"/>
+      </form>
+      <form action="/search.php" method="post" style="position:relative" title="Search station">
+        <input type="hidden" name="lang" value="en"/>
+        <input type="text" name="bahnhofssuche" value="Search station" onclick="this.value='';"/>
+        <input class="submit" type="image" src="https://zugfinder.azureedge.net/images/lupe.png" alt="Search station" title="Search station"/>
+      </form>
+      <a style="background-image:url('https://zugfinder.azureedge.net/images/location_w.png'); background-repeat:no-repeat; background-position:148px center" href="javascript:void(0)" onclick="showGeoposition('en');">Nearby stations</a>
+      <a href="/en/connection">Connection reliability</a>
+      <a href="/en/directconnection">Direct connections</a>
+      <a href="/en/stationboard">Station board</a>
+      <a href="/en/compositions">Wagon orders</a>
+      <a href="/en/livelist">List of current trains</a>
+      <a href="/en/login">Zugfinder Pro</a>
+      <a style="height:calc(0.8em + 4px)">&nbsp;</a>
+    </div>
+    <div id="Inhalt">
+      <div id="Logobg"></div>
+      <div id="mt" class="">
+        <p></p>
+        <span></span>
+      </div>
+      <div id="hero" style="background-image: url('https://zugfinder.azureedge.net/images/Railjet_k.jpg');">
+        <div style="display:block; position:absolute;right:10em;width:10em;z-index:-1">
+          <img src="https://www.zugfinder.net/images/logo3.svg" style="height:20em;opacity:0.05"/>
+        </div>
+        <div itemscope itemtype="http://schema.org/Product" id="productdiv">
+          <h1>
+            Delay data and punctuality for train RJX 761  <a href="javascript:void(0)" onclick="javascript:opendetail('beobachten','RJX 761', 1)" title="Watch the train">&#9734;</a>
+          </h1>
+          <meta itemprop="name" content="Punctuality of the RJX 761"/>
+          <p></p>
+          <h2 style="margin-bottom:0">
+                                <span style="vertical-align:middle">
+                                    <img src="/images/flags/AT.png"/>&nbsp;
+                                </span>
+            <span class="nomo">Route: </span>
+            Salzburg Hbf - Flughafen Wien <a href="http://hafas.bene-system.com/bin/traininfo.exe/en/304704/341309/148090/27523/784?L=profi&date=200125" target="new" class="button">&raquo;&nbsp;Schedule</a>
+          </h2>
+          <p id="Laufweg">
+            <span id="Zwischenhalte">Scheduled route: Salzburg Hbf &raquo;Attnang-Puchheim &raquo;Wels Hbf &raquo;Linz Hbf &raquo;St.Pölten Hbf &raquo;Wien Meidling &raquo;Wien Hbf &raquo;Flughafen Wien</span>
+          </p>
+          <div class="statkachel statgruen">
+            <h3>&empty;delay</h3>
+            <div class="circle cbig" data-note="0.97311827956989">
+              <svg class="circle__svg">
+                <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(255,255,255,1)" class="circle__progress circle__progress--fill"></circle>
+              </svg>
+              <div class="circle__content">
+                <span style="font-size:0.9em;line-height:1.4em">6</span>
+                <span style="display:block;font-size:.3em;line-height:0">min.</span>
+              </div>
+            </div>
+            <span class="statsub">last 30 days</span>
+          </div>
+          <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating" class="statkachel statorange">
+            <meta itemprop="ratingCount" content="31"/>
+            <meta itemprop="worstRating" content="0"/>
+            <meta itemprop="bestRating" content="5"/>
+            <meta itemprop="ratingValue" content="3.9"/>
+            <h3>punctuality</h3>
+            <div class="circle cbig" data-note="7.741935483871">
+              <svg class="circle__svg">
+                <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(255,255,255,1)" class="circle__progress circle__progress--fill"></circle>
+              </svg>
+              <div class="circle__content">
+                                        <span style="font-size:0.9em;line-height:0.9em">
+                                            77<span style='font-size:smaller'>%</span>
+                                        </span>
+              </div>
+            </div>
+            <span class="statsub">up to 5 minutes</span>
+          </div>
+          <div itemprop="image" content="https://zugfinder.azureedge.net/images/Railjet.jpg" class="zugbild" style="background:url('https://zugfinder.azureedge.net/images/Railjet.jpg') left">
+            <span>Railjet</span>
+          </div>
+          <a href="/en/livemap-europa-2038-1709" title="RJX 761 live" class="statkachel" style="padding:0;top:-8px;z-index:10000">
+            <div id="zoomdiv" class="statkachel" style="background:#FFF;position:relative;top:0">
+              <div id="karte" style="position:absolute;top:-25%;left:-25%">
+                <object id="svgobj" type="image/svg+xml" data="/karte-komplett.svg">
+                  <param id="svgobjr" name="r" value="3"/>
+                  <param id="svgobjf" name="f" value="0.5em"/>
+                </object>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <h2 id="stickynr" style="background-size:cover;background-image: url('https://zugfinder.azureedge.net/images/Railjet_k.jpg');">RJX 761</h2>
+      <h3 style="margin:0.5em">Today's wagon order and direction of travel in Salzburg Hbf</h3>
+      <table class="zugreihung" onclick="this.className = 'zugreihung active'" style="overflow-x:auto;display:block;white-space:nowrap;max-width:99vw">
+        <tr>
+          <td style="display:inline-block;width:20px;line-height:1em;height:1em;vertical-align:top;border:0">&nbsp;&larr;</td>
+          <td class='wagenreihung' style='background:rgba(255,255,0,.8);border-radius: 25px 0px 0px 8px'>
+            27
+            <div class='wagenextra'>
+              &nbsp;🔇💼<span style='display:block;font-size:0.8em'>&nbsp;</span>
+            </div>
+          </td>
+          <td class='wagenreihung' style='background:rgba(255,255,0,.8);'>
+            26
+            <div class='wagenextra'>
+              &nbsp;<span style='display:block;font-size:0.8em'>&nbsp;</span>
+            </div>
+          </td>
+          <td class='wagenreihung' style='background:linear-gradient(to right, rgba(255,255,0,.8) 49%, rgba(229,20,0,.8) 50%);'>
+            25
+            <div class='wagenextra'>
+              &nbsp;🍴♿ℹ️<span style='display:block;font-size:0.8em'>&nbsp;</span>
+            </div>
+          </td>
+          <td class='wagenreihung' style='background:rgba(0,163,0,.8);'>
+            24
+            <div class='wagenextra'>
+              &nbsp;<span style='display:block;font-size:0.8em'>&nbsp;</span>
+            </div>
+          </td>
+          <td class='wagenreihung' style='background:rgba(0,163,0,.8);'>
+            23
+            <div class='wagenextra'>
+              &nbsp;🔇<span style='display:block;font-size:0.8em'>&nbsp;</span>
+            </div>
+          </td>
+          <td class='wagenreihung' style='background:rgba(0,163,0,.8);'>
+            22
+            <div class='wagenextra'>
+              &nbsp;<span style='display:block;font-size:0.8em'>&nbsp;</span>
+            </div>
+          </td>
+          <td class='wagenreihung' style='background:rgba(0,163,0,.8);'>
+            21
+            <div class='wagenextra'>
+              &nbsp;👪🚲<span style='display:block;font-size:0.8em'>&nbsp;</span>
+            </div>
+          </td>
+          <td class='wagenreihung' style='background:rgba(153,153,153,.4);border-radius: 15px 15px 4px 4px'>
+            &nbsp;
+            <div class='wagenextra'>
+              &nbsp;<span style='display:block;font-size:0.8em'>&nbsp;</span>
+            </div>
+          </td>
+          <td class='wagenreihung' style='background:rgba(255,255,0,.8);border-radius: 25px 0px 0px 8px'>
+            37
+            <div class='wagenextra'>
+              &nbsp;🔇💼<span style='display:block;font-size:0.8em'>&nbsp;</span>
+            </div>
+          </td>
+          <td class='wagenreihung' style='background:rgba(255,255,0,.8);'>
+            36
+            <div class='wagenextra'>
+              &nbsp;<span style='display:block;font-size:0.8em'>&nbsp;</span>
+            </div>
+          </td>
+          <td class='wagenreihung' style='background:linear-gradient(to right, rgba(255,255,0,.8) 49%, rgba(229,20,0,.8) 50%);'>
+            35
+            <div class='wagenextra'>
+              &nbsp;🍴♿ℹ️<span style='display:block;font-size:0.8em'>&nbsp;</span>
+            </div>
+          </td>
+          <td class='wagenreihung' style='background:rgba(0,163,0,.8);'>
+            34
+            <div class='wagenextra'>
+              &nbsp;<span style='display:block;font-size:0.8em'>&nbsp;</span>
+            </div>
+          </td>
+          <td class='wagenreihung' style='background:rgba(0,163,0,.8);'>
+            33
+            <div class='wagenextra'>
+              &nbsp;🔇<span style='display:block;font-size:0.8em'>&nbsp;</span>
+            </div>
+          </td>
+          <td class='wagenreihung' style='background:rgba(0,163,0,.8);'>
+            32
+            <div class='wagenextra'>
+              &nbsp;<span style='display:block;font-size:0.8em'>&nbsp;</span>
+            </div>
+          </td>
+          <td class='wagenreihung' style='background:rgba(0,163,0,.8);'>
+            31
+            <div class='wagenextra'>
+              &nbsp;👪🚲<span style='display:block;font-size:0.8em'>&nbsp;</span>
+            </div>
+          </td>
+          <td class='wagenreihung' style='background:rgba(153,153,153,.4);border-radius: 15px 15px 4px 4px'>
+            &nbsp;
+            <div class='wagenextra'>
+              &nbsp;<span style='display:block;font-size:0.8em'>&nbsp;</span>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td style='display:inline-block;width:20px;height:1em;border:0'></td>
+          <td colspan=8 style='max-width:376px;white-space:normal;height:1em;font-size:.8em;border:1px solid transparent;padding:0;vertical-align:top'>&raquo;Flughafen Wien</td>
+          <td colspan=8 style='max-width:376px;white-space:normal;height:1em;font-size:.8em;border:1px solid transparent;padding:0;vertical-align:top'>&raquo;Wien Hbf</td>
+      </table>
+      <p id="fehltwas">
+        Is there something missing or wrong?
+        <a href="javascript:void()" onclick="window.document.getElementById('Hinweise').style.display ='inline-block'">&raquo;please read here</a>
+      </p>
+      <div id="Hinweise">
+        <p style="color:red">Attention: All data is taken over from timetable services without being checked! There is therefore no guarantee for correctness! Therefore it is completely pointless to write me mails pointing out the discrepancy between the actual situation and the values shown here!</p>
+        <p>The extended train delay information is always only partially available. The information given here is all that was requested. There is no other (hidden) information in the database that I could provide by mail or similar!</p>
+      </div>
+      <div style="display:inline-block;margin:0.5em 0.25em;font-size:1.5em;width:0.6em;height:1em;clip-path:polygon(0% 0%, 50% 100%, 100% 0%);transform:scaleX(2)" title="Filter">&equiv;</div>
+      <div class="filterselector">
+        <a href="javascript:void(0)" onclick="toggleFilter('FilterZeitraum');" style="color:rgba(0,0,0,0.6);display:inline-block;width:100%;position:relative">
+          Time period <span style="position:absolute;right:2px;transform:rotate(90deg)">&#10095;</span>
+        </a>
+        <div class="filterselect" style="display:none" id="FilterZeitraum">
+          <a href="/en/train-RJX_761">30 days</a>
+          <a href="/en/train-RJX_761-60">60 days</a>
+          <a href="/en/train-RJX_761-120">120 days</a>
+          <a href="/en/train-RJX_761-365">365 days</a>
+          <a href="/en/train-RJX_761-730">2 years</a>
+        </div>
+      </div>
+      <div class="filterselector">
+        <a href="javascript:void(0)" onclick="toggleFilter('FilterWochentage');" style="color:rgba(0,0,0,0.6);display:inline-block;width:100%;position:relative">
+          Weekdays <span style="position:absolute;right:2px;transform:rotate(90deg)">&#10095;</span>
+        </a>
+        <div class="filterselect" style="display:none" id="FilterWochentage">
+          <input type="checkbox" checked="checked" onclick="filterTable(this,'Mon');"/>
+          Monday<br/>
+          <input type="checkbox" checked="checked" onclick="filterTable(this,'Tue');"/>
+          Tuesday<br/>
+          <input type="checkbox" checked="checked" onclick="filterTable(this,'Wed');"/>
+          Wednesday<br/>
+          <input type="checkbox" checked="checked" onclick="filterTable(this,'Thu');"/>
+          Thursday<br/>
+          <input type="checkbox" checked="checked" onclick="filterTable(this,'Fri');"/>
+          Friday<br/>
+          <input type="checkbox" checked="checked" onclick="filterTable(this,'Sat');"/>
+          Saturday<br/>
+          <input type="checkbox" checked="checked" onclick="filterTable(this,'Sun');"/>
+          Sunday<br/>
+        </div>
+      </div>
+      <div class="filterselector">
+        <a href="javascript:void(0)" onclick="toggleFilter('FilterBahnhoefe');" style="color:rgba(0,0,0,0.6);display:inline-block;width:100%;position:relative">
+          train station
+          <a href="/en/account">
+            <img src="/images/lock.png" title="Zugfinder Pro required" alt="Zugfinder Pro required"/>
+          </a>
+          <span style="position:absolute;right:2px;transform:rotate(90deg)">&#10095;</span>
+        </a>
+        <div class="filterselect" style="display:none" id="FilterBahnhoefe">
+          <a href="/en/train-RJX_761-30-Salzburg_Hbf">Salzburg Hbf</a>
+          <a href="/en/train-RJX_761-30-Attnang_Puchheim">Attnang-Puchheim</a>
+          <a href="/en/train-RJX_761-30-Wels_Hbf">Wels Hbf</a>
+          <a href="/en/train-RJX_761-30-Linz_Hbf">Linz Hbf</a>
+          <a href="/en/train-RJX_761-30-St.Pölten_Hbf">St.Pölten Hbf</a>
+          <a href="/en/train-RJX_761-30-Wien_Meidling">Wien Meidling</a>
+          <a href="/en/train-RJX_761-30-Wien_Hbf">Wien Hbf</a>
+          <a href="/en/train-RJX_761-30-Flughafen_Wien">Flughafen Wien</a>
+        </div>
+      </div>
+      <div style="text-align:right;display:inline-block;position:absolute;right:0;margin:1em">
+        <img src="/images/export.png" title="Export table as CSV, Zugfinder Pro Expert required" alt="Export table as CSV, Zugfinder Pro Expert required"/>
+        <a href="/en/account">
+          <img src="/images/lock.png" title="Zugfinder Pro Expert required" alt="Zugfinder Pro Expert required"/>
+        </a>
+      </div>
+      <div id="tabs">
+        <a href="javascript:void()" id="tab_1" onclick="toggleTab('item_1')" class="active">📅</a>
+        <a href="javascript:void()" id="tab_2" onclick="toggleTab('item_2')">📊</a>
+      </div>
+      <div style="position:relative;width:100%;max-width:100vw;white-space:nowrap;overflow:hidden">
+        <div id="item_1" class="tab" style="left:0%;width:100%;white-space:normal">
+          <table id="zugdaten">
+            <tr>
+              <th>
+                <a href="javascript:void(0)"></a>
+              </th>
+              <th>
+                date <a href="javascript:void(0)" class="tableorder">&#9660;</a>
+              </th>
+              <th>
+                max. delay <a href="javascript:void(0)" class="tableorder">&#9660;</a>
+              </th>
+              <th style="width:2em">
+                last delay <a href="javascript:void(0)" class="tableorder">&#9660;</a>
+              </th>
+              <th>
+                remarks <a href="javascript:void(0)" class="tableorder">&#9660;</a>
+              </th>
+            </tr>
+            <tr style="color:rgba(0,0,0,.6);cursor:pointer;">
+              <td></td>
+              <td>next 3 days</td>
+              <td colspan="3">
+                Zugfinder delay forecast: <a href="/en/account">Zugfinder Pro Expert required</a>
+              </td>
+            </tr>
+            <tr id="2025-01-21" data-filter="Tue" onclick="load_zuginfo('RJX_761','2025-01-21');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1737414000">today</td>
+              <td data-val="4">
+                4 min. (<span style="white-space:nowrap">Linz Hbf</span>
+                )
+              </td>
+              <td data-val="4">
+                <div class="circle csmall" data-note="0.66666666666667">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(0,147,55,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(0,147,55,1)">
+                                                    <span class='onmo'>+</span>
+                                                    4<span class="nomo">min.</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class='onmo'>+</span>
+                                            4<span class="nomo">min.</span>
+                                        </span>
+              </td>
+              <td data-val="">+ currently on the way + </td>
+            </tr>
+            <tr id="2025-01-20" data-filter="Mon" onclick="load_zuginfo('RJX_761','2025-01-20');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1737327600">
+                20.01.<span class="nomo">20</span>
+                25
+              </td>
+              <td data-val="0"></td>
+              <td data-val="3">
+                <div class="circle csmall" data-note="0.5">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(0,147,55,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(0,147,55,1)">
+                                                    <span class='onmo'>+</span>
+                                                    3<span class="nomo">min.</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class='onmo'>+</span>
+                                            3<span class="nomo">min.</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2025-01-19" data-filter="Sun" onclick="load_zuginfo('RJX_761','2025-01-19');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1737241200">
+                19.01.<span class="nomo">20</span>
+                25
+              </td>
+              <td data-val="3">
+                3 min. (<span style="white-space:nowrap">Wien Meidling</span>
+                )
+              </td>
+              <td data-val="0">
+                <div class="circle csmall" data-note="0.1">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(0,147,55,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(0,147,55,1)">
+                                                    <span class="onmo">+0</span>
+                                                    <span class="nomo">on time</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class="onmo">+0</span>
+                                            <span class="nomo">on time</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2025-01-18" data-filter="Sat" onclick="load_zuginfo('RJX_761','2025-01-18');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1737154800">
+                18.01.<span class="nomo">20</span>
+                25
+              </td>
+              <td data-val="0"></td>
+              <td data-val="0">
+                <div class="circle csmall" data-note="0.1">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(0,147,55,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(0,147,55,1)">
+                                                    <span class="onmo">+0</span>
+                                                    <span class="nomo">on time</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class="onmo">+0</span>
+                                            <span class="nomo">on time</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2025-01-17" data-filter="Fri" onclick="load_zuginfo('RJX_761','2025-01-17');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1737068400">
+                17.01.<span class="nomo">20</span>
+                25
+              </td>
+              <td data-val="0"></td>
+              <td data-val="0">
+                <div class="circle csmall" data-note="0.1">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(0,147,55,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(0,147,55,1)">
+                                                    <span class="onmo">+0</span>
+                                                    <span class="nomo">on time</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class="onmo">+0</span>
+                                            <span class="nomo">on time</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2025-01-16" data-filter="Thu" onclick="load_zuginfo('RJX_761','2025-01-16');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1736982000">
+                16.01.<span class="nomo">20</span>
+                25
+              </td>
+              <td data-val="0"></td>
+              <td data-val="0">
+                <div class="circle csmall" data-note="0.1">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(0,147,55,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(0,147,55,1)">
+                                                    <span class="onmo">+0</span>
+                                                    <span class="nomo">on time</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class="onmo">+0</span>
+                                            <span class="nomo">on time</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2025-01-15" data-filter="Wed" onclick="load_zuginfo('RJX_761','2025-01-15');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1736895600">
+                15.01.<span class="nomo">20</span>
+                25
+              </td>
+              <td data-val="17">
+                17 min. (<span style="white-space:nowrap">Wien Meidling</span>
+                )
+              </td>
+              <td data-val="11">
+                <div class="circle csmall" data-note="1.8333333333333">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(228,144,59,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(228,144,59,1)">
+                                                    <span class='onmo'>+</span>
+                                                    11<span class="nomo">min.</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class='onmo'>+</span>
+                                            11<span class="nomo">min.</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2025-01-14" data-filter="Tue" onclick="load_zuginfo('RJX_761','2025-01-14');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1736809200">
+                14.01.<span class="nomo">20</span>
+                25
+              </td>
+              <td data-val="10">
+                10 min. (<span style="white-space:nowrap">St.Pölten Hbf</span>
+                )
+              </td>
+              <td data-val="8">
+                <div class="circle csmall" data-note="1.3333333333333">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(228,144,59,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(228,144,59,1)">
+                                                    <span class='onmo'>+</span>
+                                                    8<span class="nomo">min.</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class='onmo'>+</span>
+                                            8<span class="nomo">min.</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2025-01-13" data-filter="Mon" onclick="load_zuginfo('RJX_761','2025-01-13');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1736722800">
+                13.01.<span class="nomo">20</span>
+                25
+              </td>
+              <td data-val="0"></td>
+              <td data-val="0">
+                <div class="circle csmall" data-note="0.1">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(0,147,55,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(0,147,55,1)">
+                                                    <span class="onmo">+0</span>
+                                                    <span class="nomo">on time</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class="onmo">+0</span>
+                                            <span class="nomo">on time</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2025-01-12" data-filter="Sun" onclick="load_zuginfo('RJX_761','2025-01-12');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1736636400">
+                12.01.<span class="nomo">20</span>
+                25
+              </td>
+              <td data-val="0"></td>
+              <td data-val="0">
+                <div class="circle csmall" data-note="0.1">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(0,147,55,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(0,147,55,1)">
+                                                    <span class="onmo">+0</span>
+                                                    <span class="nomo">on time</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class="onmo">+0</span>
+                                            <span class="nomo">on time</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2025-01-11" data-filter="Sat" onclick="load_zuginfo('RJX_761','2025-01-11');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1736550000">
+                11.01.<span class="nomo">20</span>
+                25
+              </td>
+              <td data-val="0"></td>
+              <td data-val="0">
+                <div class="circle csmall" data-note="0.1">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(0,147,55,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(0,147,55,1)">
+                                                    <span class="onmo">+0</span>
+                                                    <span class="nomo">on time</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class="onmo">+0</span>
+                                            <span class="nomo">on time</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2025-01-10" data-filter="Fri" onclick="load_zuginfo('RJX_761','2025-01-10');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1736463600">
+                10.01.<span class="nomo">20</span>
+                25
+              </td>
+              <td data-val="0"></td>
+              <td data-val="0">
+                <div class="circle csmall" data-note="0.1">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(0,147,55,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(0,147,55,1)">
+                                                    <span class="onmo">+0</span>
+                                                    <span class="nomo">on time</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class="onmo">+0</span>
+                                            <span class="nomo">on time</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2025-01-09" data-filter="Thu" onclick="load_zuginfo('RJX_761','2025-01-09');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1736377200">
+                09.01.<span class="nomo">20</span>
+                25
+              </td>
+              <td data-val="0"></td>
+              <td data-val="0">
+                <div class="circle csmall" data-note="0.1">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(0,147,55,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(0,147,55,1)">
+                                                    <span class="onmo">+0</span>
+                                                    <span class="nomo">on time</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class="onmo">+0</span>
+                                            <span class="nomo">on time</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2025-01-08" data-filter="Wed" onclick="load_zuginfo('RJX_761','2025-01-08');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1736290800">
+                08.01.<span class="nomo">20</span>
+                25
+              </td>
+              <td data-val="4">
+                4 min. (<span style="white-space:nowrap">St.Pölten Hbf</span>
+                )
+              </td>
+              <td data-val="0">
+                <div class="circle csmall" data-note="0.1">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(0,147,55,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(0,147,55,1)">
+                                                    <span class="onmo">+0</span>
+                                                    <span class="nomo">on time</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class="onmo">+0</span>
+                                            <span class="nomo">on time</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2025-01-07" data-filter="Tue" onclick="load_zuginfo('RJX_761','2025-01-07');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1736204400">
+                07.01.<span class="nomo">20</span>
+                25
+              </td>
+              <td data-val="8">
+                8 min. (<span style="white-space:nowrap">Flughafen Wien</span>
+                )
+              </td>
+              <td data-val="8">
+                <div class="circle csmall" data-note="1.3333333333333">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(228,144,59,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(228,144,59,1)">
+                                                    <span class='onmo'>+</span>
+                                                    8<span class="nomo">min.</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class='onmo'>+</span>
+                                            8<span class="nomo">min.</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2025-01-06" data-filter="Mon" onclick="load_zuginfo('RJX_761','2025-01-06');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1736118000">
+                06.01.<span class="nomo">20</span>
+                25
+              </td>
+              <td data-val="0"></td>
+              <td data-val="0">
+                <div class="circle csmall" data-note="0.1">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(0,147,55,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(0,147,55,1)">
+                                                    <span class="onmo">+0</span>
+                                                    <span class="nomo">on time</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class="onmo">+0</span>
+                                            <span class="nomo">on time</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2025-01-05" data-filter="Sun" onclick="load_zuginfo('RJX_761','2025-01-05');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1736031600">
+                05.01.<span class="nomo">20</span>
+                25
+              </td>
+              <td data-val="0"></td>
+              <td data-val="0">
+                <div class="circle csmall" data-note="0.1">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(0,147,55,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(0,147,55,1)">
+                                                    <span class="onmo">+0</span>
+                                                    <span class="nomo">on time</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class="onmo">+0</span>
+                                            <span class="nomo">on time</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2025-01-04" data-filter="Sat" onclick="load_zuginfo('RJX_761','2025-01-04');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1735945200">
+                04.01.<span class="nomo">20</span>
+                25
+              </td>
+              <td data-val="0"></td>
+              <td data-val="0">
+                <div class="circle csmall" data-note="0.1">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(0,147,55,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(0,147,55,1)">
+                                                    <span class="onmo">+0</span>
+                                                    <span class="nomo">on time</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class="onmo">+0</span>
+                                            <span class="nomo">on time</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2025-01-03" data-filter="Fri" onclick="load_zuginfo('RJX_761','2025-01-03');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1735858800">
+                03.01.<span class="nomo">20</span>
+                25
+              </td>
+              <td data-val="10">
+                10 min. (<span style="white-space:nowrap">Wien Hbf</span>
+                )
+              </td>
+              <td data-val="5">
+                <div class="circle csmall" data-note="0.83333333333333">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(0,147,55,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(0,147,55,1)">
+                                                    <span class='onmo'>+</span>
+                                                    5<span class="nomo">min.</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class='onmo'>+</span>
+                                            5<span class="nomo">min.</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2025-01-02" data-filter="Thu" onclick="load_zuginfo('RJX_761','2025-01-02');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1735772400">
+                02.01.<span class="nomo">20</span>
+                25
+              </td>
+              <td data-val="96">
+                96 min. (<span style="white-space:nowrap">Wien Meidling</span>
+                )
+              </td>
+              <td data-val="82">
+                <div class="circle csmall" data-note="10">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(228,59,59,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(228,59,59,1)">
+                                                    <span class='onmo'>+</span>
+                                                    82<span class="nomo">min.</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class='onmo'>+</span>
+                                            82<span class="nomo">min.</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2025-01-01" data-filter="Wed" onclick="load_zuginfo('RJX_761','2025-01-01');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1735686000">
+                01.01.<span class="nomo">20</span>
+                25
+              </td>
+              <td data-val="19">
+                19 min. (<span style="white-space:nowrap">Flughafen Wien</span>
+                )
+              </td>
+              <td data-val="19">
+                <div class="circle csmall" data-note="3.1666666666667">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(228,59,59,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(228,59,59,1)">
+                                                    <span class='onmo'>+</span>
+                                                    19<span class="nomo">min.</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class='onmo'>+</span>
+                                            19<span class="nomo">min.</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2024-12-31" data-filter="Tue" onclick="load_zuginfo('RJX_761','2024-12-31');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1735599600">
+                31.12.<span class="nomo">20</span>
+                24
+              </td>
+              <td data-val="4">
+                4 min. (<span style="white-space:nowrap">Attnang-Puchheim</span>
+                )
+              </td>
+              <td data-val="0">
+                <div class="circle csmall" data-note="0.1">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(0,147,55,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(0,147,55,1)">
+                                                    <span class="onmo">+0</span>
+                                                    <span class="nomo">on time</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class="onmo">+0</span>
+                                            <span class="nomo">on time</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2024-12-30" data-filter="Mon" onclick="load_zuginfo('RJX_761','2024-12-30');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1735513200">
+                30.12.<span class="nomo">20</span>
+                24
+              </td>
+              <td data-val="3">
+                3 min. (<span style="white-space:nowrap">Attnang-Puchheim</span>
+                )
+              </td>
+              <td data-val="0">
+                <div class="circle csmall" data-note="0.1">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(0,147,55,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(0,147,55,1)">
+                                                    <span class="onmo">+0</span>
+                                                    <span class="nomo">on time</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class="onmo">+0</span>
+                                            <span class="nomo">on time</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2024-12-29" data-filter="Sun" onclick="load_zuginfo('RJX_761','2024-12-29');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1735426800">
+                29.12.<span class="nomo">20</span>
+                24
+              </td>
+              <td data-val="0"></td>
+              <td data-val="0">
+                <div class="circle csmall" data-note="0.1">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(0,147,55,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(0,147,55,1)">
+                                                    <span class="onmo">+0</span>
+                                                    <span class="nomo">on time</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class="onmo">+0</span>
+                                            <span class="nomo">on time</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2024-12-28" data-filter="Sat" onclick="load_zuginfo('RJX_761','2024-12-28');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1735340400">
+                28.12.<span class="nomo">20</span>
+                24
+              </td>
+              <td data-val="0"></td>
+              <td data-val="0">
+                <div class="circle csmall" data-note="0.1">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(0,147,55,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(0,147,55,1)">
+                                                    <span class="onmo">+0</span>
+                                                    <span class="nomo">on time</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class="onmo">+0</span>
+                                            <span class="nomo">on time</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2024-12-27" data-filter="Fri" onclick="load_zuginfo('RJX_761','2024-12-27');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1735254000">
+                27.12.<span class="nomo">20</span>
+                24
+              </td>
+              <td data-val="17">
+                17 min. (<span style="white-space:nowrap">Wien Hbf</span>
+                )
+              </td>
+              <td data-val="16">
+                <div class="circle csmall" data-note="2.6666666666667">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(228,59,59,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(228,59,59,1)">
+                                                    <span class='onmo'>+</span>
+                                                    16<span class="nomo">min.</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class='onmo'>+</span>
+                                            16<span class="nomo">min.</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2024-12-26" data-filter="Thu" onclick="load_zuginfo('RJX_761','2024-12-26');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1735167600">
+                26.12.<span class="nomo">20</span>
+                24
+              </td>
+              <td data-val="0"></td>
+              <td data-val="0">
+                <div class="circle csmall" data-note="0.1">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(0,147,55,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(0,147,55,1)">
+                                                    <span class="onmo">+0</span>
+                                                    <span class="nomo">on time</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class="onmo">+0</span>
+                                            <span class="nomo">on time</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2024-12-25" data-filter="Wed" onclick="load_zuginfo('RJX_761','2024-12-25');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1735081200">
+                25.12.<span class="nomo">20</span>
+                24
+              </td>
+              <td data-val="0"></td>
+              <td data-val="0">
+                <div class="circle csmall" data-note="0.1">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(0,147,55,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(0,147,55,1)">
+                                                    <span class="onmo">+0</span>
+                                                    <span class="nomo">on time</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class="onmo">+0</span>
+                                            <span class="nomo">on time</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2024-12-24" data-filter="Tue" onclick="load_zuginfo('RJX_761','2024-12-24');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1734994800">
+                24.12.<span class="nomo">20</span>
+                24
+              </td>
+              <td data-val="5">
+                5 min. (<span style="white-space:nowrap">Wien Meidling</span>
+                )
+              </td>
+              <td data-val="3">
+                <div class="circle csmall" data-note="0.5">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(0,147,55,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(0,147,55,1)">
+                                                    <span class='onmo'>+</span>
+                                                    3<span class="nomo">min.</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class='onmo'>+</span>
+                                            3<span class="nomo">min.</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2024-12-23" data-filter="Mon" onclick="load_zuginfo('RJX_761','2024-12-23');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1734908400">
+                23.12.<span class="nomo">20</span>
+                24
+              </td>
+              <td data-val="19">
+                19 min. (<span style="white-space:nowrap">Flughafen Wien</span>
+                )
+              </td>
+              <td data-val="19">
+                <div class="circle csmall" data-note="3.1666666666667">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(228,59,59,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(228,59,59,1)">
+                                                    <span class='onmo'>+</span>
+                                                    19<span class="nomo">min.</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class='onmo'>+</span>
+                                            19<span class="nomo">min.</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+            <tr id="2024-12-22" data-filter="Sun" onclick="load_zuginfo('RJX_761','2024-12-22');" title="Show schedule and delay information">
+              <td style="text-align:center;padding-top:0">
+                <span class="datenoeffner" style="transform:rotate(0deg)"></span>
+                <span class="datenoeffner" style="transform:rotate(90deg)"></span>
+              </td>
+              <td data-val="1734822000">
+                22.12.<span class="nomo">20</span>
+                24
+              </td>
+              <td data-val="3">
+                3 min. (<span style="white-space:nowrap">Flughafen Wien</span>
+                )
+              </td>
+              <td data-val="3">
+                <div class="circle csmall" data-note="0.5">
+                  <svg class="circle__svg">
+                    <circle cx="52%" cy="50%" r="43%" class="circle__progress circle__progress--path"></circle>
+                    <circle cx="52%" cy="50%" r="43%" style="stroke:rgba(0,147,55,1)" class="circle__progress circle__progress--fill"></circle>
+                  </svg>
+                  <div class="circle__content">
+                                                <span class="onmo" style="line-height:2em; color:rgba(0,147,55,1)">
+                                                    <span class='onmo'>+</span>
+                                                    3<span class="nomo">min.</span>
+                                                </span>
+                  </div>
+                </div>
+                <span class="nomo">
+                                            &nbsp;<span class='onmo'>+</span>
+                                            3<span class="nomo">min.</span>
+                                        </span>
+              </td>
+              <td data-val=""></td>
+            </tr>
+          </table>
+          <table id="speicher"></table>
+        </div>
+        <div id="item_2" class="tab" style="left:100%;width:0%;white-space:inherit">
+          <div id="graph">
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:4.17%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'>4</div>
+              <div style='position:relative;top:0%;width:20px;background:#E43B3B;height:100%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'>4</div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'></div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:0%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'></div>
+              <div style='position:relative;top:-2900%;width:20px;background:#E43B3B;height:3000%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'>3</div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'>
+                  20.01.<span class="nomo">20</span>
+                  25
+                </div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:1px;background:#CCC;height:50%'></div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:3.13%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'>3</div>
+              <div style='position:relative;top:100%;width:20px;background:#E43B3B;height:0%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'></div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'></div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:0%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'></div>
+              <div style='position:relative;top:100%;width:20px;background:#E43B3B;height:0%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'></div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'></div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:0%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'></div>
+              <div style='position:relative;top:100%;width:20px;background:#E43B3B;height:0%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'></div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'></div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:0%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'></div>
+              <div style='position:relative;top:100%;width:20px;background:#E43B3B;height:0%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'></div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'></div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:17.71%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'>17</div>
+              <div style='position:relative;top:35.29%;width:20px;background:#E43B3B;height:64.71%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'>11</div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'></div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:10.42%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'>10</div>
+              <div style='position:relative;top:20%;width:20px;background:#E43B3B;height:80%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'>8</div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'></div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:0%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'></div>
+              <div style='position:relative;top:100%;width:20px;background:#E43B3B;height:0%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'></div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'>
+                  13.01.<span class="nomo">20</span>
+                  25
+                </div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:1px;background:#CCC;height:50%'></div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:0%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'></div>
+              <div style='position:relative;top:100%;width:20px;background:#E43B3B;height:0%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'></div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'></div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:0%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'></div>
+              <div style='position:relative;top:100%;width:20px;background:#E43B3B;height:0%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'></div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'></div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:0%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'></div>
+              <div style='position:relative;top:100%;width:20px;background:#E43B3B;height:0%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'></div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'></div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:0%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'></div>
+              <div style='position:relative;top:100%;width:20px;background:#E43B3B;height:0%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'></div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'></div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:4.17%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'>4</div>
+              <div style='position:relative;top:100%;width:20px;background:#E43B3B;height:0%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'></div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'></div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:8.33%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'>8</div>
+              <div style='position:relative;top:0%;width:20px;background:#E43B3B;height:100%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'>8</div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'></div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:0%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'></div>
+              <div style='position:relative;top:100%;width:20px;background:#E43B3B;height:0%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'></div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'>
+                  06.01.<span class="nomo">20</span>
+                  25
+                </div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:1px;background:#CCC;height:50%'></div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:0%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'></div>
+              <div style='position:relative;top:100%;width:20px;background:#E43B3B;height:0%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'></div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'></div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:0%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'></div>
+              <div style='position:relative;top:100%;width:20px;background:#E43B3B;height:0%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'></div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'></div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:10.42%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'>10</div>
+              <div style='position:relative;top:50%;width:20px;background:#E43B3B;height:50%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'>5</div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'></div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:100%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'>96</div>
+              <div style='position:relative;top:14.58%;width:20px;background:#E43B3B;height:85.42%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'>82</div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'></div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:19.79%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'>19</div>
+              <div style='position:relative;top:0%;width:20px;background:#E43B3B;height:100%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'>19</div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'></div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:4.17%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'>4</div>
+              <div style='position:relative;top:100%;width:20px;background:#E43B3B;height:0%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'></div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'></div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:3.13%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'>3</div>
+              <div style='position:relative;top:100%;width:20px;background:#E43B3B;height:0%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'></div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'>
+                  30.12.<span class="nomo">20</span>
+                  24
+                </div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:1px;background:#CCC;height:50%'></div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:0%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'></div>
+              <div style='position:relative;top:100%;width:20px;background:#E43B3B;height:0%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'></div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'></div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:0%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'></div>
+              <div style='position:relative;top:100%;width:20px;background:#E43B3B;height:0%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'></div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'></div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:17.71%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'>17</div>
+              <div style='position:relative;top:5.88%;width:20px;background:#E43B3B;height:94.12%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'>16</div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'></div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:0%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'></div>
+              <div style='position:relative;top:100%;width:20px;background:#E43B3B;height:0%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'></div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'></div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:0%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'></div>
+              <div style='position:relative;top:100%;width:20px;background:#E43B3B;height:0%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'></div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'></div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:5.21%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'>5</div>
+              <div style='position:relative;top:40%;width:20px;background:#E43B3B;height:60%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'>3</div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'></div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:19.79%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'>19</div>
+              <div style='position:relative;top:0%;width:20px;background:#E43B3B;height:100%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'>19</div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'>
+                  23.12.<span class="nomo">20</span>
+                  24
+                </div>
+              </div>
+            </div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:1px;background:#CCC;height:50%'></div>
+            <div style='position:relative;display:inline-block;vertical-align:baseline;width:20px;background:#FDD;height:3.13%'>
+              <div style='position:absolute;top:-1.5em;text-align:center;width:100%'>3</div>
+              <div style='position:relative;top:0%;width:20px;background:#E43B3B;height:100%'>
+                <div style='position:absolute;text-align:center;width:100%;color:#FFF'>3</div>
+                <div style='position:absolute;transform:rotate(270deg);transform-origin:0.75em;bottom:0.25em;color:rgba(0,0,0,0.3)'></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script>
+          document.onreadystatechange = function() {
+            if (document.readyState === 'complete') {
+              var ajax = new XMLHttpRequest();
+              ajax.open("GET", "/js/get_zuginfo.php?zugnr=RJX_761", true);
+              ajax.send();
+            }
+          }
+        </script>
+      </div>
+    </div>
+    <div id="detaildiv">
+      <a href="javascript:void(0)" onclick="javascript:closedetail()" class="closer">&#9746;</a>
+      <div id="detail"></div>
+    </div>
+    <br style="clear:both"/>
+    <div id="footer">
+      <p style="margin:0">
+      <div id="appbar" class="onmo">
+        <a href="/en/livemap-europa">
+          <img src="/images/map.png" style="height:40px;width:auto;margin-top:-5px"/>
+          <br/>Live
+        </a>
+        <a href="/en/stationboard">
+          <img src="/images/tabelle.png" style="height:40px;width:auto;margin-top:-5px">
+          <br/>Station board
+        </a>
+      </div>
+      <!--em><a href="https://award.zugfinder.net">Zugfinder Train Delay Forecast Award</a></em>: Design a new technology and win a prize!
+<br />-->
+      <span class="nomo">Zugfinder 5.8
+&bull;&copy;2011-2024 J. Schubert / ABITZ.COM
+&bull;</span>
+      Time data in CE(S)T
+      &bull;<a href="/en/howitworks">Functionality</a>
+      &bull;<a href="/en/imprint">Imprint</a>
+      &bull;<a href="/en/imprint#datenschutz">Privacy policy</a>
+      <!--&bull; <a href="http://www.marmaloo.com" target="new">Selbstgemachte Marmelade</a>-->
+      &nbsp;
+      </p></div></div><div id="device"></div>
+  <script>
+
+    //karte zurueck
+    //alert("hu");
+    window.addEventListener("pageshow", function(event) {
+      if (document.getElementById('detail') != null) {
+        document.getElementById('Inhalt').style.opacity = 1;
+      }
+
+      var historyTraversal = event.persisted || (typeof window.performance != "undefined" && window.performance.navigation.type === 2);
+      if (historyTraversal) {
+        document.getElementById('Inhalt').style.opacity = 1;
+      }
+    });
+
+    if (window.SVGAngle) {
+      var logo = document.getElementById('Logo').firstChild.src;
+      var logos = logo.replace("png", "svg");
+      document.getElementById('Logo').firstChild.src = logos;
+    }
+
+    if (document.getElementById('karte')) {
+      if (document.getElementById('karte').getElementsByTagName('img')[0] && window.SVGAngle) {
+        var karte = document.getElementById('karte').getElementsByTagName('img')[0].src;
+        var svg = karte.replace("png", "svg");
+        document.getElementById('karte').getElementsByTagName('img')[0].src = svg;
+      }
+    }
+
+    //zoombare Karte
+    //Make the DIV element draggagle:
+    if (document.getElementById('zoomdiv')) {
+      calculateDragger(2038, 1709);
+      dragElement(document.getElementById("zoomdiv").getElementsByTagName('div')[0]);
+    }//lade Karte
+    else if (document.getElementById('karte')) {
+      load_netz('europa');
+    }
+
+    var displays = document.querySelectorAll('.circle');
+    [].forEach.call(displays, function(display) {
+      //Firefox-Bug: Radius wird erst nach "Wartezeit" korrekt berechnet
+      setTimeout(function() {
+        var progress = display.querySelector('.circle__progress--fill');
+        var radius = progress.r.baseVal.value;
+        var radius = progress.r.baseVal.value;
+        var circumference = 2 * Math.PI * radius;
+        var note = parseFloat(display.dataset.note);
+        var offset = circumference * (10 - note) / 10;
+        progress.style.setProperty('stroke-dasharray', circumference);
+        progress.style.setProperty('stroke-dashoffset', circumference);
+        setTimeout(progress.style.setProperty('stroke-dashoffset', offset), 1000);
+      }, 500);
+    });
+
+    //tableorder
+    var getCellValue = function(tr, idx) {
+      return tr.children[idx].dataset.val;
+    }
+    var comparer = function(idx, desc) {
+      return function(a, b) {
+        return function(v1, v2) {
+          return v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2);
+        }(getCellValue(desc ? a : b, idx), getCellValue(desc ? b : a, idx));
+      }
+    };
+    // do the work...
+    document.querySelectorAll('th').forEach(th => th.lastElementChild.addEventListener('click', ( () => {
+              const table = document.getElementById('zugdaten');
+              Array.from(table.querySelectorAll('tr:nth-child(n+2):not([data-order="no"])')).sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.desc = !this.desc)).forEach(tr => table.appendChild(tr));
+              document.querySelectorAll('th').forEach(ths => ths.lastElementChild.className = "tableorder");
+              th.lastElementChild.className = "tableorder orderactive";
+
+            }
+    )));
+  </script>
+</body></html>

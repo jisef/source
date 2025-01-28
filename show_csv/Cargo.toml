@@ -7,3 +7,5 @@ edition = "2021"
 colored = "3.0.0"
 pad = "0.1.6"
 clap = { version = "4.0", features = ["derive"] }
+tabled = "0.17.0"
+comfy-table = "7.1.3"

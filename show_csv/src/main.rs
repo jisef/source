@@ -4,7 +4,9 @@ use std::str::{Lines};
 use colored::{Color, Colorize};
 use pad::{PadStr, Alignment};
 use clap::{Arg, Command};
+use sqlparser::dialect::PostgreSqlDialect;
 use tabled::Table;
+use sqlparser::parser::Parser;
 
 fn main() {
     let matches = Command::new("Show CSV")
@@ -51,6 +53,15 @@ fn main() {
     print_lines_default(max_width_per_column, sigma.clone(), seperator, 2);
     print_table_with_comfy_table(sigma);
     let s = init_colors(69);
+
+
+
+    let s: String = match validate_sql("SEL ECT * FROM csv") {
+        Ok(valid_query) => valid_query, // Store the valid SQL string
+        Err(e) => panic!("SQL validation failed: {}", e),
+    };
+
+    println!("Valid SQL: {}", s);
 }
 
 fn print_lines_default(max_width_per_column: Vec<usize>, lines: Lines, seperator: char, offset: usize) {
@@ -156,7 +167,6 @@ fn read_csv(file_path: String) -> String {
     //let contents = fs::read_to_string(file_path)
 }
 
-
 // TODO: rework
 fn print_help() {
     let width: usize = 10;
@@ -168,3 +178,10 @@ fn print_help() {
     println!("{}", builder);
 }
 
+fn validate_sql(query: &str) -> Result<String, String> {
+    let dialect = PostgreSqlDialect {}; // Define the SQL dialect
+    match Parser::parse_sql(&dialect, query) {
+        Ok(_) => Ok(query.to_string()), // Return the original query as a String
+        Err(e) => Err(format!("SQL syntax error: {}", e)),
+    }
+}

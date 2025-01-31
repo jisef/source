@@ -32,8 +32,12 @@ fn main() {
                     }
                 }))
                 .default_value(","),
-        )
-        .get_matches();
+        ).arg(
+            Arg::new("sql")
+                .help("Run SQL on Table")
+                .long("filter")
+                .short('f')
+        ).get_matches();
 
     let path: &String = matches
         .get_one::<String>("filename")

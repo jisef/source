@@ -20,7 +20,7 @@ pub fn create_csv_Object(path: String, seperator: char) -> CSV{
         match line_result {
             Ok(line) => {
                 if is_fist {
-                    headers = line.split(seperator).map(|s| s.to_string()).collect();
+                     headers = line.split(seperator).map(|s| s.to_string()).collect();
                     is_fist = false;
                 } else {
                     let mut map: HashMap<String, String> = HashMap::new();

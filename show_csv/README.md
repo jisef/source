@@ -8,3 +8,4 @@ Just a temp name
     - Add Row index
     - Filter the CSV Table
     - Run SQL-Query on Table
+Stimmen?

@@ -3,8 +3,8 @@ use std::io::{BufRead, BufReader};
 use sqlparser::ast::IndexType::Hash;
 
 pub struct CSV {
-    headers: Vec<String>,
-    rows: Vec<HashMap<String, String>>, // header and value
+    pub headers: Vec<String>,
+    pub rows: Vec<HashMap<String, String>>, // header and value
 }
 
 

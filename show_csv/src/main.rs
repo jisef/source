@@ -12,7 +12,7 @@ use std::io::Write;
 use sqlparser::dialect::GenericDialect;
 use sqlparser::parser::Parser;
 use crate::csv::create_csv_Object;
-use sqlparser::ast::Statement;
+use crate::sql::run_sql_on_csv;
 
 fn main() {
     let matches = Command::new("Show CSV")
@@ -104,6 +104,7 @@ fn main() {
     let x = create_csv_Object(path.to_owned(), seperator);
 
     //println!("Valid SQL: {}", s);
+    run_sql_on_csv(filters, x);
 }
 
 

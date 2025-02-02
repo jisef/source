@@ -3,6 +3,7 @@ use std::str::Lines;
 use pad::{Alignment, PadStr};
 use colored::{Color, Colorize};
 use tabled::Table;
+use crate::csv::CSV;
 
 pub fn print_lines_default(max_width_per_column: Vec<usize>, lines: Lines, seperator: char, offset: usize) {
     let mut ges_width: usize = max_width_per_column.iter().sum();

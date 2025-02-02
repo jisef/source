@@ -19,6 +19,9 @@ pub fn validate_sql(mut query: String) -> Result<String, String> {
     }
 }
 
+// TODO: Insert Statement
+//TODO: Where Statement
+// TODO: COUNT ....
 
 /// Edits the CSV Object that it only contains the needed rows and columns
 pub fn run_sql_on_csv(query: String, csv: CSV) -> CSV {

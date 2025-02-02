@@ -9,12 +9,16 @@ use pad::{PadStr};
 use clap::{Arg, Command, Subcommand};
 use std::io;
 use std::io::Write;
+use sqlparser::ast::{Select, Statement};
 use sqlparser::dialect::GenericDialect;
 use sqlparser::parser::Parser;
-use crate::csv::create_csv_Object;
+use crate::csv::create_csv_object;
 use crate::sql::run_sql_on_csv;
+use sqlparser::ast::{ Expr, SelectItem};
+use sqlparser::test_utils::table;
 
 fn main() {
+    
     let matches = Command::new("Show CSV")
         .version("1.0")
         .author("jisef of GH")
@@ -77,31 +81,13 @@ fn main() {
     println!("{}", filters);
 
 
-
-    
-
-    /*let sigma = read_csv(String::from(path));
-    let max_width_per_column = print::get_max_width_per_column(&sigma, seperator);
-    let sigma = sigma.lines();
-    print::print_lines_default(max_width_per_column, sigma.clone(), seperator, 2);
-    print::print_table_with_comfy_table(sigma);
-    let s = print::init_colors(69); */
-
-
     let dialect = GenericDialect {};
     let ast = Parser::parse_sql(&dialect, &filters);
     for statement in ast {
         println!("{:#?}", statement);
     }
-    
-    //println!("{:#?}", ast);
-    
-    
-    /*let s: String = match sql::validate_sql(filters) {
-        Ok(valid_query) => valid_query, // Store the valid SQL string
-        Err(e) => panic!("SQL validation failed: {}", e),
-    };*/
-    let x = create_csv_Object(path.to_owned(), seperator);
+   
+    let x = create_csv_object(path.to_owned(), seperator);
 
     //println!("Valid SQL: {}", s);
     run_sql_on_csv(filters, x);
@@ -109,6 +95,8 @@ fn main() {
 
 
 
+
+/// Return the file as a String
 fn read_csv(file_path: String) -> String {
     let contents = fs::read_to_string(file_path).unwrap_or_else(|error| {
         println!("Es ist ein Fehler aufgetreten!!! {}", error);

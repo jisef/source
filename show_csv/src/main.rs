@@ -5,7 +5,7 @@ mod csv;
 
 use std::fs;
 use colored::{Colorize};
-use pad::{PadStr};
+use pad::{Alignment, PadStr};
 use clap::{Arg, Command, Subcommand};
 use std::io;
 use std::io::Write;
@@ -50,14 +50,20 @@ fn main() {
 
     let dialect = GenericDialect {};
     let ast = Parser::parse_sql(&dialect, &filters);
-    for statement in ast {
+    /*for statement in ast {
         println!("{:#?}", statement);
-    }
+    }*/
    
     let x = create_csv_object(path.to_owned(), seperator);
 
     //println!("Valid SQL: {}", s);
-    run_sql_on_csv(filters, x);
+    run_sql_on_csv(filters, x.clone());
+    print::get_max_width_per_column_csv(x.clone(), 0);
+    
+    //TODO: implement
+    if print::print_csv(x, 2, Alignment::Middle) {
+        println!("An Error Occured")
+    }
 }
 
 

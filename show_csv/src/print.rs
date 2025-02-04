@@ -1,10 +1,14 @@
 use std::collections::HashMap;
+use std::io;
+use std::io::{stdout, Write};
+use std::ptr::write;
 use std::str::Lines;
 use pad::{Alignment, PadStr};
 use colored::{Color, Colorize};
 use tabled::Table;
 use crate::csv::CSV;
 
+/// Prints a csv through Lines and
 pub fn print_lines_default(max_width_per_column: Vec<usize>, lines: Lines, seperator: char, offset: usize) {
     let mut ges_width: usize = max_width_per_column.iter().sum();
     ges_width += (offset + 1) * max_width_per_column.len();
@@ -32,6 +36,53 @@ pub fn print_lines_default(max_width_per_column: Vec<usize>, lines: Lines, seper
 
 
     }
+}
+
+/// Prints the csv object with. Offset is the spacing between a column + lenght of longest value.
+pub fn print_csv(csv: CSV, offset: usize, alignment: Alignment) -> bool {
+    let width = get_max_width_per_column_csv(csv.clone(), offset);
+    let ges_width: usize = width.iter().map(|(s, size)| *size).sum::<usize>() + width.len();
+    let mut sb = String::new();
+    
+    let stdout = stdout();
+    let mut handle = io::BufWriter::new(stdout.lock());
+    writeln!(handle, "Buffered output").unwrap();
+    
+    // TODO: redo reundant loops
+    for head in csv.headers.clone() {
+        let size = match width.get(&head) {
+            Some(size) => size,
+            _ => return false,
+        };
+        write!(handle, "{}|",head.pad_to_width_with_alignment(size.to_owned(), alignment)).unwrap();
+        //sb.push_str(&*(head.pad_to_width_with_alignment(size.to_owned(), alignment) + "|"));
+    }
+    //sb.push_str("\n");
+    write!(handle, "\n").unwrap();
+    //sb.push_str(&*"-".repeat(ges_width));
+    write!(handle, "{}", "-".repeat(ges_width)).unwrap();
+    //sb.push_str("\n");
+    write!(handle, "\n").unwrap();
+
+
+
+    for row in csv.rows.clone() {
+        for head in csv.headers.clone() {
+            let print = row.get(&head).unwrap();
+            let size = width.get(&head).unwrap();
+            write!(handle, "{}|",print.pad_to_width_with_alignment(*size, alignment)).unwrap();
+            //sb.push_str(&*((print.pad_to_width_with_alignment(*size, alignment)) + "|"));
+        }
+        //sb.push_str("\n");
+        write!(handle, "\n").unwrap();
+    }
+
+
+    //println!("{}", sb);
+    //stdout().flush().unwrap();
+    handle.flush().unwrap();
+    
+    true
 }
 pub fn print_table_with_tabled(lines: Lines) {
     let lines : Vec<_> = lines.collect();
@@ -94,6 +145,21 @@ pub fn get_max_width_per_column(text: &String, seperator: char) -> Vec<usize>{
         }
         is_first = false;
 
+    }
+    list
+}
+
+pub fn get_max_width_per_column_csv(csv: CSV, offset: usize) -> HashMap<String, usize> {
+    let mut list:HashMap<String, usize> = HashMap::new();
+    for x in csv.headers.clone() {
+        let mut size = x.len();
+        for row in csv.rows.clone() {
+            let sigma = row.get(&x).unwrap().len();
+            if sigma > size {
+                size = sigma;
+            }
+        }
+        list.insert(x.to_string(), size + offset);
     }
     list
 }

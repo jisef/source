@@ -29,7 +29,7 @@ pub fn get_args() -> ArgMatches {
             .help("Run SQL on Table")
             .long("filter")
             .short('f')
-            .num_args(0..)
+            .num_args(0..1)
     ).get_matches();
 
     return matches;

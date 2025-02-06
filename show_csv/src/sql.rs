@@ -1,9 +1,9 @@
 use std::collections::{HashMap, HashSet};
-use sqlparser::parser::Parser;
+use sqlparser::parser::{Parser};
 use sqlparser::dialect::GenericDialect;
 use std::hash::{Hash, Hasher};
 use std::collections::hash_map::DefaultHasher;
-use std::ptr::hash;
+use regex::Regex;
 use crate::csv::CSV;
 
 
@@ -19,14 +19,15 @@ pub fn validate_sql(mut query: String) -> Result<String, String> {
     }
 }
 
-// TODO: Insert Statement
 //TODO: Where Statement
 // TODO: COUNT ....
 
 /// Edits the CSV Object that it only contains the needed rows and columns
-pub fn run_sql_on_csv(query: String, csv: CSV) -> CSV {
-    let ast = Parser::parse_sql(&GenericDialect {}, &query).expect("SQL syntax error");
-    let keywords = vec!["select", "from", "where"];
+pub fn run_filter_on_csv(query: String, csv: CSV) -> Result<CSV, String> {
+    Parser::parse_sql(&GenericDialect {}, &query)
+        .map_err(|e| format!("SQL syntax error: {}", e))?;
+    
+    //let keywords = vec!["select", "from", "where"];
     let mut csv = CSV {
         ..csv
     };
@@ -45,10 +46,9 @@ pub fn run_sql_on_csv(query: String, csv: CSV) -> CSV {
     let mut select_statements = query[index_select..index_where].split(' ').filter(|s| !s.eq_ignore_ascii_case("select")).collect::<Vec<&str>>();
     select_statements.remove(select_statements.len() - 1);
     let mut where_statements = query[index_where..query.len()].split(' ').filter(|s| !s.eq_ignore_ascii_case("where")).collect::<Vec<&str>>();
-    where_statements.remove(where_statements.len() - 1);
-    
-    println!("{:?}", where_statements);
-
+    let removed = where_statements.remove(where_statements.len() - 1);
+    where_statements.push(removed.trim());
+    //where_statements.remove(where_statements.len() );
 
     let mut where_vec: Vec<CSV> = Vec::new();
 
@@ -65,7 +65,7 @@ pub fn run_sql_on_csv(query: String, csv: CSV) -> CSV {
             where_statements[i + 1].eq(">") || where_statements[i + 1].eq("<") ||
             where_statements[i + 1].eq(">=")|| where_statements[i + 1].eq(">="){
             
-            where_vec.push(csv.clone().apply_filter(where_statements[i], where_statements[i + 2], where_statements[i + 1]));
+            where_vec.push(csv.clone().apply_filter(where_statements[i], where_statements[i + 2], where_statements[i + 1])?);
             i += 3; // TODO: Useless ?
         }
     } 
@@ -88,7 +88,7 @@ pub fn run_sql_on_csv(query: String, csv: CSV) -> CSV {
             // headers stay the same
         }
     }
-    csv
+    Ok(csv)
 }
 pub fn eq_row(row1: &HashMap<String, String>, row2: &HashMap<String, String>) -> bool {
     let is_equal = row1 == row2;
@@ -129,4 +129,41 @@ fn remove_duplicate_maps(vec: Vec<HashMap<String, String>>) -> Vec<HashMap<Strin
     }
 
     result
+}
+
+
+pub fn insert_into_csv(mut csv: CSV, statement: String) -> Result<CSV, String> {
+    let mut columns = Vec::new();
+    let mut column_values: HashMap<String, String> = HashMap::new();
+    let re = Regex::new(r"\((.*?)\)").unwrap();
+
+    let mut is_first: bool = true;
+    for cap in re.captures_iter(statement.to_string().as_str()) {
+        //println!("{}", &cap[1]);
+        let mut index: usize = 0;
+        for mut column in &cap[1].split(',').collect::<Vec<&str>>() {
+            if is_first {
+                let new_column = column.trim();
+                if !csv.contains_column(new_column) {
+                    return Err(format!("Column not found: {}", column));
+                }
+                columns.push(new_column.to_string());    
+            } else {
+                let new_column = column.trim();
+                let column_name  = match columns.get(index) {
+                    Some(column_name) => column_name,
+                    None => return Err(format!("Column not found: {}", column)),
+                };
+                column_values.insert(column_name.to_owned(), new_column.to_string());
+                index += 1;
+            }
+            
+        }
+        is_first = false;
+    }
+
+
+    csv.add_row(column_values);
+
+    Ok(csv)
 }

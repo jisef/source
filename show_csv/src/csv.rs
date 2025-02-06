@@ -1,11 +1,18 @@
 use std::cmp::Ordering;
 use std::collections::HashMap;
-use std::io::{BufRead, BufReader};
-use std::ptr::null;
+use std::fs::File;
+use std::io::{BufRead, BufReader, BufWriter, Write};
+use std::path::Path;
+use colored::Colorize;
+use crate::args;
 
+/// represents a csv-file
+/// headers: stores the column names - sorted
+/// rows: stores the values in a vec of hashmaps as column name and value - unsorted
+#[derive(Clone)]
 pub struct CSV {
     pub headers: Vec<String>,
-    pub rows: Vec<HashMap<String, String>>, // header and value
+    pub rows: Vec<HashMap<String, String>>,
 }
 
 impl CSV {
@@ -15,6 +22,55 @@ impl CSV {
             rows: self.rows.clone(),
         }
     }
+
+    /// Writes a csv-object into a csv file
+    pub fn export_file(&self, seperator: char, filepath: &String) -> Result<String, String> {
+        let mut path = Path::new(filepath);
+        let mut build = String::new();
+        if path.is_dir() {
+            build = filepath.to_owned() + "/" + &*args::get_filepath();
+            path = Path::new(&build).parent().unwrap();
+        }
+
+        let file = File::create(path).or(Err(format!("Error exporting the file: {}", filepath)))?;
+        let mut writer = BufWriter::new(file);
+        let last = self.headers.last().unwrap();
+        if self.rows.len() as i32 == 0 {
+            return Err("CSV is empty".to_string());
+        }
+        let last_row = &self.rows.last().unwrap();
+        
+        for head in &self.headers {
+            let last = self.headers.last().unwrap();
+            
+            if last == head {
+                write!(writer, "{}", head).unwrap();
+            } else {
+                write!(writer, "{}{}", head, seperator).unwrap();
+            }
+        }
+        write!(writer, "\n").unwrap();
+        
+        
+        for row in &self.rows {
+            for head in &self.headers {
+                let last = row.get(self.headers.last().unwrap()).unwrap();
+                let item = row.get(head).unwrap();
+                if last == item {
+                    write!(writer, "{}", item).unwrap();
+                } else {
+                    write!(writer, "{}{}", item, seperator).unwrap();
+                }
+            }
+            if last_row != &row {
+                write!(writer, "\n").unwrap();
+            }
+        }
+        
+        writer.flush().unwrap();
+        Ok(path.to_str().unwrap().to_string())
+    }
+    
 
     /// Replaces the column of a object CSV and puts it in the first place in headers
     /// RETURNS: CSV
@@ -46,56 +102,82 @@ impl CSV {
     
     
     /// Applys basic filters like =, <>, <, >, <=, >=
-    pub fn apply_filter(&self, column_name: &str, value: &str, op: &str) -> CSV {
+    /// Returns the CSV with the applied filter
+    pub fn apply_filter(&self, column_name: &str, value: &str, op: &str) -> Result<CSV, String> {
         let mut new_rows: Vec<HashMap<String, String>> = Vec::new();
         for x in self.rows.iter() {
-            if op.eq("=") {
-                if x[column_name].eq_ignore_ascii_case(value) {
-                    new_rows.push(x.clone());
-                }    
-            } else if op.eq("<>") {
-                if !x[column_name].eq_ignore_ascii_case(value) {
-                    new_rows.push(x.clone());
+            if x.contains_key(column_name) {
+                if op.eq("=") {
+                    if x[column_name].eq_ignore_ascii_case(value) {
+                        new_rows.push(x.clone());
+                    }
+                } else if op.eq("<>") {
+                    if !x[column_name].eq_ignore_ascii_case(value) {
+                        new_rows.push(x.clone());
+                    }
+                } else if op.eq("<") {
+                    if x[column_name].cmp(&value.to_string()) == Ordering::Less {
+                        new_rows.push(x.clone());
+                    }
+                } else if op.eq(">") {
+                    if x[column_name].cmp(&value.to_string()) == Ordering::Greater {
+                        new_rows.push(x.clone());
+                    }
+                } else if op.eq("<=") {
+                    if x[column_name].cmp(&value.to_string()) == Ordering::Equal ||
+                        x[column_name].cmp(&value.to_string()) == Ordering::Less {
+
+                    }
+                } else if op.eq(">=") {
+                    if x[column_name].cmp(&value.to_string()) == Ordering::Equal ||
+                        x[column_name].cmp(&value.to_string()) == Ordering::Greater {
+                    }
                 }
-            } else if op.eq("<") { 
-                if x[column_name].cmp(&value.to_string()) == Ordering::Less {
-                    new_rows.push(x.clone());
-                }
-            } else if op.eq(">") {
-                if x[column_name].cmp(&value.to_string()) == Ordering::Greater {
-                    new_rows.push(x.clone());
-                }
-            } else if op.eq("<=") { 
-                if x[column_name].cmp(&value.to_string()) == Ordering::Equal || 
-                    x[column_name].cmp(&value.to_string()) == Ordering::Less {
-                    
-                }
-            } else if op.eq(">=") {
-                if x[column_name].cmp(&value.to_string()) == Ordering::Equal ||
-                    x[column_name].cmp(&value.to_string()) == Ordering::Greater {
-                }
+            } else {
+                return Err(format!("Column '{}' not found!", column_name).red().to_string());
             }
         }
         
-        CSV {
+        Ok(CSV {
             headers: self.headers.clone(),
             rows: new_rows,
-        }
+        })
     }
     
     
+    /// Adds a row to the csv if a HashMap doesn't contain all headers they are added with empty values 
+    pub fn add_row(&mut self, map: HashMap<String, String>) {
+        let mut map = map;
+        if !self.rows.contains(&map) {
+            for x in self.headers.clone() {
+                if !map.contains_key(&x) {
+                    map.insert(x, String::from(""));
+                }
+            }
+            
+            
+            self.rows.push(map);
+        }
+    }
+    
+    pub fn contains_column(&self, column: &str) -> bool {
+        self.headers.contains(&column.to_string())
+    }
     
 }
 
 /// Reads from the given file and Returns it as a CSV Object: headers:Vec<String>,
 /// Vec<Hashmap<String(columm name), String (value)>
-pub fn create_csv_object(path: String, seperator: char) -> CSV{
+pub fn create_csv_object(path: String, seperator: char) -> Result<CSV, String> {
     let mut headers: Vec<String> = Vec::new();
     let mut rows: Vec<HashMap<String, String>> = Vec::new();
     
     
-    let file = std::fs::File::open(path).unwrap();
-    let mut br = BufReader::new(file);
+    let file = match File::open(path) {
+        Ok(f) => f,
+        Err(e) => return Err(e.to_string()),
+    };
+    let br = BufReader::new(file);
     let mut is_fist: bool = true;
     for line_result in br.lines() {
         match line_result {
@@ -117,9 +199,15 @@ pub fn create_csv_object(path: String, seperator: char) -> CSV{
     }
     
     
-    CSV {
+    Ok(CSV {
         headers: headers,
         rows: rows,
-    }
+    })
 }
+
+
+
+
+
+
 

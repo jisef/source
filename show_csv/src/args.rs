@@ -1,7 +1,8 @@
-use clap::{Arg, ArgMatches, Command};
-
+use std::path::PathBuf;
+use std::process;
+use clap::{Arg, ArgMatches, Command, Parser};
 pub fn get_args() -> ArgMatches {
-    let matches = Command::new("Show CSV")
+    Command::new("Show CSV")
         .version("1.0")
         .author("jisef of GH")
         .about("Shows a CSV file")
@@ -9,7 +10,8 @@ pub fn get_args() -> ArgMatches {
             Arg::new("filename")
                 .help("The file to process")
                 .required(true)
-                .index(1),
+                .index(1)
+                .value_parser(clap::value_parser!(PathBuf))
         ).arg(
         Arg::new("seperator")
             .short('s')
@@ -29,8 +31,26 @@ pub fn get_args() -> ArgMatches {
             .help("Run SQL on Table")
             .long("filter")
             .short('f')
-            .num_args(0..1)
-    ).get_matches();
+            .num_args(1)
+    ).arg(
+        Arg::new("insert")
+            .help("Insert values into csv")
+            .long("insert")
+            .short('i')
+            .num_args(1)
+    ).arg(
+            Arg::new("filepath export")
+                .help("Writes the Created CSV into a new File")
+                .long("export")
+                .short('e')
+                .num_args(1)
+        )
+        .get_matches()
+}
 
-    return matches;
+pub fn get_filepath() -> String {
+    match get_args().get_one::<PathBuf>("filename") {
+        Some(value) => value.to_str().unwrap().to_string(),
+        None => String::from("export.csv") ,
+    }
 }

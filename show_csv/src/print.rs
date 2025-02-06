@@ -1,11 +1,10 @@
 use std::collections::HashMap;
 use std::io;
 use std::io::{stdout, Write};
-use std::ptr::write;
 use std::str::Lines;
 use pad::{Alignment, PadStr};
-use colored::{Color, Colorize};
-use tabled::Table;
+use colored::{Colorize};
+use prettytable::{Cell, Row, Table, color, Attr};
 use crate::csv::CSV;
 
 /// Prints a csv through Lines and
@@ -40,14 +39,13 @@ pub fn print_lines_default(max_width_per_column: Vec<usize>, lines: Lines, seper
 
 /// Prints the csv object with. Offset is the spacing between a column + lenght of longest value.
 pub fn print_csv(csv: CSV, offset: usize, alignment: Alignment) -> bool {
-    let width = get_max_width_per_column_csv(csv.clone(), offset);
-    let ges_width: usize = width.iter().map(|(s, size)| *size).sum::<usize>() + width.len();
-    let mut sb = String::new();
-    
+    let width = get_max_width_per_column_csv(&csv, offset);
+    let ges_width: usize = width.iter().map(|(_, size)| *size).sum::<usize>() + width.len();
+
     let stdout = stdout();
     let mut handle = io::BufWriter::new(stdout.lock());
     writeln!(handle, "Buffered output").unwrap();
-    
+
     // TODO: redo reundant loops
     for head in csv.headers.clone() {
         let size = match width.get(&head) {
@@ -81,17 +79,43 @@ pub fn print_csv(csv: CSV, offset: usize, alignment: Alignment) -> bool {
     //println!("{}", sb);
     //stdout().flush().unwrap();
     handle.flush().unwrap();
-    
+
     true
 }
-pub fn print_table_with_tabled(lines: Lines) {
-    let lines : Vec<_> = lines.collect();
 
-    let table = Table::new(&lines).to_string();
 
-    println!("{}", table);
+pub fn print_pretty_csv(csv: &CSV) {
+    // TODO: add colors
+    //let mut index_color = 0;
+    //let colors = init_colors(csv.rows.len() + 1);
+
+    let foreground_colors = init_colors(csv.rows.len());
+    let mut table = Table::new();
+    table.set_format(*prettytable::format::consts::FORMAT_BOX_CHARS);
+
+    // adding headers
+    let mut headers:Vec<Cell> = Vec::new();
+    for head in csv.headers.clone() {
+        let cell = Cell::new(&head).with_style(Attr::ForegroundColor(color::GREEN));
+        headers.push(cell);
+    }
+    table.set_titles(Row::from(headers));
+
+    // adding rows
+    for (row, color) in csv.rows.iter().zip(foreground_colors.iter()) {
+        let mut cells: Vec<Cell> = Vec::new();
+        for head in csv.headers.clone() {
+            let print = row.get(&head).unwrap();
+            cells.push(Cell::new(print).with_style(Attr::ForegroundColor(color::GREEN)));
+        }
+        table.add_row(Row::from(cells));
+    }
+
+
+
+
+    table.printstd();
 }
-
 
 pub fn print_table_with_comfy_table(lines: Lines) {
     let mut table = comfy_table::Table::new();
@@ -102,23 +126,16 @@ pub fn print_table_with_comfy_table(lines: Lines) {
 }
 
 
-pub fn init_colors(max_index: usize) -> HashMap<u16, Color> {
-    let default_colors = vec![
-        Color::Blue,
-        Color::Green,
-        Color::Red,
-        Color::Cyan,
-        Color::Magenta,
-        Color::Yellow,
-    ];
+pub fn init_colors<'a>(max_index: usize) -> Vec<&'a str> {
 
-    let mut index_colors: HashMap<u16, Color> = HashMap::new();
+    let possible_colors = vec!["Fr", "Fb", "Fg", "Fy","Fc", "Fm", "Fw", "Fd"];
+    let mut index_colors: Vec<&str> = Vec::new();
 
     for i in 0..max_index {
         // Use modulo to cycle through the default colors
-        let color = &default_colors[i % default_colors.len()];
+        let color = &possible_colors[i % possible_colors.len()];
 
-        index_colors.insert(i as u16, *color);
+        index_colors.push(color);
     }
 
     index_colors
@@ -149,7 +166,7 @@ pub fn get_max_width_per_column(text: &String, seperator: char) -> Vec<usize>{
     list
 }
 
-pub fn get_max_width_per_column_csv(csv: CSV, offset: usize) -> HashMap<String, usize> {
+pub fn get_max_width_per_column_csv(csv: &CSV, offset: usize) -> HashMap<String, usize> {
     let mut list:HashMap<String, usize> = HashMap::new();
     for x in csv.headers.clone() {
         let mut size = x.len();

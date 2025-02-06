@@ -1,12 +1,13 @@
 # shows_csv
 Just a temp name
 ## Goals
-    - [] Show CSV in a table
-    - [] Make it look better with borders
-        - [ ] Sample
-        - [ ] Make it look better
+    - [x] Show CSV in a table
+    - [x] Make it look better with borders
+        - [x] Sample
+        - [x] Make it look better
     - [ ] Add Row index
     - [x] Filter the CSV Table
     - [x] Run SQL-Query on Table
-    - [ ] Insert on Table
+    - [ ] support for values with "value"
+    - [x] Insert on Table
 Stimmen?

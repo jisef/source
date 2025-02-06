@@ -58,15 +58,11 @@ pub fn run_filter_on_csv(query: String, csv: CSV) -> Result<CSV, String> {
     //TODO: AND OR NOT
     //TODO: NULL, NOT NULL
     for mut i in 0..where_statements.len() - 1 {
-        if where_statements[i + 1].eq_ignore_ascii_case("and") {
-            i += 3; // TODO: Useless ?
-        }
-        else if where_statements[i + 1].eq("=") ||  where_statements[i + 1].eq("<>") ||  
+        if where_statements[i + 1].eq("=") ||  where_statements[i + 1].eq("<>") ||
             where_statements[i + 1].eq(">") || where_statements[i + 1].eq("<") ||
             where_statements[i + 1].eq(">=")|| where_statements[i + 1].eq(">="){
-            
+
             where_vec.push(csv.clone().apply_filter(where_statements[i], where_statements[i + 2], where_statements[i + 1])?);
-            i += 3; // TODO: Useless ?
         }
     } 
     

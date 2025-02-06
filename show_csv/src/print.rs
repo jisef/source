@@ -5,6 +5,7 @@ use std::str::Lines;
 use pad::{Alignment, PadStr};
 use colored::{Colorize};
 use prettytable::{Cell, Row, Table, color, Attr};
+use crate::args;
 use crate::csv::CSV;
 
 /// Prints a csv through Lines and
@@ -110,10 +111,8 @@ pub fn print_pretty_csv(csv: &CSV) {
         }
         table.add_row(Row::from(cells));
     }
-
-
-
-
+    
+    
     table.printstd();
 }
 

@@ -76,7 +76,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>>{
 
     // FILTER --------------------------------------------------------------------------------------
     if matches.contains_id("sql") {
-        match run_filter_on_csv(filters, csv.clone()) {
+        csv = match run_filter_on_csv(filters, csv.clone()) {
             Ok(x) => {x}
             Err(e) => {
                 return Err(Box::new(std::io::Error::new(std::io::ErrorKind::Other, e)));
@@ -91,13 +91,13 @@ fn main() -> Result<(), Box<dyn std::error::Error>>{
 
     // EXPORT --------------------------------------------------------------------------------------
     if matches.contains_id("filepath export") {
-        let path = matches.get_one::<String>("filepath export");
-        if path.is_some() {
-            let sigma = path.unwrap();
-            match csv.export_file(seperator, sigma) {
-                Ok(x) => {println!("Export into {} was successful!", x); }
-                Err(e) => {println!("Export failed: '{}'", e);}
-            }
+        let path = match matches.get_one::<String>("filepath export") {
+            Some(path) => path,
+            None => {&args::get_filepath()}
+        };
+        match csv.export_file(seperator, path) {
+            Ok(x) => {println!("Export into {} was successful!", x); }
+            Err(e) => {println!("Export failed: '{}'", e);}
         }
     }
 

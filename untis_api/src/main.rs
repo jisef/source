@@ -12,7 +12,6 @@ fn main() -> Result<(), Error> {
         Some(v) => v,
     };
 
-    let username = stdin().read_line().expect();
     // Log in to the school client
     let mut client = school.client_login("username", "password")?;
 

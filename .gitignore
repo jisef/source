@@ -1,8 +1,8 @@
 # Created by https://www.toptal.com/developers/gitignore/api/rust,rust-analyzer,intellij,java,jetbrains
 # Edit at https://www.toptal.com/developers/gitignore?templates=rust,rust-analyzer,intellij,java,jetbrains
 
-untis_api/usrname.txt
-untis_api/psswd.txt
+untis_api/src/usrname.txt
+untis_api/src/psswd.txt
 
 Top5Bombaclat.mp4
 

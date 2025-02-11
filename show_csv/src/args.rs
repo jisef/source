@@ -27,6 +27,11 @@ pub fn get_args() -> ArgMatches {
             }))
             .default_value(","),
     ).arg(
+        Arg::new("index")
+            .long("index")
+            .num_args(0)
+            .help("Prints indexes to the table")
+    ).arg(
         Arg::new("sql")
             .help("Run SQL on Table")
             .long("filter")
@@ -40,10 +45,10 @@ pub fn get_args() -> ArgMatches {
             .num_args(1)
     ).arg(
             Arg::new("filepath export")
-                .help("Writes the Created CSV into a new File")
+                .help("Writes the Created CSV into a new File. If nothing is specified the input will be overwritten.")
                 .long("export")
                 .short('e')
-                .num_args(1)
+                .num_args(0..=1)
         )
         .get_matches()
 }
@@ -53,4 +58,9 @@ pub fn get_filepath() -> String {
         Some(value) => value.to_str().unwrap().to_string(),
         None => String::from("export.csv") ,
     }
+}
+
+
+pub fn get_index() -> bool {
+    get_args().contains_id("index")
 }

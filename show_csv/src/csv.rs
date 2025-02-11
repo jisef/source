@@ -5,6 +5,7 @@ use std::io::{BufRead, BufReader, BufWriter, Write};
 use std::path::Path;
 use colored::Colorize;
 use crate::args;
+use std::time::Instant;
 
 /// represents a csv-file
 /// headers: stores the column names - sorted
@@ -54,7 +55,7 @@ impl CSV {
         
         for row in &self.rows {
             for head in &self.headers {
-                let last = row.get(self.headers.last().unwrap()).unwrap();
+                let last = row.get(self.headers.last().unwrap()).unwrap(); //TODO: error
                 let item = row.get(head).unwrap();
                 if last == item {
                     write!(writer, "{}", item).unwrap();

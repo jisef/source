@@ -1,7 +1,8 @@
 use std::collections::HashMap;
 use std::io;
-use std::io::{stdout, Write};
+use std::io::{stdout, BufWriter, Write};
 use std::str::Lines;
+use std::time::Instant;
 use pad::{Alignment, PadStr};
 use colored::{Colorize};
 use prettytable::{Cell, Row, Table, color, Attr};
@@ -106,14 +107,27 @@ pub fn print_pretty_csv(csv: &CSV) {
     for (row, color) in csv.rows.iter().zip(foreground_colors.iter()) {
         let mut cells: Vec<Cell> = Vec::new();
         for head in csv.headers.clone() {
-            let print = row.get(&head).unwrap();
+            let print = match row.get(&head) {
+                Some(size) => size,
+                _ => continue, //TODO: temp
+            };
             cells.push(Cell::new(print).with_style(Attr::ForegroundColor(color::GREEN)));
         }
         table.add_row(Row::from(cells));
     }
+
+    //let watch_bufwriter = Instant::now();
+    let mut writer = BufWriter::new(stdout());
+    let _ = table.print(&mut writer);
+    
+    /*let watcher = Instant::now();
+    table.printstd();*/
+    
+    //println!("buf: {:?}", watch_bufwriter.elapsed());     // 166s
+    //println!("stdout : {:?}", watcher.elapsed())          // 115s
     
     
-    table.printstd();
+    
 }
 
 pub fn print_table_with_comfy_table(lines: Lines) {

@@ -18,11 +18,11 @@ def generate_big_csv(filename, num_rows, num_columns):
     with open(filename, 'w', newline='') as csvfile:
         csvwriter = csv.writer(csvfile)
 
-        # Generate header
+        # header
         header = [f'Column_{i+1}' for i in range(num_columns)]
         csvwriter.writerow(header)
 
-        # Generate rows
+        #rows
         for _ in range(num_rows):
             row = []
             for i in range(num_columns):
@@ -36,9 +36,8 @@ def generate_big_csv(filename, num_rows, num_columns):
                     row.append(generate_random_date().strftime('%Y-%m-%d'))
             csvwriter.writerow(row)
 
-# Usage
 filename = 'big-ass-csv.csv'
-num_rows = 1000000  # 1 million rows
+num_rows = 1000000
 num_columns = 5
 
 generate_big_csv(filename, num_rows, num_columns)

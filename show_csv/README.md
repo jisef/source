@@ -10,4 +10,6 @@ Just a temp name
     - [x] Run SQL-Query on Table
     - [ ] support for values with "value"
     - [x] Insert on Table
-Stimmen?
+## Testing
+Python script to generate a random csv. **1M rows** and **5 columns** take **115ms** (MBP M1 Pro).
+

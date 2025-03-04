@@ -1,1 +1,0 @@
-DROP TABLE tracker.public.entry;
